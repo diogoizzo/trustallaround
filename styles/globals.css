@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-button-next, .swiper-button-prev{
+    color: white !important;
+}
+
+.swiper-pagination-bullet{
+    background-color: transparent !important;
+    margin-right: 10px !important;
+    opacity: 1 !important;
+    box-shadow: 0 0 0 3px rgba(255,255,255,1) !important;
+}
+
+
+.swiper-pagination-bullet-active{
+    background-color: white !important;
+
+}

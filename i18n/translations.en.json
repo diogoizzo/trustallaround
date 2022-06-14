@@ -1,0 +1,18 @@
+{
+  "nav":{
+    "home": "Home",
+    "sobre": "About",
+    "servicos": "Services",
+    "portos": "Harbours",
+    "ferramentas": "Tools",
+    "contato": "Contact",
+    "paths": {
+      "home": "/",
+      "sobre": "/about",
+      "servicos": "/services",
+      "portos": "/habours",
+      "ferramentas": "/tools",
+      "contato": "/contact"
+    }
+  }
+}
