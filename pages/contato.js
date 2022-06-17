@@ -7,7 +7,7 @@ export default function Contato() {
         <main>
             <div className={'flex px-[6%] mt-8'}>
                 <div className={'flex flex-col w-[55%]'}>
-                    <h1 className={'text-4xl font-semibold text-brand-orange ml-12'}>Contato</h1>
+                    <h1 className={'text-5xl font-semibold text-brand-orange ml-12'}>Contato</h1>
                     <div className={'mt-12'}>
                         <Image src={'/images/Apertodemao.png'} alt={'mulher oferecendo um aperto de mão'} width={839}
                                height={725} layout={'responsive'}/>

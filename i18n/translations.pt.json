@@ -99,12 +99,12 @@
           },
           "li3": {
             "titulo": "LCL – LESS CONTAINER LOAD",
-            "texto": "Ideal para o embarque de cargas em menor quantidade, volume e de \nbaixo valor agregado. Compartilhando espaço com outros clientes em um \núnico container."
+            "texto": "Ideal para o embarque de cargas em menor quantidade, volume e de baixo valor agregado. Compartilhando espaço com outros clientes em um único container."
           }
         }
       },
       "tab4": {
-        "p1": "Através de nossos parceiros de transporte ao redor do globo, especializados no MERCOSUL e suas fronteiras, acompanhamos todo o\nprocesso, desde a coleta pela transportadora até a entrega em seu destino, através de uma vasta frota de caminhões nossos parceiros \natendem em diversas categorias de serviços como:",
+        "p1": "Através de nossos parceiros de transporte ao redor do globo, especializados no MERCOSUL e suas fronteiras, acompanhamos todo o processo, desde a coleta pela transportadora até a entrega em seu destino, através de uma vasta frota de caminhões nossos parceiros atendem em diversas categorias de serviços como:",
         "list": {
           "li1": "Estudos estratégicos para otimização dos custos logísticos.",
           "li2": "Transportes de produtos em geral (coleta e entrega).",
@@ -113,6 +113,55 @@
           "li5": "Trânsito aduaneiro."
         }
       }
+    }
+  },
+  "portos": {
+    "titulo": "Portos",
+    "continentes": {
+      "americaDoNorte": "AMÉRICA DO NORTE",
+      "americaCentral": "AMÉRICA CENTRAL E CARIBE",
+      "americaDoSul": "AMÉRICA DO SUL",
+      "africa": "ÁFRICA",
+      "mediterraneo": "MEDITERRÂNEO E NORTE DA ÁFRICA",
+      "europa": "EUROPA",
+      "asia": "ÁSIA",
+      "extremoOriente": "EXTREMO ORIENTE E SUBCONTINENTE",
+      "australia": "AUSTRÁLIA E OCEANIA"
+    },
+    "paises": {
+      "mexico": "MÉXICO",
+      "eua": "EUA",
+      "canada": "CANADÁ",
+      "costaRica": "COSTA RICA",
+      "guatemala": "GUATEMALA",
+      "jamaica": "JAMAICA",
+      "nicaragua": "NICARÁGUA",
+      "argentina": "ARGENTINA",
+      "brasil": "BRASIL",
+      "colombia": "COLOMBIA",
+      "chile": "CHILE",
+      "africaDoSul": "ÁFRICA DO SUL",
+      "quenia": "QUÊNIA",
+      "mocambique": "MOÇAMBIQUE",
+      "nigeria": "NIGÉRIA",
+      "egito": "EGITO",
+      "italia": "ITALIA",
+      "israel": "ISRAEL",
+      "turquia": "TURQUIA",
+      "alemanha": "ALEMANHA",
+      "belgica": "BÉLGICA",
+      "espanha": "ESPANHA",
+      "inglaterra": "INGLATERRA",
+      "china": "CHINA",
+      "japao": "JAPÃO",
+      "coreiaDoSul": "CORÉIA DO SUL",
+      "taiwan": "TAIWAN",
+      "bangladesh": "BANGLADESH",
+      "emiradosArabes": "EMIRADOS ÁRABES",
+      "india": "ÍNDIA",
+      "paquistao": "PAQUISTÃO",
+      "australia": "AUSTRÁLIA",
+      "novaZelandia": "NOVA ZELÂNDIA"
     }
   }
 }

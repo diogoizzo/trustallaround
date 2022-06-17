@@ -17,7 +17,7 @@ export default function Servicos() {
                         <Tab className={({selected}) =>
                             selected ? 'text-brand-orange focus:outline-none' : 'text-brand-blue'
                         }>
-                            <h1 className={'text-5xl font-semibold focus:outline-none  ml-12'}>{t('servicos.titulo')}</h1>
+                            <h1 className={'text-5xl font-semibold focus:outline-none ml-12'}>{t('servicos.titulo')}</h1>
                         </Tab>
                         <Tab className={'focus:outline-none'}>
                             {({selected}) => (

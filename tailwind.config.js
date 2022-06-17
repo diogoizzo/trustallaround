@@ -7,6 +7,7 @@ module.exports = {
         extend: {
             screens: {
                 'tm': '1300px',
+                "Bfullhd": "1930px",
             },
             colors: {
                 "brand-orange-hover": "#fffbf7",

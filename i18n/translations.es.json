@@ -1,12 +1,20 @@
 {
   "home": {
-    "nav":{
+    "nav": {
       "home": "Página de inicio",
       "sobre": "Sobre nós",
       "servicos": "Serviços",
       "portos": "Portos",
       "ferramentas": "Ferramentas",
       "contato": "Contato"
+    }
+  },
+  "portos": {
+    "titulo": "Puertos",
+    "dialog": {
+      "americaDoNorte": {
+        "titulo": "América del Norte "
+      }
     }
   }
 }

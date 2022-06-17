@@ -6,7 +6,7 @@ export default function Sobre() {
     return (
         <main>
             <div className="px-[6%] mt-8">
-                <h1 className="text-brand-orange text-4xl font-semibold ml-12">{t('sobre.titulo')}</h1>
+                <h1 className="text-brand-orange text-5xl font-semibold ml-12">{t('sobre.titulo')}</h1>
                 <div className="flex mt-12  items-start">
                     <div className={'border-l-4 border-brand-orange pr-8'}>
                         <p className="text-lg lg:text-2xl font-normal ml-12">{t('sobre.p1')}</p>
