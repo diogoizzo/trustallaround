@@ -10,7 +10,7 @@ export default function Servicos() {
     const {t} = useTranslation();
 
     return (
-        <div className={'w-full mt-8 px-[6%] mx-auto'}>
+        <div className={'w-full mt-8 px-[6%] mx-auto text-brand-blue'}>
             <Tab.Group>
                 <div className={'flex items-end'}>
                     <Tab.List className={'flex space-x-9'}>
