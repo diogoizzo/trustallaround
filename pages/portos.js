@@ -231,7 +231,7 @@ export default function Portos() {
 
     return (
         <main>
-            <div className="relative px-[6%] my-8 max-w-[1920px] mx-auto ">
+            <div className="relative px-[6%] my-8">
                 <DialogPainel
                     setIsOpen={setIsOpen}
                     isOpen={isOpen}
@@ -260,80 +260,80 @@ export default function Portos() {
                     >
                         <BtnPais pais="AMÉRICA DO NORTE" />
                     </span>
-                </div>
 
-                <span
-                    className={"absolute top-[50%] left-[9%] "}
-                    onClick={() => {
-                        setContent(DialogContent.americaCentral);
-                        openModal();
-                    }}
-                >
-                    <BtnPais pais="AMÉRICA CENTRAL E CARIBE" />
-                </span>
-                <span
-                    className={"absolute top-[80%] left-[33%] "}
-                    onClick={() => {
-                        setContent(DialogContent.americaDoSul);
-                        openModal();
-                    }}
-                >
-                    <BtnPais pais="AMÉRICA DO SUL" />
-                </span>
-                <span
-                    className={"absolute top-[60%] left-[43%] "}
-                    onClick={() => {
-                        setContent(DialogContent.africa);
-                        openModal();
-                    }}
-                >
-                    <BtnPais pais="ÁFRICA" />
-                </span>
-                <span
-                    className={"absolute top-[28%] left-[32%] "}
-                    onClick={() => {
-                        setContent(DialogContent.mediterraneo);
-                        openModal();
-                    }}
-                >
-                    <BtnPais pais="MEDITERRÂNEO E NORTE DA ÁFRICA" />
-                </span>
-                <span
-                    className={"absolute top-[15%] left-[43%] "}
-                    onClick={() => {
-                        setContent(DialogContent.europa);
-                        openModal();
-                    }}
-                >
-                    <BtnPais pais="EUROPA" />
-                </span>
-                <span
-                    className={"absolute top-[6%] left-[72%] "}
-                    onClick={() => {
-                        setContent(DialogContent.asia);
-                        openModal();
-                    }}
-                >
-                    <BtnPais pais="ÁSIA" />
-                </span>
-                <span
-                    className={"absolute top-[39%] left-[82%] "}
-                    onClick={() => {
-                        setContent(DialogContent.extremoOriente);
-                        openModal();
-                    }}
-                >
-                    <BtnPais pais="EXTREMO ORIENTE E SUBCONTINENTE" />
-                </span>
-                <span
-                    className={"absolute top-[82%] left-[67%] "}
-                    onClick={() => {
-                        setContent(DialogContent.australia);
-                        openModal();
-                    }}
-                >
-                    <BtnPais pais="AUSTRÁLIA E OCEANIA" />
-                </span>
+                    <span
+                        className={"absolute top-[48%] left-[4%] "}
+                        onClick={() => {
+                            setContent(DialogContent.americaCentral);
+                            openModal();
+                        }}
+                    >
+                        <BtnPais pais="AMÉRICA CENTRAL E CARIBE" />
+                    </span>
+                    <span
+                        className={"absolute top-[78%] left-[32%] "}
+                        onClick={() => {
+                            setContent(DialogContent.americaDoSul);
+                            openModal();
+                        }}
+                    >
+                        <BtnPais pais="AMÉRICA DO SUL" />
+                    </span>
+                    <span
+                        className={"absolute top-[60%] left-[43%] "}
+                        onClick={() => {
+                            setContent(DialogContent.africa);
+                            openModal();
+                        }}
+                    >
+                        <BtnPais pais="ÁFRICA" />
+                    </span>
+                    <span
+                        className={"absolute top-[23%] left-[30%] "}
+                        onClick={() => {
+                            setContent(DialogContent.mediterraneo);
+                            openModal();
+                        }}
+                    >
+                        <BtnPais pais="MEDITERRÂNEO E NORTE DA ÁFRICA" />
+                    </span>
+                    <span
+                        className={"absolute top-[7%] left-[43%] "}
+                        onClick={() => {
+                            setContent(DialogContent.europa);
+                            openModal();
+                        }}
+                    >
+                        <BtnPais pais="EUROPA" />
+                    </span>
+                    <span
+                        className={"absolute top-[-4%] left-[75%] "}
+                        onClick={() => {
+                            setContent(DialogContent.asia);
+                            openModal();
+                        }}
+                    >
+                        <BtnPais pais="ÁSIA" />
+                    </span>
+                    <span
+                        className={"absolute top-[33%] left-[86%] "}
+                        onClick={() => {
+                            setContent(DialogContent.extremoOriente);
+                            openModal();
+                        }}
+                    >
+                        <BtnPais pais="EXTREMO ORIENTE E SUBCONTINENTE" />
+                    </span>
+                    <span
+                        className={"absolute top-[73%] left-[70%] "}
+                        onClick={() => {
+                            setContent(DialogContent.australia);
+                            openModal();
+                        }}
+                    >
+                        <BtnPais pais="AUSTRÁLIA E OCEANIA" />
+                    </span>
+                </div>
             </div>
         </main>
     );
