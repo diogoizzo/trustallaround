@@ -24,16 +24,15 @@ export default function Slider() {
             slidesPerView={1}
             loop={true}
         >
-
             <SwiperSlide>
                 <div className={"h-[500px] lg:h-[600px] w-full relative"}>
                     <Image
                         src="/images/Slide1.png"
                         alt="Slide 1"
                         layout="fill"
-                        width="1450"
                         objectFit={"cover"}
                         objectPosition={"80% 10%"}
+                        priority={true}
                     />
                     <div className="relative flex flex-col lg:flex-row items-center justify-center h-full space-y-8 lg:space-x-12 px-[10%]">
                         <div className="relative block w-[200px] lg:min-w-[350px] shrink-0">
@@ -68,7 +67,6 @@ export default function Slider() {
                         src="/images/Slide2.png"
                         alt="Slide 2"
                         layout="fill"
-                        width="1450"
                         objectFit={"cover"}
                         objectPosition={"80% 10%"}
                     />
@@ -96,7 +94,6 @@ export default function Slider() {
                         src="/images/Slide3.png"
                         alt="Slide 3"
                         layout="fill"
-                        width="1450"
                         objectFit={"cover"}
                         objectPosition={"60% 10%"}
                     />

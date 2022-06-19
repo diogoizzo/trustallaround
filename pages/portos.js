@@ -252,7 +252,7 @@ export default function Portos() {
                         priority
                     />
                     <span
-                        className={"absolute top-[16%] left-[-4%]"}
+                        className={"absolute top-[16%] left-[-5%]"}
                         onClick={() => {
                             setContent(DialogContent.americaDoNorte);
                             openModal();
@@ -263,7 +263,7 @@ export default function Portos() {
                 </div>
 
                 <span
-                    className={"absolute top-[50%] left-[13%] "}
+                    className={"absolute top-[50%] left-[9%] "}
                     onClick={() => {
                         setContent(DialogContent.americaCentral);
                         openModal();
@@ -272,7 +272,7 @@ export default function Portos() {
                     <BtnPais pais="AMÉRICA CENTRAL E CARIBE" />
                 </span>
                 <span
-                    className={"absolute top-[80%] left-[35%] "}
+                    className={"absolute top-[80%] left-[33%] "}
                     onClick={() => {
                         setContent(DialogContent.americaDoSul);
                         openModal();
@@ -290,7 +290,7 @@ export default function Portos() {
                     <BtnPais pais="ÁFRICA" />
                 </span>
                 <span
-                    className={"absolute top-[28%] left-[35%] "}
+                    className={"absolute top-[28%] left-[32%] "}
                     onClick={() => {
                         setContent(DialogContent.mediterraneo);
                         openModal();
@@ -299,7 +299,7 @@ export default function Portos() {
                     <BtnPais pais="MEDITERRÂNEO E NORTE DA ÁFRICA" />
                 </span>
                 <span
-                    className={"absolute top-[15%] left-[45%] "}
+                    className={"absolute top-[15%] left-[43%] "}
                     onClick={() => {
                         setContent(DialogContent.europa);
                         openModal();
@@ -308,7 +308,7 @@ export default function Portos() {
                     <BtnPais pais="EUROPA" />
                 </span>
                 <span
-                    className={"absolute top-[6%] left-[71%] "}
+                    className={"absolute top-[6%] left-[72%] "}
                     onClick={() => {
                         setContent(DialogContent.asia);
                         openModal();
@@ -317,7 +317,7 @@ export default function Portos() {
                     <BtnPais pais="ÁSIA" />
                 </span>
                 <span
-                    className={"absolute top-[39%] left-[79%] "}
+                    className={"absolute top-[39%] left-[82%] "}
                     onClick={() => {
                         setContent(DialogContent.extremoOriente);
                         openModal();

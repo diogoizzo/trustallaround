@@ -11,6 +11,7 @@
   "dependencies": {
     "@headlessui/react": "^1.6.4",
     "@heroicons/react": "^1.0.6",
+    "@reach/portal": "^0.17.0",
     "next": "12.1.6",
     "next-export-i18n": "^2.0.3",
     "prettier": "^2.7.1",
