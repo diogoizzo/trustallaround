@@ -240,7 +240,7 @@ export default function Portos() {
                 <h1 className="text-brand-orange text-5xl font-semibold ml-12">
                     {t("portos.titulo")}
                 </h1>
-                <div className="relative text-center mt-4">
+                <div className="relative max-w-screen-2xl text-center mt-4">
                     <Image
                         src={"/images/mapa_portos.png"}
                         alt={
@@ -252,7 +252,7 @@ export default function Portos() {
                         priority
                     />
                     <span
-                        className={"absolute top-[16%] left-0 Bfullhd:-ml-6"}
+                        className={"absolute top-[16%] left-[-4%]"}
                         onClick={() => {
                             setContent(DialogContent.americaDoNorte);
                             openModal();
@@ -263,7 +263,7 @@ export default function Portos() {
                 </div>
 
                 <span
-                    className={"absolute top-[50%] left-[12%] "}
+                    className={"absolute top-[50%] left-[9%] "}
                     onClick={() => {
                         setContent(DialogContent.americaCentral);
                         openModal();
@@ -272,7 +272,7 @@ export default function Portos() {
                     <BtnPais pais="AMÉRICA CENTRAL E CARIBE" />
                 </span>
                 <span
-                    className={"absolute top-[80%] left-[35%] "}
+                    className={"absolute top-[80%] left-[32%] "}
                     onClick={() => {
                         setContent(DialogContent.americaDoSul);
                         openModal();
@@ -281,7 +281,7 @@ export default function Portos() {
                     <BtnPais pais="AMÉRICA DO SUL" />
                 </span>
                 <span
-                    className={"absolute top-[60%] left-[44%] "}
+                    className={"absolute top-[60%] left-[40%] "}
                     onClick={() => {
                         setContent(DialogContent.africa);
                         openModal();
@@ -290,7 +290,7 @@ export default function Portos() {
                     <BtnPais pais="ÁFRICA" />
                 </span>
                 <span
-                    className={"absolute top-[28%] left-[34%] "}
+                    className={"absolute top-[28%] left-[32%] "}
                     onClick={() => {
                         setContent(DialogContent.mediterraneo);
                         openModal();
@@ -299,7 +299,7 @@ export default function Portos() {
                     <BtnPais pais="MEDITERRÂNEO E NORTE DA ÁFRICA" />
                 </span>
                 <span
-                    className={"absolute top-[15%] left-[45%] "}
+                    className={"absolute top-[15%] left-[42%] "}
                     onClick={() => {
                         setContent(DialogContent.europa);
                         openModal();
@@ -308,7 +308,7 @@ export default function Portos() {
                     <BtnPais pais="EUROPA" />
                 </span>
                 <span
-                    className={"absolute top-[6%] left-[71%] "}
+                    className={"absolute top-[6%] left-[68%] "}
                     onClick={() => {
                         setContent(DialogContent.asia);
                         openModal();
@@ -317,7 +317,7 @@ export default function Portos() {
                     <BtnPais pais="ÁSIA" />
                 </span>
                 <span
-                    className={"absolute top-[39%] left-[79%] "}
+                    className={"absolute top-[39%] left-[76%] "}
                     onClick={() => {
                         setContent(DialogContent.extremoOriente);
                         openModal();
@@ -326,7 +326,7 @@ export default function Portos() {
                     <BtnPais pais="EXTREMO ORIENTE E SUBCONTINENTE" />
                 </span>
                 <span
-                    className={"absolute top-[82%] left-[67%] "}
+                    className={"absolute top-[82%] left-[64%] "}
                     onClick={() => {
                         setContent(DialogContent.australia);
                         openModal();
