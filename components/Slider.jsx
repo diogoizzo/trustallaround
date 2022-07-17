@@ -27,7 +27,7 @@ export default function Slider() {
             <SwiperSlide>
                 <div className={"h-[500px] lg:h-[600px] w-full relative"}>
                     <Image
-                        src="/images/Slide1.png"
+                        src="/images/Slide1.jpg"
                         alt="Slide 1"
                         layout="fill"
                         objectFit={"cover"}
@@ -64,11 +64,11 @@ export default function Slider() {
             <SwiperSlide>
                 <div className={"h-[500px] lg:h-[600px] w-full relative"}>
                     <Image
-                        src="/images/Slide2.png"
+                        src="/images/Slide2.jpg"
                         alt="Slide 2"
                         layout="fill"
                         objectFit={"cover"}
-                        objectPosition={"80% 10%"}
+                        objectPosition={"0 90%"}
                     />
                     <div className="flex flex-col lg:flex-row items-center justify-center h-full w-full space-y-8 lg:space-x-12 px-[10%]">
                         <div className="relative block w-[200px] lg:min-w-[350px] shrink-0">
@@ -91,11 +91,11 @@ export default function Slider() {
             <SwiperSlide>
                 <div className={"h-[500px] lg:h-[600px] w-full relative"}>
                     <Image
-                        src="/images/Slide3.png"
+                        src="/images/Slide3.jpg"
                         alt="Slide 3"
                         layout="fill"
                         objectFit={"cover"}
-                        objectPosition={"60% 10%"}
+                        objectPosition={"center"}
                     />
                     <div className="flex flex-col lg:flex-row items-center justify-center h-full space-y-8 lg:space-x-12 px-[10%]">
                         <div className="relative  w-[200px] lg:min-w-[350px] shrink-0">

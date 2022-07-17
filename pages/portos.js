@@ -12,19 +12,19 @@ export default function Portos() {
             paises: [
                 {
                     nome: t("portos.paises.mexico"),
-                    bandeira: "/images/flags/bandeira_mexico.png",
+                    bandeira: "/images/flags/Mexico.png",
                     portos: "Altamira, Tampico e Veracruz.",
                 },
                 {
                     nome: t("portos.paises.eua"),
-                    bandeira: "/images/flags/bandeira_eua.png",
+                    bandeira: "/images/flags/USA.png",
                     portos:
                         "Baltimore, Boston, Browsville, Cape Canaveral, Charleston," +
                         "Fernandinha Beach, Freeport, Galveston, Houston, Jacksonville, Mobile, New Haven, New Orleans, New York, Norfolk, Oakland, Port Everglades, Portland, San Francisco, Savannah, Seattle, Philadelphia, Tacomã, Tampa e Wilmongton.",
                 },
                 {
                     nome: t("portos.paises.canada"),
-                    bandeira: "/images/flags/bandeira_canada.png",
+                    bandeira: "/images/flags/Canada.png",
                     portos: "Halifax, Hamilton, Montreal, St John's, Toronto e Vancouver.",
                 },
             ],
@@ -34,22 +34,22 @@ export default function Portos() {
             paises: [
                 {
                     nome: t("portos.paises.costaRica"),
-                    bandeira: "/images/flags/Flag_of_Costa_Rica_(state).svg",
+                    bandeira: "/images/flags/costa-rica.png",
                     portos: "Puerto Caldera e Puerto Limon",
                 },
                 {
                     nome: t("portos.paises.guatemala"),
-                    bandeira: "/images/flags/Flag_of_Guatemala.svg",
+                    bandeira: "/images/flags/guatemala.png",
                     portos: "Puerto Quetzal e Sto Tomás de Castilha",
                 },
                 {
                     nome: t("portos.paises.jamaica"),
-                    bandeira: "/images/flags/Flag_of_Jamaica.svg",
+                    bandeira: "/images/flags/Jamaica.png",
                     portos: "Kingston",
                 },
                 {
                     nome: t("portos.paises.nicaragua"),
-                    bandeira: "/images/flags/Flag_of_Nicaragua.svg",
+                    bandeira: "/images/flags/Nicaragua.png",
                     portos: "Corinto e Manágua",
                 },
             ],
@@ -59,22 +59,22 @@ export default function Portos() {
             paises: [
                 {
                     nome: t("portos.paises.argentina"),
-                    bandeira: "/images/flags/Flag_of_Argentina.svg",
+                    bandeira: "/images/flags/Argentina.png",
                     portos: "Buenos Aires e Rosário",
                 },
                 {
                     nome: t("portos.paises.brasil"),
-                    bandeira: "/images/flags/Flag_of_Brazil.svg",
+                    bandeira: "/images/flags/Brasil.png",
                     portos: "Belém, Fortaleza, Itajaí, Rio Grande, Rio de Janeiro, Itaguaí, Manaus, Maceió, Natal, Paranaguá, Recife, Salvador, Santos, Vitória, Itapoá, Navegantes, Suape",
                 },
                 {
                     nome: t("portos.paises.colombia"),
-                    bandeira: "/images/flags/Flag_of_Colombia.svg",
+                    bandeira: "/images/flags/Colombia.png",
                     portos: "Barranquilla, Buenaventura, Cartagena ",
                 },
                 {
                     nome: t("portos.paises.chile"),
-                    bandeira: "/images/flags/Flag_of_Chile.svg",
+                    bandeira: "/images/flags/Chile.png",
                     portos: "San Antonio,, Santiago e  Valparaiso",
                 },
             ],
@@ -84,22 +84,22 @@ export default function Portos() {
             paises: [
                 {
                     nome: t("portos.paises.africaDoSul"),
-                    bandeira: "/images/flags/Flag_of_South_Africa.svg",
+                    bandeira: "/images/flags/africa-do-sul.png",
                     portos: "Cape Town, Durban, Johannesburg, Port Elizabeth e Luanda",
                 },
                 {
                     nome: t("portos.paises.quenia"),
-                    bandeira: "/images/flags/Flag_of_Kenya.svg",
+                    bandeira: "/images/flags/Quenia.png",
                     portos: "Mombasa e Nairobi",
                 },
                 {
                     nome: t("portos.paises.mocambique"),
-                    bandeira: "/images/flags/Flag_of_Mozambique.svg",
+                    bandeira: "/images/flags/Mocambique.png",
                     portos: "Beira e Maputo",
                 },
                 {
                     nome: t("portos.paises.nigeria"),
-                    bandeira: "/images/flags/Flag_of_Nigeria.svg",
+                    bandeira: "/images/flags/Nigeria.png",
                     portos: "Lagos",
                 },
             ],
@@ -109,22 +109,22 @@ export default function Portos() {
             paises: [
                 {
                     nome: t("portos.paises.egito"),
-                    bandeira: "/images/flags/Flag_of_Egypt.svg",
+                    bandeira: "/images/flags/egito.png",
                     portos: "Alexandria e Port Said",
                 },
                 {
                     nome: t("portos.paises.italia"),
-                    bandeira: "/images/flags/Flag_of_Italy.svg",
+                    bandeira: "/images/flags/Italia.png",
                     portos: "Genova, La Spezia, Livorno, Nápoles",
                 },
                 {
                     nome: t("portos.paises.israel"),
-                    bandeira: "/images/flags/Flag_of_Israel.svg",
+                    bandeira: "/images/flags/israel.png",
                     portos: "Asdobe e Haifa",
                 },
                 {
                     nome: t("portos.paises.turquia"),
-                    bandeira: "/images/flags/Flag_of_Turkey.svg",
+                    bandeira: "/images/flags/Turquia.png",
                     portos: "Istambul e Mersin",
                 },
             ],
@@ -134,22 +134,22 @@ export default function Portos() {
             paises: [
                 {
                     nome: t("portos.paises.alemanha"),
-                    bandeira: "/images/flags/Flag_of_Germany.svg",
+                    bandeira: "/images/flags/Alemanha.png",
                     portos: "Bremenhaven, Hamburgo ",
                 },
                 {
                     nome: t("portos.paises.belgica"),
-                    bandeira: "/images/flags/Flag_of_Belgium.svg",
+                    bandeira: "/images/flags/Belgica.png",
                     portos: "Antuérpia",
                 },
                 {
                     nome: t("portos.paises.espanha"),
-                    bandeira: "/images/flags/Flag_of_Spain.svg",
+                    bandeira: "/images/flags/Espanha.png",
                     portos: "Algeciras, Barcelona, Valencia, Bibao",
                 },
                 {
                     nome: t("portos.paises.inglaterra"),
-                    bandeira: "/images/flags/Flag_of_England.svg",
+                    bandeira: "/images/flags/Inglaterra.png",
                     portos: "Felixstowe, Liverpool, Londres,  Manchester, Portmouth e Tilbury",
                 },
             ],
@@ -159,22 +159,22 @@ export default function Portos() {
             paises: [
                 {
                     nome: t("portos.paises.china"),
-                    bandeira: "/images/flags/Flag_of_Republic_of_China.svg",
+                    bandeira: "/images/flags/China.png",
                     portos: "Dalian Guangzhou, Shanghai, Ningbo, Shenzhen,  Quingdao,  e Tianjin",
                 },
                 {
                     nome: t("portos.paises.japao"),
-                    bandeira: "/images/flags/Flag_of_Japan.svg",
+                    bandeira: "/images/flags/Japao.png",
                     portos: "Kobe, Nagoya, Osaka, Tokyo e Yokohama",
                 },
                 {
                     nome: t("portos.paises.coreiaDoSul"),
-                    bandeira: "/images/flags/Flag_of_South_Korea.svg",
+                    bandeira: "/images/flags/Coreia.png",
                     portos: "Buan, Incheon, Yeosu e Ulsan",
                 },
                 {
                     nome: t("portos.paises.taiwan"),
-                    bandeira: "/images/flags/Flag_of_taiwan.svg",
+                    bandeira: "/images/flags/Tawain.png",
                     portos: "Kaohsiung, Keelung e Taichung",
                 },
             ],
@@ -184,23 +184,22 @@ export default function Portos() {
             paises: [
                 {
                     nome: t("portos.paises.bangladesh"),
-                    bandeira: "/images/flags/Flag_of_Bangladesh.svg",
+                    bandeira: "/images/flags/Bangladesh.png",
                     portos: "Chalna, Chittagong e Dhaka",
                 },
                 {
                     nome: t("portos.paises.emiradosArabes"),
-                    bandeira:
-                        "/images/flags/Flag_of_the_United_Arab_Emirates.svg",
+                    bandeira: "/images/flags/emirados-arabes.png",
                     portos: "Abu Dhabi, Dubai e Sharjah",
                 },
                 {
                     nome: t("portos.paises.india"),
-                    bandeira: "/images/flags/Flag_of_India.svg",
+                    bandeira: "/images/flags/india.png",
                     portos: "Calcutá, Cochin, Madras, Mumbai e Jawaharlal",
                 },
                 {
                     nome: t("portos.paises.paquistao"),
-                    bandeira: "/images/flags/Flag_of_Pakistan.svg",
+                    bandeira: "/images/flags/Paquistao.png",
                     portos: "Karachi e Port Qasim",
                 },
             ],
@@ -210,12 +209,12 @@ export default function Portos() {
             paises: [
                 {
                     nome: t("portos.paises.australia"),
-                    bandeira: "/images/flags/Flag_of_Australia.svg",
+                    bandeira: "/images/flags/Australia.png",
                     portos: "Adelaide, Brisbane, Melbourne e Sidney",
                 },
                 {
                     nome: t("portos.paises.novaZelandia"),
-                    bandeira: "/images/flags/Flag_of_New_Zealand.svg",
+                    bandeira: "/images/flags/novazelandia.png",
                     portos: "Auckland e Tauranga",
                 },
             ],
@@ -258,7 +257,9 @@ export default function Portos() {
                             openModal();
                         }}
                     >
-                        <BtnPais pais="AMÉRICA DO NORTE" />
+                        <BtnPais
+                            pais={t("portos.continentes.americaDoNorte")}
+                        />
                     </span>
 
                     <span
@@ -268,7 +269,9 @@ export default function Portos() {
                             openModal();
                         }}
                     >
-                        <BtnPais pais="AMÉRICA CENTRAL E CARIBE" />
+                        <BtnPais
+                            pais={t("portos.continentes.americaCentral")}
+                        />
                     </span>
                     <span
                         className={"absolute top-[78%] left-[32%] "}
@@ -277,7 +280,7 @@ export default function Portos() {
                             openModal();
                         }}
                     >
-                        <BtnPais pais="AMÉRICA DO SUL" />
+                        <BtnPais pais={t("portos.continentes.americaDoSul")} />
                     </span>
                     <span
                         className={"absolute top-[60%] left-[43%] "}
@@ -286,7 +289,7 @@ export default function Portos() {
                             openModal();
                         }}
                     >
-                        <BtnPais pais="ÁFRICA" />
+                        <BtnPais pais={t("portos.continentes.africa")} />
                     </span>
                     <span
                         className={"absolute top-[23%] left-[30%] "}
@@ -295,7 +298,7 @@ export default function Portos() {
                             openModal();
                         }}
                     >
-                        <BtnPais pais="MEDITERRÂNEO E NORTE DA ÁFRICA" />
+                        <BtnPais pais={t("portos.continentes.mediterraneo")} />
                     </span>
                     <span
                         className={"absolute top-[7%] left-[43%] "}
@@ -304,7 +307,7 @@ export default function Portos() {
                             openModal();
                         }}
                     >
-                        <BtnPais pais="EUROPA" />
+                        <BtnPais pais={t("portos.continentes.europa")} />
                     </span>
                     <span
                         className={"absolute top-[-4%] left-[75%] "}
@@ -313,7 +316,7 @@ export default function Portos() {
                             openModal();
                         }}
                     >
-                        <BtnPais pais="ÁSIA" />
+                        <BtnPais pais={t("portos.continentes.asia")} />
                     </span>
                     <span
                         className={"absolute top-[33%] left-[86%] "}
@@ -322,7 +325,9 @@ export default function Portos() {
                             openModal();
                         }}
                     >
-                        <BtnPais pais="EXTREMO ORIENTE E SUBCONTINENTE" />
+                        <BtnPais
+                            pais={t("portos.continentes.extremoOriente")}
+                        />
                     </span>
                     <span
                         className={"absolute top-[73%] left-[70%] "}
@@ -331,7 +336,7 @@ export default function Portos() {
                             openModal();
                         }}
                     >
-                        <BtnPais pais="AUSTRÁLIA E OCEANIA" />
+                        <BtnPais pais={t("portos.continentes.australia")} />
                     </span>
                 </div>
             </div>

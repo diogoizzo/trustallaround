@@ -1,7 +1,7 @@
 {
-  "nav":{
+  "nav": {
     "home": "Home",
-    "sobre": "About",
+    "sobre": "About Us",
     "servicos": "Services",
     "portos": "Harbours",
     "ferramentas": "Tools",
@@ -13,6 +13,170 @@
       "portos": "/habours",
       "ferramentas": "/tools",
       "contato": "/contact"
+    }
+  },
+  "slider": {
+    "slider1": {
+      "primeiro": "Whether by land, air or sea,",
+      "bold": "TRUST ALL AROUND",
+      "segundo": "looks for the smartest Logistics solution for your business."
+    },
+    "slider2": "From collection to destination, we have a specialized team to find the service you need.",
+    "slider3": "Get to know our solutions a little better, get in touch and ask for your quote now."
+  },
+  "bullets": {
+    "valores": {
+      "seguranca": "Security",
+      "confianca": "Trust",
+      "comprometimento": "Commitment",
+      "inteligencia": "Intelligence",
+      "singularidade": "Singularity "
+    },
+    "visao": "To have your trust and become the first option in logistics services",
+    "missao": "To offer always the smartest and most efficient logistical alternative for your business"
+  },
+  "sobre": {
+    "titulo": "About Us",
+    "p1": "TRUST All around was born in 2017 to understand the need of its customers to present them the best logistics solution.",
+    "p2": "We provide complete advice through a highly qualified team and an international network of agents covering more than 100 countries around the world, all to meet your demand in the best possible way.",
+    "p3": "We offer complete solutions in all stages of import and export operations, simplifying your door-to-door logistics, aiming to become your first choice as a logistics provider."
+  },
+  "ferramentas": {
+    "tipos": "Container Types",
+    "titulo": "Tools",
+    "btn-voltar": "Back",
+    "tabs": {
+      "tab1": "STANDARD CONTAINERS",
+      "tab2": "REFRIGERATED CONTAINERS",
+      "tab3": "SPECIAL CONTAINERS 1",
+      "tab4": "SPECIAL CONTAINERS 2"
+    },
+    "btnMedidas": "Access the currency and measurement converter"
+  },
+  "servicos": {
+    "titulo": "Services",
+    "tabs": {
+      "tab1": "AIR TRANSPORTATION",
+      "tab2": "SEA TRANSPORTATION",
+      "tab3": "ROAD TRANSPORTATION"
+    },
+    "content": {
+      "tab1": {
+        "p1": "Basically, our job is to listen to you, understand your needs and together choose the most intelligent and effective logistics alternative for your business. ",
+        "p2": "From the pick up to the destination, we count on a specialized team to keep you updated during the whole process.",
+        "list": {
+          "li1": "Import and Export sea cargo FCL and LCL",
+          "li2": "National and International road transportation",
+          "li3": "Import and Export of air cargo",
+          "li4": "Competitive freights, follow up and market analysis always seeking the smartest and most cost-effective logistics for our customers"
+        }
+      },
+      "tab2": {
+        "p1": "With speed and agility in the reception and delivery of your cargoes, TRUST together with its agents all over the world works to meet your needs in this modality, taking into account important points: delivery time, routes, transit time and handling of special and high added value cargoes, acting in the following modalities:",
+        "list": {
+          "li1": {
+            "titulo": "CONSOLIDATED CARGO",
+            "texto": "Cargo shipments with scheduled departures from their origin, which can be grouped with shipments at more competitive prices."
+          },
+          "li2": {
+            "titulo": "DOOR-TO-DOOR CARGO",
+            "texto": "Service where we take care of the pickup, international transport and delivery of your goods at the final destination."
+          },
+          "li3": {
+            "titulo": "EXPRESS CARGO",
+            "texto": "Service used for shipments with maximum urgency."
+          }
+        }
+      },
+      "tab3": {
+        "p1": "The maritime transportation is one of the modalities of water transport (or rivers) that occur on the seas and oceans by means of vessels (boats, ships, ocean liners), being widely used for the transport of cargoes over short and long distances.",
+        "p2": "TRUST ALL AROUND works in the consolidated , containerized and Project cargo agency, assisting in the entire logistics process from the collection of your goods to delivery at your destination (door-to-door) through the following modalities:",
+        "list": {
+          "li1": {
+            "titulo": "CONSOLIDATED CARGO",
+            "texto": "Combination of volumes and products shipped by different exporters to the same customer, with the same delivery terms and route."
+          },
+          "li2": {
+            "titulo": "FCL – FULL CONTAINER LOAD",
+            "texto": "A container totally dedicated to your company. Ideal for transporting high volumes of cargo."
+          },
+          "li3": {
+            "titulo": "LCL – LESS CONTAINER LOAD",
+            "texto": "Ideal for shipping cargo in smaller quantities, volumes and with low added value, sharing space with other customers in a single container."
+          }
+        }
+      },
+      "tab4": {
+        "p1": "Through our transportation partners around the globe and specialized in MERCOSUR and its borders, we follow the entire process, from collection by the carrier to delivery at your destination. By a vast fleet of trucks, our partners serve in different categories of services such as:",
+        "list": {
+          "li1": "Strategic studies to optimize logistics costs.",
+          "li2": "Transport of products in general.",
+          "li3": "Transportation of fractional and non-standard cargo.",
+          "li4": "Transport of special and dangerous products.",
+          "li5": "Customs transit."
+        }
+      }
+    }
+  },
+  "portos": {
+    "titulo": "Ports",
+    "btnMais": "More ports",
+    "continentes": {
+      "americaDoNorte": "NORHT AMERICA",
+      "americaCentral": "CENTRAL AMERICA & CARIBBEAN",
+      "americaDoSul": "SOUTH AMERICA",
+      "africa": "AFRICA",
+      "mediterraneo": "MEDITERRANEAN AND NORTH AFRICA",
+      "europa": "EUROPE",
+      "asia": "ASIA",
+      "extremoOriente": "FAR EAST AND SUBCONTINENT",
+      "australia": "AUSTRALIA AND OCEANIA"
+    },
+    "paises": {
+      "mexico": "MEXICO",
+      "eua": "EUA",
+      "canada": "CANADA",
+      "costaRica": "COSTA RICA",
+      "guatemala": "GUATEMALA",
+      "jamaica": "JAMAICA",
+      "nicaragua": "NICARAGUA",
+      "argentina": "ARGENTINA",
+      "brasil": "BRAZIL",
+      "colombia": "COLOMBIA",
+      "chile": "CHILE",
+      "africaDoSul": "SOUTH AFRICA",
+      "quenia": "KENYA",
+      "mocambique": "MOZAMBIQUE",
+      "nigeria": "NIGERIA",
+      "egito": "EGYPT",
+      "italia": "ITALY",
+      "israel": "ISRAEL",
+      "turquia": "TURKEY",
+      "alemanha": "GERMANY",
+      "belgica": "BELGIUM",
+      "espanha": "SPAIN",
+      "inglaterra": "ENGLAND",
+      "china": "CHINA",
+      "japao": "JAPAN",
+      "coreiaDoSul": "SOUTH KOREA",
+      "taiwan": "TAIWAN",
+      "bangladesh": "BANGLADESH",
+      "emiradosArabes": "ARAB EMIRATES",
+      "india": "INDIA",
+      "paquistao": "PAKISTAN",
+      "australia": "AUSTRALIA",
+      "novaZelandia": "NEW ZEALAND"
+    }
+  },
+  "contato": {
+    "titulo": "Contact",
+    "form": {
+      "nome": "Name",
+      "email": "Email",
+      "assunto": "Subject",
+      "ajuda": "How can we help you?",
+      "btnEnviar": "Submit",
+      "atendimento": "Service from Monday to Friday from 08:45 to 18:15."
     }
   }
 }

@@ -2,6 +2,7 @@ import Image from "next/image";
 
 export default function HeaderBanner() {
     return (
+        //todo pegar links das redes sociais para colocar nos respectivos botões
         <div className="bg-[#808080] h-10 ">
             <div className="h-full flex px-[6%] justify-center sm:justify-end items-center shrink">
                 <a

@@ -1,6 +1,7 @@
 import Slider from "../components/Slider";
 import Image from "next/image";
 import { useTranslation } from "next-export-i18n";
+import Ballons from "../components/Ballons";
 
 export default function Home() {
     const { t } = useTranslation();
@@ -10,13 +11,7 @@ export default function Home() {
             <div className="grid gap-5 grid-cols-1 lg:grid-cols-3 px-[6%] my-12">
                 <div className="flex flex-col sm:flex-row justify-center max-w-[420px] mx-auto items-center sm:space-x-9">
                     <span className="mb-4">
-                        <Image
-                            alt="nossos valores"
-                            src="/images/valores.png"
-                            width={144}
-                            height={143}
-                            layout={"fixed"}
-                        />
+                        <Ballons arq={["valores", "values", "valors"]} />
                     </span>
                     <span className={"hidden sm:block"}>
                         <Image
@@ -40,13 +35,7 @@ export default function Home() {
                 </div>
                 <div className="flex max-w-[420px] flex-col sm:flex-row mx-auto items-center sm:space-x-9">
                     <span className="mb-4">
-                        <Image
-                            alt="nossa visão"
-                            src="/images/visao.png"
-                            width={144}
-                            height={143}
-                            layout={"fixed"}
-                        />
+                        <Ballons arq={["visao", "visione", "vision"]} />
                     </span>
                     <span className="hidden sm:block">
                         <Image
@@ -65,13 +54,7 @@ export default function Home() {
                 </div>
                 <div className="flex max-w-[420px] flex-col sm:flex-row mx-auto items-center sm:space-x-9">
                     <span className="mb-4">
-                        <Image
-                            alt="nossa missão"
-                            src="/images/missao.png"
-                            width={144}
-                            height={143}
-                            layout={"fixed"}
-                        />
+                        <Ballons arq={["missao", "mission", "mision"]} />
                     </span>
                     <span className="hidden sm:block">
                         <Image

@@ -8,7 +8,7 @@ export default function Nav({ className }) {
     const router = useRouter();
     return (
         <nav className={className}>
-            <ul className="flex font-semibold space-x-8">
+            <ul className="flex font-semibold text-brand-blue space-x-8">
                 <li>
                     <Link href={{ pathname: "/", query: query }} as="/">
                         {t("nav.home").toUpperCase()}
