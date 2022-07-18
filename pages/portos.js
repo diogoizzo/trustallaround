@@ -214,7 +214,7 @@ export default function Portos() {
                 },
                 {
                     nome: t("portos.paises.novaZelandia"),
-                    bandeira: "/images/flags/novazelandia.png",
+                    bandeira: "/images/flags/Novazelandia.png",
                     portos: "Auckland e Tauranga",
                 },
             ],
