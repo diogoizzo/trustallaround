@@ -6,12 +6,12 @@ export default function PortosPais({ bandeira, pais, portos }) {
             <div className={"flex items-center"}>
                 <div className={"min-w-[181px] flex items-center flex-col"}>
                     <Image
+                        priority={true}
                         src={bandeira}
                         alt={`bandeira do ${pais}`}
                         height={148}
                         width={160}
                         layout={"fixed"}
-                        priority
                     />
                     <h4 className={" text-lg text-center"}>{pais}</h4>
                 </div>
