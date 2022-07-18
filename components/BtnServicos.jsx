@@ -10,16 +10,16 @@ export default function BtnServicos({
 }) {
     return (
         <div
-            className={`flex h-15 w-[210px] px-2 py-1 items-center  border rounded-xl transition-colors ${className}`}
+            className={`inline-flex h-15 w-full sm:w-[210px] px-2 py-1 items-center  border rounded-xl transition-colors ${className}`}
         >
             <Image
                 src={src}
                 alt={alt}
                 height={height}
                 width={width}
-                layout={"intrinsic"}
+                layout={"fixed"}
             />
-            <h2 className={"ml-2"}>{text}</h2>
+            <h2 className={"ml-2 w-full text-center  sm:w-fit "}>{text}</h2>
         </div>
     );
 }

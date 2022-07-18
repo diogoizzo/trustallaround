@@ -6,15 +6,24 @@ export default function TabRodoviario() {
     return (
         <div>
             <div>
+                <div className="sm:hidden">
+                    <Image
+                        src={"/images/caminhao.png"}
+                        alt={"caminhão de carga pesada"}
+                        width={793}
+                        height={464}
+                        layout={"intrinsic"}
+                    />
+                </div>
                 <div
                     className={
-                        "border-l-4 border-brand-orange pl-12 text-lg lg:text-2xl font-normal mt-12"
+                        "border-l-4 border-brand-orange pl-8 sm:pl-12 text-lg lg:text-2xl font-normal mt-5 sm:mt-12"
                     }
                 >
                     <p>{t("servicos.content.tab4.p1")}</p>
                 </div>
-                <div className={"mt-12"}>
-                    <div className="float-right ml-6 mb-14">
+                <div className={"my-8 sm:mt-12 sm:mb-0"}>
+                    <div className="hidden sm:block float-right ml-6 mb-14">
                         <Image
                             src={"/images/caminhao.png"}
                             alt={"caminhão de carga pesada"}

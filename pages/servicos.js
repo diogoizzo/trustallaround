@@ -11,10 +11,18 @@ export default function Servicos() {
 
     return (
         <div className="w-full overflow-hidden">
-            <div className={"w-full mt-8 px-[6%] mx-auto text-brand-blue"}>
+            <div
+                className={
+                    "w-full mt-3 sm:mt-8 px-[6%] mx-auto text-brand-blue"
+                }
+            >
                 <Tab.Group>
-                    <div className={"flex items-end"}>
-                        <Tab.List className={"flex space-x-9"}>
+                    <div className={"flex flex-col sm:flex-row sm:items-end"}>
+                        <Tab.List
+                            className={
+                                "flex flex-col items-stretch space-y-3 sm:space-y-0 sm:flex-row sm:space-x-9"
+                            }
+                        >
                             <Tab
                                 className={({ selected }) =>
                                     selected
@@ -24,7 +32,7 @@ export default function Servicos() {
                             >
                                 <h1
                                     className={
-                                        "text-5xl font-semibold focus:outline-none ml-12"
+                                        "text-5xl font-semibold focus:outline-none mb-3 sm:ml-12"
                                     }
                                 >
                                     {t("servicos.titulo")}
@@ -52,7 +60,7 @@ export default function Servicos() {
                                         src={"/icons/navio.svg"}
                                         alt={"ícone de um navio"}
                                         height={46}
-                                        width={50}
+                                        width={53}
                                         text={t("servicos.tabs.tab2")}
                                         className={
                                             selected
@@ -64,18 +72,36 @@ export default function Servicos() {
                             </Tab>
                             <Tab className={"focus:outline-none"}>
                                 {({ selected }) => (
-                                    <BtnServicos
-                                        src={"/icons/caminhao.svg"}
-                                        alt={"ícone de um caminhão"}
-                                        height={46}
-                                        width={74}
-                                        text={t("servicos.tabs.tab3")}
-                                        className={
-                                            selected
-                                                ? "border-brand-blue bg-brand-orange-hover"
-                                                : "border-brand-blue hover:bg-brand-orange-hover"
-                                        }
-                                    />
+                                    <>
+                                        <span className={"hidden sm:block"}>
+                                            <BtnServicos
+                                                src={"/icons/caminhao.svg"}
+                                                alt={"ícone de um caminhão"}
+                                                height={46}
+                                                width={74}
+                                                text={t("servicos.tabs.tab3")}
+                                                className={
+                                                    selected
+                                                        ? "border-brand-blue bg-brand-orange-hover"
+                                                        : "border-brand-blue hover:bg-brand-orange-hover"
+                                                }
+                                            />
+                                        </span>
+                                        <span className={"sm:hidden"}>
+                                            <BtnServicos
+                                                src={"/icons/caminhao.svg"}
+                                                alt={"ícone de um caminhão"}
+                                                height={46}
+                                                width={53}
+                                                text={t("servicos.tabs.tab3")}
+                                                className={
+                                                    selected
+                                                        ? "border-brand-blue bg-brand-orange-hover"
+                                                        : "border-brand-blue hover:bg-brand-orange-hover"
+                                                }
+                                            />
+                                        </span>
+                                    </>
                                 )}
                             </Tab>
                         </Tab.List>
