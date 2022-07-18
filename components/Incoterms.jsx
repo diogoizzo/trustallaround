@@ -4,8 +4,8 @@ import { useTranslation } from "next-export-i18n";
 export default function Incoterms({ setOption }) {
     const { t } = useTranslation();
     return (
-        <div className={"my-8 px-[6%]"}>
-            <div className={""}>
+        <div className={"my-3 sm:my-8 sm:px-[6%] sm:ml-12 "}>
+            <div>
                 <h1 className={"text-5xl font-semibold text-brand-orange "}>
                     Incoterms
                 </h1>

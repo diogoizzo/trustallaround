@@ -11,13 +11,13 @@ export default function DisplayTools() {
     return (
         <div>
             {option === null ? (
-                <h1 className="text-brand-orange text-5xl font-semibold ml-12 px-[6%] mt-8">
+                <h1 className="text-brand-orange text-5xl font-semibold text-center sm:text-left sm:ml-12 px-[6%] mb-8 sm:mb-0 mt-3 sm:mt-8">
                     {t("ferramentas.titulo")}
                 </h1>
             ) : null}
-            <div className="flex justify-center mx-auto min-h-[638px]  ">
+            <div className="flex justify-center mx-auto sm:min-h-[638px] px-[6%] sm:px-0">
                 {option === null ? (
-                    <div className="flex items-center space-x-[8%]">
+                    <div className="flex flex-col sm:flex-row items-center sm:space-x-[8%]">
                         <ToolsOptions
                             title={"Incoterms"}
                             src={"/images/incoterms.png"}
