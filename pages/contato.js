@@ -7,16 +7,20 @@ export default function Contato() {
     return (
         //todo solicitar e-mail para o qual será enviado o formulário desta página
         <main>
-            <div className={"flex px-[6%] mt-8"}>
-                <div className={"flex flex-col w-[55%]"}>
+            <div className={"flex flex-col sm:flex-row px-[6%] mt-3 sm:mt-8"}>
+                <div className={"relative flex flex-col w-full sm:w-[55%]"}>
                     <h1
                         className={
-                            "text-5xl font-semibold text-brand-orange ml-12"
+                            "text-5xl font-semibold text-brand-orange text-center sm:text-left sm:ml-12"
                         }
                     >
                         {t("contato.titulo")}
                     </h1>
-                    <div className={"relative w-full h-full mt-12"}>
+                    <div
+                        className={
+                            "relative h-[300px] min-w-[100%] sm:w-full sm:h-full mt-8 sm:mt-12"
+                        }
+                    >
                         <Image
                             src={"/images/moca_sem_fundo.png"}
                             alt={"mulher oferecendo um aperto de mão"}
@@ -26,9 +30,9 @@ export default function Contato() {
                         />
                     </div>
                 </div>
-                <div className={"w-[45%] flex flex-col"}>
+                <div className={"sm:w-[45%] flex flex-col mt-8 sm:mt-0"}>
                     <div>
-                        <div className="relative h-fit min-h-[623px] min-w-[677px] ">
+                        <div className="relative h-[670px] sm:h-fit w-full sm:min-h-[623px] sm:min-w-[677px] ">
                             <Image
                                 src={"/images/quadro-branco-contato.png"}
                                 alt={"moldura do formulário de contato"}
@@ -80,16 +84,24 @@ export default function Contato() {
                                         "placeholder:text-xl text-lg text-brand-gray rounded-xl border-gray-400  border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2 resize-none"
                                     }
                                 ></textarea>
-                                <div className={"flex justify-between"}>
+                                <div
+                                    className={
+                                        "flex flex-col sm:flex-row justify-between"
+                                    }
+                                >
                                     <button
                                         type={"submit"}
                                         className={
-                                            "h-14 bg-brand-gray hover:bg-[#888888] font-medium text-white w-40 rounded-xl text-xl focus:outline-none focus:border-brand-orange focus:border-1 focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
+                                            "h-14 bg-brand-gray self-center  hover:bg-[#888888] font-medium text-white w-40 rounded-xl text-xl focus:outline-none focus:border-brand-orange focus:border-1 focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
                                         }
                                     >
                                         {t("contato.form.btnEnviar")}
                                     </button>
-                                    <div className={"flex items-center"}>
+                                    <div
+                                        className={
+                                            "flex items-center mt-4 sm:mt-0"
+                                        }
+                                    >
                                         <Image
                                             src="/icons/relogio.svg"
                                             alt="relógio"
@@ -107,13 +119,19 @@ export default function Contato() {
                     </div>
                     <div
                         className={
-                            "flex w-full my-6 justify-between min-w-[677px] "
+                            "flex flex-col sm:flex-row w-full my-6 justify-between sm:min-w-[677px] "
                         }
                     >
                         <div
-                            className={"flex flex-col text-brand-gray text-lg"}
+                            className={
+                                "flex flex-col text-brand-gray text-lg order-2 sm:order-1"
+                            }
                         >
-                            <h2 className={"text-2xl font-medium mb-3 "}>
+                            <h2
+                                className={
+                                    "text-2xl text-center sm:text-left font-medium mt-2 sm:mt-0 mb-3 "
+                                }
+                            >
                                 Trust Gestão em Assessoria Logística LTDA.
                             </h2>
                             {/*todo não consigo retirar os ícones corretos dos contatos no XD*/}
@@ -142,7 +160,11 @@ export default function Contato() {
                                 }
                             />
                         </div>
-                        <div className={"w-[174px] h-[167px] relative "}>
+                        <div
+                            className={
+                                "w-[174px] h-[167px] relative self-center order-1 sm:order-2 "
+                            }
+                        >
                             {/*todo logo vertical enviada não esta em svg*/}
                             <Image
                                 src={
