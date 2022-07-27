@@ -249,7 +249,7 @@ export default function Portos() {
             </p>
             <select
                 className={
-                    "mt-3 lg:hidden md:text-xl text-brand-blue border-brand-blue rounded-xl"
+                    "mt-3 w-full lg:hidden md:text-xl text-brand-blue border-brand-blue rounded-xl"
                 }
                 onChange={(e) => {
                     if (e.target.value !== "") {
