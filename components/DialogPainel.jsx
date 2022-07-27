@@ -39,7 +39,7 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                             >
                                 <Dialog.Panel
                                     as={"div"}
-                                    className="w-full relative flex flex-col max-w-3xl transform overflow-hidden p-8 md:p-12 md:ml-5 align-middle text-left transition-all"
+                                    className="w-full relative flex flex-col max-w-3xl transform overflow-hidden p-8 md:p-12 align-middle text-left transition-all"
                                 >
                                     <Image
                                         src={
@@ -50,7 +50,7 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                                     />
                                     <div
                                         className={
-                                            "flex justify-between items-center mt-6 md:ml-6 relative z-11"
+                                            "flex justify-between items-center mt-6 md:ml-12 xl:ml-6 relative z-11"
                                         }
                                     >
                                         <Dialog.Title
