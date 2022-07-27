@@ -27,13 +27,12 @@ export default function Sobre() {
                     </div>
                     <div className="w-full lg:min-w-[45%] lg:order-2">
                         <Image
-                            alt={
-                                "carta com um cartão dentro, da trust all around"
-                            }
+                            alt={"mapa mundi com as rotas de transporte"}
                             src="/images/mapa_sobre.jpg"
                             width={506}
                             height={323}
                             layout={"responsive"}
+                            unoptimized={true}
                         />
                     </div>
                 </div>
@@ -46,6 +45,7 @@ export default function Sobre() {
                     objectFit={"cover"}
                     objectPosition={"center"}
                     priority={true}
+                    unoptimized={true}
                 />
             </div>
         </>

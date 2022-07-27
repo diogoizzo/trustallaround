@@ -1,17 +1,21 @@
 import { Tab } from "@headlessui/react";
-import { useLanguageQuery, useTranslation } from "next-export-i18n";
+import { useTranslation } from "next-export-i18n";
 import Image from "next/image";
 import Tabs from "./Tabs";
-import { useEffect, useState } from "react";
+import Link from "next/link";
 
-export default function Containers({ setOption }) {
+export default function Containers({
+    title,
+    setTitle,
+    setOption,
+    btnVoltar,
+    tab1,
+    tab2,
+    tab3,
+    tab4,
+    vizualizacao,
+}) {
     const { t } = useTranslation();
-    const [title, setTitle] = useState(null);
-    const [query] = useLanguageQuery();
-
-    useEffect(() => {
-        setTitle(t("ferramentas.tabs.tab1"));
-    }, [query]);
 
     return (
         <div className={"px-[6%] w-full mt-3 sm:mt-8"}>
@@ -42,13 +46,13 @@ export default function Containers({ setOption }) {
                                 layout={"fixed"}
                                 alt={"seta para voltar"}
                             />
-                            <p>{t("ferramentas.btn-voltar")}</p>
+                            <p>{btnVoltar}</p>
                         </span>
                     </button>
 
                     <Tab.List
                         className={
-                            "flex flex-col items-stretch lg:flex-row lg:space-x-9 "
+                            "flex flex-col items-stretch md:items-center lg:flex-row lg:space-x-9 "
                         }
                     >
                         <Tab
@@ -57,7 +61,7 @@ export default function Containers({ setOption }) {
                                 selected ? "hidden md:self-center" : "mt-3"
                             }
                         >
-                            <Tabs text={t("ferramentas.tabs.tab1")} />
+                            <Tabs text={tab1} />
                         </Tab>
                         <Tab
                             onClick={() => setTitle(t("ferramentas.tabs.tab2"))}
@@ -65,7 +69,7 @@ export default function Containers({ setOption }) {
                                 selected ? "hidden" : "mt-3"
                             }
                         >
-                            <Tabs text={t("ferramentas.tabs.tab2")} />
+                            <Tabs text={tab2} />
                         </Tab>
                         <Tab
                             onClick={() => setTitle(t("ferramentas.tabs.tab3"))}
@@ -73,7 +77,7 @@ export default function Containers({ setOption }) {
                                 selected ? "hidden" : "mt-3"
                             }
                         >
-                            <Tabs text={t("ferramentas.tabs.tab3")} />
+                            <Tabs text={tab3} />
                         </Tab>
                         <Tab
                             onClick={() => setTitle(t("ferramentas.tabs.tab4"))}
@@ -81,52 +85,63 @@ export default function Containers({ setOption }) {
                                 selected ? "hidden" : "mt-3"
                             }
                         >
-                            <Tabs text={t("ferramentas.tabs.tab4")} />
+                            <Tabs text={tab4} />
                         </Tab>
                     </Tab.List>
                 </div>
                 <Tab.Panels className={"flex justify-center mt-8"}>
                     <Tab.Panel>
-                        <Image
-                            src={"/images/containersPadrao.png"}
-                            alt={"Containers padrão"}
-                            width={1657}
-                            height={667}
-                            layout={"intrinsic"}
-                        />
+                        <Link href={"/images/containersPadrao.png"}>
+                            <Image
+                                src={"/images/containersPadrao.png"}
+                                alt={"Containers padrão"}
+                                width={1657}
+                                height={667}
+                                layout={"intrinsic"}
+                            />
+                        </Link>
                     </Tab.Panel>
                     <Tab.Panel>
-                        <Image
-                            src={"/images/cont_refrigerado.png"}
-                            alt={"Containers refrigerados"}
-                            width={1657}
-                            height={672}
-                            layout={"intrinsic"}
-                        />
+                        <Link href={"/images/cont_refrigerado.png"}>
+                            <Image
+                                src={"/images/cont_refrigerado.png"}
+                                alt={"Containers refrigerados"}
+                                width={1657}
+                                height={672}
+                                layout={"intrinsic"}
+                            />
+                        </Link>
                     </Tab.Panel>
                     <Tab.Panel>
-                        <Image
-                            src={"/images/cont_especiais01.png"}
-                            alt={"Containers especiais"}
-                            width={1664}
-                            height={476}
-                            layout={"intrinsic"}
-                        />
+                        <Link href={"/images/cont_especiais01.png"}>
+                            <Image
+                                src={"/images/cont_especiais01.png"}
+                                alt={"Containers especiais"}
+                                width={1664}
+                                height={476}
+                                layout={"intrinsic"}
+                            />
+                        </Link>
                     </Tab.Panel>
                     <Tab.Panel>
-                        <Image
-                            src={"/images/cont_especiais02.png"}
-                            alt={"Containers especiais"}
-                            width={1357}
-                            height={689}
-                            layout={"intrinsic"}
-                        />
+                        <Link href={"/images/cont_especiais02.png"}>
+                            <Image
+                                src={"/images/cont_especiais02.png"}
+                                alt={"Containers especiais"}
+                                width={1357}
+                                height={689}
+                                layout={"intrinsic"}
+                            />
+                        </Link>
                     </Tab.Panel>
                 </Tab.Panels>
+                <p className={"text-center text-brand-blue lg:hidden"}>
+                    * {vizualizacao}
+                </p>
             </Tab.Group>
             <div className={"text-center my-8"}>
                 <button
-                    className={`inline-flex py-2 px-3 text-lg text-brand-blue justify-center border rounded-xl border-brand-blue transition-colors hover:bg-brand-blue-hover leading-none`}
+                    className={`inline-flex py-2 px-3 text-lg text-brand-blue justify-center border rounded-xl border-brand-blue hover:bg-brand-orange-hover transition-colors leading-none`}
                 >
                     {t("ferramentas.btnMedidas")}
                 </button>

@@ -1,10 +1,9 @@
 import Image from "next/image";
-import { useTranslation } from "next-export-i18n";
+import Link from "next/link";
 
-export default function Incoterms({ setOption }) {
-    const { t } = useTranslation();
+export default function Incoterms({ setOption, btnVoltar }) {
     return (
-        <div className={"lg:mt-8 sm:px-[6%] lg:ml-12 "}>
+        <div className={"lg:mt-8 sm:px-[6%] lg:ml-12 lg:pb-6"}>
             <div>
                 <h1
                     className={
@@ -27,17 +26,19 @@ export default function Incoterms({ setOption }) {
                             layout={"fixed"}
                             alt={"seta para voltar"}
                         />
-                        <p>{t("ferramentas.btn-voltar")}</p>
+                        <p>{btnVoltar}</p>
                     </span>
                 </button>
             </div>
-            <Image
-                src={"/images/incotermsTable.png"}
-                alt={"tabela com os tipos de incoterms"}
-                width={1557}
-                height={771}
-                layout={"intrinsic"}
-            />
+            <Link href={"/images/incotermsTable.svg"}>
+                <Image
+                    src={"/images/incotermsTable.svg"}
+                    alt={"tabela com os tipos de incoterms"}
+                    width={1557}
+                    height={771}
+                    layout={"intrinsic"}
+                />
+            </Link>
         </div>
     );
 }

@@ -1,12 +1,18 @@
 import ToolsOptions from "./ToolsOptions";
-import { useTranslation } from "next-export-i18n";
-import { useState } from "react";
+import { useLanguageQuery, useTranslation } from "next-export-i18n";
+import { useEffect, useState } from "react";
 import Incoterms from "./Incoterms";
 import Containers from "./Containers";
 
 export default function DisplayTools() {
     const { t } = useTranslation();
     const [option, setOption] = useState(null);
+    const [query] = useLanguageQuery();
+    const [title, setTitle] = useState(t("ferramentas.tabs.tab1"));
+
+    useEffect(() => {
+        setTitle(t("ferramentas.tabs.tab1"));
+    }, [query]);
 
     return (
         <div>
@@ -40,9 +46,22 @@ export default function DisplayTools() {
                 ) : (
                     <>
                         {option ? (
-                            <Incoterms setOption={setOption} />
+                            <Incoterms
+                                setOption={setOption}
+                                btnVoltar={t("ferramentas.btn-voltar")}
+                            />
                         ) : (
-                            <Containers setOption={setOption} />
+                            <Containers
+                                title={title}
+                                setTitle={setTitle}
+                                setOption={setOption}
+                                btnVoltar={t("ferramentas.btn-voltar")}
+                                tab1={t("ferramentas.tabs.tab1")}
+                                tab2={t("ferramentas.tabs.tab2")}
+                                tab3={t("ferramentas.tabs.tab3")}
+                                tab4={t("ferramentas.tabs.tab4")}
+                                vizualizacao={t("ferramentas.vizualizacao")}
+                            />
                         )}
                     </>
                 )}

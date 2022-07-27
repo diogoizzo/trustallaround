@@ -51,7 +51,8 @@
       "tab3": "CONTENEDORES ESPECIALES 1",
       "tab4": "CONTENEDORES ESPECIALES 2"
     },
-    "btnMedidas": "Accede al conversor de moneda y medidas"
+    "btnMedidas": "Accede al conversor de moneda y medidas",
+    "vizualizacao": "Para una mejor vista, haga clic en la imagen de arriba."
   },
   "servicos": {
     "titulo": "Servicios",
@@ -177,7 +178,7 @@
       "assunto": "Tema",
       "ajuda": "Como podemos ayudarte?",
       "btnEnviar": "Enviar",
-      "atendimento": "Servicio de lunes a viernes de 08:45 a 18:15."
+      "atendimento": "Abierto de lunes a viernes de 8:45 am a 6h15 pm."
     }
   }
 }

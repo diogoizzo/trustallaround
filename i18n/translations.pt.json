@@ -32,8 +32,8 @@
       "inteligencia": "Inteligência",
       "singularidade": "Singularidade"
     },
-    "visao": "Ter a sua confiança e se tornar a melhor opção em questão de logística",
-    "missao": "Oferecer sempre a alternativa logística mais inteligente e eficaz para o seu negócio"
+    "visao": "Ter a sua confiança e se tornar a melhor opção em questão de logística.",
+    "missao": "Oferecer sempre a alternativa logística mais inteligente e eficaz para o seu negócio."
   },
   "sobre": {
     "titulo": "Sobre nós",
@@ -51,7 +51,8 @@
       "tab3": "CONTAINERS ESPECIAIS 1",
       "tab4": "CONTAINERS ESPECIAIS 2"
     },
-    "btnMedidas": "Acesse o conversor de moedas e medidas"
+    "btnMedidas": "Acesse o conversor de moedas e medidas",
+    "vizualizacao": "Para melhor vizualização, clique na imagem acima."
   },
   "servicos": {
     "titulo": "Serviços",
@@ -65,7 +66,7 @@
         "p1": "Basicamente nossa função é ouvir você, entender suas necessidades e juntos escolhermos a alternativa logística mais inteligente e eficaz para seu negócio.",
         "p2": "Desde a coleta até o destino contamos com uma equipe especializada para lhe manter atualizado durante todo o processo.",
         "list": {
-          "li1": "Importação e Exportação de carga marítima FCL e LCL",
+          "li1": "Importação e Exportação de carga marítima FCL e LCL.",
           "li2": "Transporte rodoviário nacional e internacional.",
           "li3": "Importação e exportação de carga aérea.",
           "li4": "Fretes competitivos, follow up e análise de mercado buscando sempre a logística mais inteligente e com melhor custo X beneficio para os nossos clientes."
@@ -84,30 +85,30 @@
           },
           "li3": {
             "titulo": "CARGAS EXPRESSAS",
-            "texto": "Serviço utilizado para cargas com urgência máxima"
+            "texto": "Serviço utilizado para cargas com urgência máxima."
           }
         }
       },
       "tab3": {
         "p1": "O Transporte marítimo é uma das modalidades dos transportes aquáticos (ou aquaviários) que ocorrem nos mares e oceanos por meio de embarcações (barcos, navios, transatlânticos), sendo muito utilizado para o transporte de cargas a curtas e longas distâncias.",
-        "p2": "A TRUST ALL AROUND trabalha no agenciamento de cargas consolidadas, conteinerizadas e de projetos, assessorando em todo o processo logístico desde a coleta de sua mercadoria até a entrega em seu destino (door-to-door) através das seguintes modalidades",
+        "p2": "A TRUST ALL AROUND trabalha no agenciamento de cargas consolidadas, conteinerizadas e de projetos, assessorando em todo o processo logístico desde a coleta de sua mercadoria até a entrega em seu destino (door-to-door) através das seguintes modalidades:",
         "list": {
           "li1": {
             "titulo": "CARGA CONSOLIDADA",
-            "texto": "Combinação de volumes e produtos remetidos por diferentes exportadores do mesmo cliente, mas mesmas condições de entrega e rotas."
+            "texto": "Combinação de volumes e produtos remetidos por diferentes exportadores para o mesmo cliente, com as mesmas condições de entrega e rota. "
           },
           "li2": {
             "titulo": "FCL – FULL CONTAINER LOAD",
-            "texto": "Um container totalmente dedicado a sua empresa. Ideal para o transporte de altos volumes de carga"
+            "texto": "Um container totalmente dedicado a sua empresa. Ideal para o transporte de altos volumes de carga."
           },
           "li3": {
             "titulo": "LCL – LESS CONTAINER LOAD",
-            "texto": "Ideal para o embarque de cargas em menor quantidade, volume e de baixo valor agregado. Compartilhando espaço com outros clientes em um único container."
+            "texto": "Ideal para o embarque de cargas em menor quantidade, volume e de baixo valor agregado, compartilhando espaço com outros clientes em um único container. "
           }
         }
       },
       "tab4": {
-        "p1": "Através de nossos parceiros de transporte ao redor do globo, especializados no MERCOSUL e suas fronteiras, acompanhamos todo o processo, desde a coleta pela transportadora até a entrega em seu destino, através de uma vasta frota de caminhões nossos parceiros atendem em diversas categorias de serviços como:",
+        "p1": "Por meio de nossos parceiros de transporte ao redor do globo e especializados no MERCOSUL e suas fronteiras, acompanhamos todo o processo, desde a coleta pela transportadora até a entrega em seu destino. Através de uma vasta frota de caminhões nossos parceiros atendem em diversas categorias de serviços como: ",
         "list": {
           "li1": "Estudos estratégicos para otimização dos custos logísticos.",
           "li2": "Transportes de produtos em geral (coleta e entrega).",

@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useTranslation } from "next-export-i18n";
+import BallonSlider from "./BallonSlide";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -33,6 +34,7 @@ export default function Slider() {
                         objectFit={"cover"}
                         objectPosition={"80% 10%"}
                         priority={true}
+                        unoptimized={true}
                     />
                     <div className="relative flex flex-col lg:flex-row items-center justify-center h-full space-y-8 lg:space-x-12 px-[10%]">
                         <div className="relative block w-[200px] lg:min-w-[350px] shrink-0">
@@ -69,15 +71,12 @@ export default function Slider() {
                         layout="fill"
                         objectFit={"cover"}
                         objectPosition={"0 90%"}
+                        unoptimized={true}
                     />
                     <div className="flex flex-col lg:flex-row items-center justify-center h-full w-full space-y-8 lg:space-x-12 px-[10%]">
                         <div className="relative block w-[200px] lg:min-w-[350px] shrink-0">
-                            <Image
-                                src="/images/base01.png"
-                                alt="como podemos facilitar sua vida hoje"
-                                width="387"
-                                height="387"
-                                layout="intrinsic"
+                            <BallonSlider
+                                arq={["base01", "base-en", "base-es"]}
                             />
                         </div>
                         <span className="relative z-12 text-center lg:text-left">
@@ -96,6 +95,7 @@ export default function Slider() {
                         layout="fill"
                         objectFit={"cover"}
                         objectPosition={"center"}
+                        unoptimized={true}
                     />
                     <div className="flex flex-col lg:flex-row items-center justify-center h-full space-y-8 lg:space-x-12 px-[10%]">
                         <div className="relative  w-[200px] lg:min-w-[350px] shrink-0">

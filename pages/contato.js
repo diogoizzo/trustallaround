@@ -134,22 +134,22 @@ export default function Contato() {
                         </h2>
                         {/*todo não consigo retirar os ícones corretos dos contatos no XD*/}
                         <AdressItem
-                            src="/icons/envelope-regular.svg"
+                            src="/icons/e-mail.svg"
                             alt="email"
                             text={"contato@trustgestao.com.br"}
                         />
                         <AdressItem
-                            src={"/icons/mobile-screen-button-solid.svg"}
+                            src={"/icons/telefone.svg"}
                             alt={"Telefones"}
                             text={"+55 (11) 3796-1845 / +55 (11) 98628-5531"}
                         />
                         <AdressItem
-                            src={"/icons/globe-solid.svg"}
+                            src={"/icons/site.svg"}
                             alt={"Site"}
                             text={"www.trustallaround.com.br"}
                         />
                         <AdressItem
-                            src={"/icons/location-dot-solid.svg"}
+                            src={"/icons/endereco.svg"}
                             alt={"Endereço"}
                             text={
                                 "Rua Umuarama, nº. 382, Vila Prudente, São Paulo, BR"
@@ -168,9 +168,7 @@ export default function Contato() {
                             className={"cursor-pointer"}
                         >
                             <Image
-                                src={
-                                    "/images/Logo_Trust_FINAL_Vertical_JPG.jpg"
-                                }
+                                src={"/images/logoVertical.svg"}
                                 alt={"Logo vertical da trust all around"}
                                 layout={"fill"}
                             />

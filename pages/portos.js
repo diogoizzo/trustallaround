@@ -18,9 +18,7 @@ export default function Portos() {
                 {
                     nome: t("portos.paises.eua"),
                     bandeira: "/images/flags/USA.png",
-                    portos:
-                        "Baltimore, Boston, Browsville, Cape Canaveral, Charleston," +
-                        "Fernandinha Beach, Freeport, Galveston, Houston, Jacksonville, Mobile, New Haven, New Orleans, New York, Norfolk, Oakland, Port Everglades, Portland, San Francisco, Savannah, Seattle, Philadelphia, Tacomã, Tampa e Wilmongton.",
+                    portos: "Baltimore, Boston, Charleston, Houston, Jacksonville, New Orleans, New York, Norfolk, Long Beach, Los Angeles, Port Everglades, San Francisco, Savannah, Seattle, Philadelphia, Tampa",
                 },
                 {
                     nome: t("portos.paises.canada"),
@@ -39,7 +37,7 @@ export default function Portos() {
                 },
                 {
                     nome: t("portos.paises.guatemala"),
-                    bandeira: "/images/flags/guatemala.png",
+                    bandeira: "/images/flags/guate.png",
                     portos: "Puerto Quetzal e Sto Tomás de Castilha",
                 },
                 {
@@ -75,7 +73,7 @@ export default function Portos() {
                 {
                     nome: t("portos.paises.chile"),
                     bandeira: "/images/flags/Chile.png",
-                    portos: "San Antonio,, Santiago e  Valparaiso",
+                    portos: "San Antonio, Santiago e  Valparaiso",
                 },
             ],
         },
@@ -160,7 +158,7 @@ export default function Portos() {
                 {
                     nome: t("portos.paises.china"),
                     bandeira: "/images/flags/China.png",
-                    portos: "Dalian Guangzhou, Shanghai, Ningbo, Shenzhen,  Quingdao,  e Tianjin",
+                    portos: "Dalian Guangzhou, Shanghai, Ningbo, Shenzhen, Quingdao e Tianjin",
                 },
                 {
                     nome: t("portos.paises.japao"),
@@ -275,6 +273,7 @@ export default function Portos() {
                     width={1556}
                     layout={"intrinsic"}
                     priority
+                    unoptimized={true}
                 />
                 <span
                     className={"absolute top-[21%] left-[-5%] hidden lg:block"}

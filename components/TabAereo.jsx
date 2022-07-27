@@ -1,8 +1,6 @@
 import Image from "next/image";
-import { useTranslation } from "next-export-i18n";
 
-export default function TabAereo() {
-    const { t } = useTranslation();
+export default function TabAereo({ servico }) {
     return (
         <div>
             <div>
@@ -20,7 +18,7 @@ export default function TabAereo() {
                         "border-l-4 border-brand-orange pl-8 lg:pl-12 text-lg md:text-xl lg:text-2xl font-normal mt-5 lg:mt-12"
                     }
                 >
-                    <p>{t("servicos.content.tab2.p1")}</p>
+                    <p>{servico.p1}</p>
                 </div>
                 <div className={"my-8 lg:mt-12 lg:mb-0"}>
                     <div className="hidden lg:block lg:float-right -mr-96">
@@ -44,11 +42,9 @@ export default function TabAereo() {
                                 />
                             </span>
                             <span>
-                                <h3>
-                                    {t("servicos.content.tab2.list.li1.titulo")}
-                                </h3>
+                                <h3>{servico.li1}</h3>
                                 <p className={"font-normal mt-3"}>
-                                    {t("servicos.content.tab2.list.li1.texto")}
+                                    {servico.texto1}
                                 </p>
                             </span>
                         </li>
@@ -63,11 +59,9 @@ export default function TabAereo() {
                                 />
                             </span>
                             <span>
-                                <h3>
-                                    {t("servicos.content.tab2.list.li2.titulo")}
-                                </h3>
+                                <h3>{servico.li2}</h3>
                                 <p className={"font-normal mt-3"}>
-                                    {t("servicos.content.tab2.list.li2.texto")}
+                                    {servico.texto2}
                                 </p>
                             </span>
                         </li>
@@ -82,11 +76,9 @@ export default function TabAereo() {
                                 />
                             </span>
                             <span>
-                                <h3>
-                                    {t("servicos.content.tab2.list.li3.titulo")}
-                                </h3>
+                                <h3>{servico.li3}</h3>
                                 <p className={"font-normal mt-3"}>
-                                    {t("servicos.content.tab2.list.li3.texto")}
+                                    {servico.texto3}
                                 </p>
                             </span>
                         </li>

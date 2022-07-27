@@ -32,12 +32,12 @@
       "inteligencia": "Intelligence",
       "singularidade": "Singularity "
     },
-    "visao": "To have your trust and become the first option in logistics services",
-    "missao": "To offer always the smartest and most efficient logistical alternative for your business"
+    "visao": "To have your trust and become the first option in logistics services.",
+    "missao": "To offer always the smartest and most efficient logistical alternative for your business."
   },
   "sobre": {
     "titulo": "About Us",
-    "p1": "TRUST All around was born in 2017 to understand the need of its customers to present them the best logistics solution.",
+    "p1": "TRUST All AROUND was born in 2017 to understand the need of its customers to present them the best logistics solution.",
     "p2": "We provide complete advice through a highly qualified team and an international network of agents covering more than 100 countries around the world, all to meet your demand in the best possible way.",
     "p3": "We offer complete solutions in all stages of import and export operations, simplifying your door-to-door logistics, aiming to become your first choice as a logistics provider."
   },
@@ -51,7 +51,8 @@
       "tab3": "SPECIAL CONTAINERS 1",
       "tab4": "SPECIAL CONTAINERS 2"
     },
-    "btnMedidas": "Access the currency and measurement converter"
+    "btnMedidas": "Access the currency and measurement converter",
+    "vizualizacao": "For a better view, click on the image above."
   },
   "servicos": {
     "titulo": "Services",
@@ -65,14 +66,14 @@
         "p1": "Basically, our job is to listen to you, understand your needs and together choose the most intelligent and effective logistics alternative for your business. ",
         "p2": "From the pick up to the destination, we count on a specialized team to keep you updated during the whole process.",
         "list": {
-          "li1": "Import and Export sea cargo FCL and LCL",
-          "li2": "National and International road transportation",
-          "li3": "Import and Export of air cargo",
-          "li4": "Competitive freights, follow up and market analysis always seeking the smartest and most cost-effective logistics for our customers"
+          "li1": "Import and Export sea cargo FCL and LCL.",
+          "li2": "National and International road transportation.",
+          "li3": "Import and Export of air cargo.",
+          "li4": "Competitive freights, follow up and market analysis always seeking the smartest and most cost-effective logistics for our customers."
         }
       },
       "tab2": {
-        "p1": "With speed and agility in the reception and delivery of your cargoes, TRUST together with its agents all over the world works to meet your needs in this modality, taking into account important points: delivery time, routes, transit time and handling of special and high added value cargoes, acting in the following modalities:",
+        "p1": "With speed and agility in the reception and delivery of your cargoes, TRUST ALL AROUND together with its agents all over the world works to meet your needs in this modality, taking into account important points: delivery time, routes, transit time and handling of special and high added value cargoes, acting in the following modalities:",
         "list": {
           "li1": {
             "titulo": "CONSOLIDATED CARGO",
