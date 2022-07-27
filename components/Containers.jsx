@@ -48,7 +48,7 @@ export default function Containers({ setOption }) {
 
                     <Tab.List
                         className={
-                            "flex flex-col items-center lg:flex-row lg:space-x-9 "
+                            "flex flex-col items-stretch lg:flex-row lg:space-x-9 "
                         }
                     >
                         <Tab
