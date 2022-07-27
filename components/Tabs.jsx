@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Tabs({ text, className }) {
     return (
         <div
-            className={`flex w-80 items-center space-x-4 border rounded-xl border-brand-blue pl-4 pb-2 transition-colors hover:bg-brand-blue-hover ${className}`}
+            className={`flex w-full md:w-80 items-center space-x-4 border rounded-xl border-brand-blue pl-4 pb-2 transition-colors hover:bg-brand-orange-hover ${className}`}
         >
             <Image
                 src={"/icons/container_icone.svg"}

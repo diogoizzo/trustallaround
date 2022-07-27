@@ -228,118 +228,137 @@ export default function Portos() {
         setIsOpen(true);
     }
 
-    return (
-        <main>
-            <div className="relative px-[6%] my-8">
-                <DialogPainel
-                    setIsOpen={setIsOpen}
-                    isOpen={isOpen}
-                    content={content}
-                />
-                <h1 className="text-brand-orange text-5xl font-semibold ml-12">
-                    {t("portos.titulo")}
-                </h1>
-                <div className="relative max-w-screen-2xl mx-auto text-center mt-4">
-                    <Image
-                        src={"/images/mapa_portos.png"}
-                        alt={
-                            "mapa mundi com a localização dos portos da trust all around"
-                        }
-                        height={700}
-                        width={1556}
-                        layout={"intrinsic"}
-                        priority
-                    />
-                    <span
-                        className={"absolute top-[16%] left-[-5%]"}
-                        onClick={() => {
-                            setContent(DialogContent.americaDoNorte);
-                            openModal();
-                        }}
-                    >
-                        <BtnPais
-                            pais={t("portos.continentes.americaDoNorte")}
-                        />
-                    </span>
+    console.log(t("portos.continentes"));
 
-                    <span
-                        className={"absolute top-[48%] left-[4%] "}
-                        onClick={() => {
-                            setContent(DialogContent.americaCentral);
-                            openModal();
-                        }}
-                    >
-                        <BtnPais
-                            pais={t("portos.continentes.americaCentral")}
-                        />
-                    </span>
-                    <span
-                        className={"absolute top-[78%] left-[32%] "}
-                        onClick={() => {
-                            setContent(DialogContent.americaDoSul);
-                            openModal();
-                        }}
-                    >
-                        <BtnPais pais={t("portos.continentes.americaDoSul")} />
-                    </span>
-                    <span
-                        className={"absolute top-[60%] left-[43%] "}
-                        onClick={() => {
-                            setContent(DialogContent.africa);
-                            openModal();
-                        }}
-                    >
-                        <BtnPais pais={t("portos.continentes.africa")} />
-                    </span>
-                    <span
-                        className={"absolute top-[23%] left-[30%] "}
-                        onClick={() => {
-                            setContent(DialogContent.mediterraneo);
-                            openModal();
-                        }}
-                    >
-                        <BtnPais pais={t("portos.continentes.mediterraneo")} />
-                    </span>
-                    <span
-                        className={"absolute top-[7%] left-[43%] "}
-                        onClick={() => {
-                            setContent(DialogContent.europa);
-                            openModal();
-                        }}
-                    >
-                        <BtnPais pais={t("portos.continentes.europa")} />
-                    </span>
-                    <span
-                        className={"absolute top-[-4%] left-[75%] "}
-                        onClick={() => {
-                            setContent(DialogContent.asia);
-                            openModal();
-                        }}
-                    >
-                        <BtnPais pais={t("portos.continentes.asia")} />
-                    </span>
-                    <span
-                        className={"absolute top-[33%] left-[86%] "}
-                        onClick={() => {
-                            setContent(DialogContent.extremoOriente);
-                            openModal();
-                        }}
-                    >
-                        <BtnPais
-                            pais={t("portos.continentes.extremoOriente")}
-                        />
-                    </span>
-                    <span
-                        className={"absolute top-[73%] left-[70%] "}
-                        onClick={() => {
-                            setContent(DialogContent.australia);
-                            openModal();
-                        }}
-                    >
-                        <BtnPais pais={t("portos.continentes.australia")} />
-                    </span>
-                </div>
+    return (
+        <div className="relative px-[6%] mt-3 lg:mt-8 max-w-full md:text-center ">
+            <DialogPainel
+                setIsOpen={setIsOpen}
+                isOpen={isOpen}
+                content={content}
+            />
+            <h1 className="text-5xl font-semibold text-brand-orange text-center lg:text-left lg:ml-12">
+                {t("portos.titulo")}
+            </h1>
+            <p
+                className={
+                    "mt-5 md:mt-10 lg:hidden text-lg md:text-xl lg:text-2xl font-semibold text-brand-blue"
+                }
+            >
+                {t("portos.select")}
+            </p>
+            <select
+                className={
+                    "mt-3 lg:hidden md:text-xl text-brand-blue border-brand-blue rounded-xl"
+                }
+                onChange={(e) => {
+                    if (e.target.value !== "") {
+                        setContent(DialogContent[e.target.value]);
+                        openModal();
+                    }
+                }}
+            >
+                <option value={""}>Selecione...</option>
+                {Object.entries(t("portos.continentes")).map((item) => (
+                    <option key={item[0]} value={item[0]}>
+                        {item[1]}
+                    </option>
+                ))}
+            </select>
+            <div className="relative max-w-full lg:max-w-screen-2xl mx-auto text-center py-16 ">
+                <Image
+                    src={"/images/mapa_portos.png"}
+                    alt={
+                        "mapa mundi com a localização dos portos da trust all around"
+                    }
+                    height={700}
+                    width={1556}
+                    layout={"intrinsic"}
+                    priority
+                />
+                <span
+                    className={"absolute top-[21%] left-[-5%] hidden lg:block"}
+                    onClick={() => {
+                        setContent(DialogContent.americaDoNorte);
+                        openModal();
+                    }}
+                >
+                    <BtnPais pais={t("portos.continentes.americaDoNorte")} />
+                </span>
+
+                <span
+                    className={"absolute top-[48%] left-[4%] hidden lg:block"}
+                    onClick={() => {
+                        setContent(DialogContent.americaCentral);
+                        openModal();
+                    }}
+                >
+                    <BtnPais pais={t("portos.continentes.americaCentral")} />
+                </span>
+                <span
+                    className={"absolute top-[74%] left-[32%] hidden lg:block"}
+                    onClick={() => {
+                        setContent(DialogContent.americaDoSul);
+                        openModal();
+                    }}
+                >
+                    <BtnPais pais={t("portos.continentes.americaDoSul")} />
+                </span>
+                <span
+                    className={"absolute top-[60%] left-[43%] hidden lg:block"}
+                    onClick={() => {
+                        setContent(DialogContent.africa);
+                        openModal();
+                    }}
+                >
+                    <BtnPais pais={t("portos.continentes.africa")} />
+                </span>
+                <span
+                    className={"absolute top-[28%] left-[29%] hidden lg:block"}
+                    onClick={() => {
+                        setContent(DialogContent.mediterraneo);
+                        openModal();
+                    }}
+                >
+                    <BtnPais pais={t("portos.continentes.mediterraneo")} />
+                </span>
+                <span
+                    className={"absolute top-[13%] left-[43%] hidden lg:block"}
+                    onClick={() => {
+                        setContent(DialogContent.europa);
+                        openModal();
+                    }}
+                >
+                    <BtnPais pais={t("portos.continentes.europa")} />
+                </span>
+                <span
+                    className={"absolute top-[3%] left-[75%] hidden lg:block"}
+                    onClick={() => {
+                        setContent(DialogContent.asia);
+                        openModal();
+                    }}
+                >
+                    <BtnPais pais={t("portos.continentes.asia")} />
+                </span>
+                <span
+                    className={"absolute top-[36%] left-[86%] hidden lg:block"}
+                    onClick={() => {
+                        setContent(DialogContent.extremoOriente);
+                        openModal();
+                    }}
+                >
+                    <BtnPais pais={t("portos.continentes.extremoOriente")} />
+                </span>
+                <span
+                    className={"absolute top-[73%] left-[70%] hidden lg:block"}
+                    onClick={() => {
+                        setContent(DialogContent.australia);
+                        openModal();
+                    }}
+                >
+                    <BtnPais pais={t("portos.continentes.australia")} />
+                </span>
             </div>
-        </main>
+        </div>
     );
 }

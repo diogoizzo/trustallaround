@@ -3,14 +3,14 @@
     "home": "Home",
     "sobre": "About Us",
     "servicos": "Services",
-    "portos": "Harbours",
+    "portos": "Ports",
     "ferramentas": "Tools",
     "contato": "Contact",
     "paths": {
       "home": "/",
       "sobre": "/about",
       "servicos": "/services",
-      "portos": "/habours",
+      "portos": "/ports",
       "ferramentas": "/tools",
       "contato": "/contact"
     }
@@ -121,6 +121,7 @@
   "portos": {
     "titulo": "Ports",
     "btnMais": "More ports",
+    "select": "Choose the desired continent:",
     "continentes": {
       "americaDoNorte": "NORHT AMERICA",
       "americaCentral": "CENTRAL AMERICA & CARIBBEAN",

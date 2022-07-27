@@ -6,9 +6,9 @@ import Ballons from "../components/Ballons";
 export default function Home() {
     const { t } = useTranslation();
     return (
-        <main>
+        <>
             <Slider />
-            <div className="grid gap-5 grid-cols-1 lg:grid-cols-3 px-[6%] my-12">
+            <div className="grid gap-5 grid-cols-1 lg:grid-cols-3 px-[6%] py-10">
                 <div className="flex flex-col sm:flex-row justify-center max-w-[420px] mx-auto items-center sm:space-x-9">
                     <span className="mb-1">
                         <Ballons arq={["valores", "values", "valors"]} />
@@ -32,7 +32,7 @@ export default function Home() {
                         />
                     </span>
                     <div>
-                        <ul className="list-disc ml-4 mt-3 sm:mt-0 text-brand-blue text-lg">
+                        <ul className="list-disc ml-4 mt-3 sm:mt-0 text-brand-blue text-lg md:min-w-[140px]">
                             <li>{t("bullets.valores.seguranca")}</li>
                             <li>{t("bullets.valores.confianca")}</li>
                             <li>{t("bullets.valores.comprometimento")}</li>
@@ -64,7 +64,7 @@ export default function Home() {
                         />
                     </span>
                     <div>
-                        <p className="text-brand-blue text-center sm:text-left text-lg">
+                        <p className="text-brand-blue text-center sm:text-left text-lg md:min-w-[140px]">
                             {t("bullets.visao")}
                         </p>
                     </div>
@@ -92,12 +92,12 @@ export default function Home() {
                         />
                     </span>
                     <div>
-                        <p className="text-brand-blue text-center sm:text-left text-lg">
+                        <p className="text-brand-blue text-center sm:text-left text-lg md:min-w-[140px]">
                             {t("bullets.missao")}
                         </p>
                     </div>
                 </div>
             </div>
-        </main>
+        </>
     );
 }

@@ -6,7 +6,7 @@ export default function TabAereo() {
     return (
         <div>
             <div>
-                <div className="sm:hidden -mr-36">
+                <div className="lg:hidden -mr-36 sm:-mr-44">
                     <Image
                         src={"/images/aviao.png"}
                         alt={"avião de carga pesada"}
@@ -17,13 +17,13 @@ export default function TabAereo() {
                 </div>
                 <div
                     className={
-                        "border-l-4 border-brand-orange pl-8 sm:pl-12 text-lg lg:text-2xl font-normal mt-5 sm:mt-12"
+                        "border-l-4 border-brand-orange pl-8 lg:pl-12 text-lg md:text-xl lg:text-2xl font-normal mt-5 lg:mt-12"
                     }
                 >
                     <p>{t("servicos.content.tab2.p1")}</p>
                 </div>
-                <div className={"my-8 sm:mt-12 sm:mb-0"}>
-                    <div className="hidden sm:block sm:float-right -mr-96">
+                <div className={"my-8 lg:mt-12 lg:mb-0"}>
+                    <div className="hidden lg:block lg:float-right -mr-96">
                         <Image
                             src={"/images/aviao.png"}
                             alt={"avião de carga pesada"}
@@ -32,7 +32,7 @@ export default function TabAereo() {
                             layout={"intrinsic"}
                         />
                     </div>
-                    <ul className="text-lg lg:text-2xl font-semibold">
+                    <ul className="text-lg md:text-xl lg:text-2xl font-semibold">
                         <li className={"flex items-start mt-7"}>
                             <span className={"mr-7 shrink-0"}>
                                 <Image

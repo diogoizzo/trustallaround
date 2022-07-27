@@ -14,30 +14,47 @@ export default function Containers({ setOption }) {
     }, [query]);
 
     return (
-        <div className={"px-[6%] w-full mt-8"}>
-            <h2 className={"text-brand-orange text-4xl font-semibold ml-12"}>
+        <div className={"px-[6%] w-full mt-3 sm:mt-8"}>
+            <h2
+                className={
+                    "text-brand-orange text-4xl font-semibold text-center lg:text-left lg:ml-12"
+                }
+            >
                 {title}
             </h2>
             <Tab.Group>
                 <div
                     className={
-                        "flex justify-between items-end mt-6 text-brand-blue"
+                        "flex flex-col lg:flex-row lg:justify-between lg:items-end lg:mt-6 text-brand-blue"
                     }
                 >
                     <button
                         className={
-                            "text-xl text-brand-blue ml-12 hover:text-brand-orange transition-colors inline-flex self-start"
+                            "text-xl text-brand-blue lg:ml-12 hover:text-brand-orange transition-colors inline-flex mb-3 self-start "
                         }
                         onClick={() => setOption(null)}
                     >
-                        &#129044; {t("ferramentas.btn-voltar")}
+                        <span className={"flex items-center space-x-2"}>
+                            <Image
+                                src={"/icons/arrow-left.svg"}
+                                height={16}
+                                width={16}
+                                layout={"fixed"}
+                                alt={"seta para voltar"}
+                            />
+                            <p>{t("ferramentas.btn-voltar")}</p>
+                        </span>
                     </button>
 
-                    <Tab.List className={"flex space-x-9"}>
+                    <Tab.List
+                        className={
+                            "flex flex-col items-center lg:flex-row lg:space-x-9 "
+                        }
+                    >
                         <Tab
                             onClick={() => setTitle(t("ferramentas.tabs.tab1"))}
                             className={({ selected }) =>
-                                selected ? "hidden" : null
+                                selected ? "hidden md:self-center" : "mt-3"
                             }
                         >
                             <Tabs text={t("ferramentas.tabs.tab1")} />
@@ -45,7 +62,7 @@ export default function Containers({ setOption }) {
                         <Tab
                             onClick={() => setTitle(t("ferramentas.tabs.tab2"))}
                             className={({ selected }) =>
-                                selected ? "hidden" : null
+                                selected ? "hidden" : "mt-3"
                             }
                         >
                             <Tabs text={t("ferramentas.tabs.tab2")} />
@@ -53,7 +70,7 @@ export default function Containers({ setOption }) {
                         <Tab
                             onClick={() => setTitle(t("ferramentas.tabs.tab3"))}
                             className={({ selected }) =>
-                                selected ? "hidden" : null
+                                selected ? "hidden" : "mt-3"
                             }
                         >
                             <Tabs text={t("ferramentas.tabs.tab3")} />
@@ -61,7 +78,7 @@ export default function Containers({ setOption }) {
                         <Tab
                             onClick={() => setTitle(t("ferramentas.tabs.tab4"))}
                             className={({ selected }) =>
-                                selected ? "hidden" : null
+                                selected ? "hidden" : "mt-3"
                             }
                         >
                             <Tabs text={t("ferramentas.tabs.tab4")} />
@@ -109,7 +126,7 @@ export default function Containers({ setOption }) {
             </Tab.Group>
             <div className={"text-center my-8"}>
                 <button
-                    className={`inline-flex py-2 px-3 text-lg text-brand-blue justify-center border rounded-xl border-brand-blue transition-colors hover:bg-brand-blue-hover`}
+                    className={`inline-flex py-2 px-3 text-lg text-brand-blue justify-center border rounded-xl border-brand-blue transition-colors hover:bg-brand-blue-hover leading-none`}
                 >
                     {t("ferramentas.btnMedidas")}
                 </button>

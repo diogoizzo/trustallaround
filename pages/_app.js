@@ -13,9 +13,10 @@ function MyApp({ Component, pageProps }) {
                     content="width=device-width, initial-scale=1.0"
                 />
             </Head>
-            <Header />
-            <Component {...pageProps} />
-            <Footer />
+            <Footer>
+                <Header />
+                <Component {...pageProps} />
+            </Footer>
         </>
     );
 }

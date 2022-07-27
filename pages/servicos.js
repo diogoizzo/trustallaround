@@ -13,14 +13,14 @@ export default function Servicos() {
         <div className="w-full overflow-hidden">
             <div
                 className={
-                    "w-full mt-3 sm:mt-8 px-[6%] mx-auto text-brand-blue"
+                    "w-full mt-3 lg:mt-8 px-[6%] mx-auto text-brand-blue"
                 }
             >
                 <Tab.Group>
-                    <div className={"flex flex-col sm:flex-row sm:items-end"}>
+                    <div className={"flex flex-col lg:flex-row lg:items-end"}>
                         <Tab.List
                             className={
-                                "flex flex-col items-stretch space-y-3 sm:space-y-0 sm:flex-row sm:space-x-9"
+                                "flex flex-col items-stretch space-y-3 lg:space-y-0 lg:flex-row lg:space-x-9"
                             }
                         >
                             <Tab
@@ -32,7 +32,7 @@ export default function Servicos() {
                             >
                                 <h1
                                     className={
-                                        "text-5xl font-semibold focus:outline-none mb-3 sm:ml-12"
+                                        "text-5xl font-semibold focus:outline-none mb-3 lg:ml-12"
                                     }
                                 >
                                     {t("servicos.titulo")}
@@ -73,7 +73,7 @@ export default function Servicos() {
                             <Tab className={"focus:outline-none"}>
                                 {({ selected }) => (
                                     <>
-                                        <span className={"hidden sm:block"}>
+                                        <span className={"hidden lg:block"}>
                                             <BtnServicos
                                                 src={"/icons/caminhao.svg"}
                                                 alt={"ícone de um caminhão"}
@@ -87,7 +87,7 @@ export default function Servicos() {
                                                 }
                                             />
                                         </span>
-                                        <span className={"sm:hidden"}>
+                                        <span className={"lg:hidden"}>
                                             <BtnServicos
                                                 src={"/icons/caminhao.svg"}
                                                 alt={"ícone de um caminhão"}

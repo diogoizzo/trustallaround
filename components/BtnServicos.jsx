@@ -10,7 +10,7 @@ export default function BtnServicos({
 }) {
     return (
         <div
-            className={`inline-flex h-15 w-full sm:w-[210px] px-2 py-1 items-center  border rounded-xl transition-colors ${className}`}
+            className={`inline-flex h-15 w-full sm:w-[300px]  lg:w-[210px] px-2 py-1 items-center  border rounded-xl transition-colors ${className}`}
         >
             <Image
                 src={src}

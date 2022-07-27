@@ -121,6 +121,7 @@
   "portos": {
     "titulo": "Puertos",
     "btnMais": "Más puertos",
+    "select": "Elija el continente deseado:",
     "continentes": {
       "americaDoNorte": "AMÉRICA DEL NORTE",
       "americaCentral": "AMÉRICA CENTRAL Y CARIBE",

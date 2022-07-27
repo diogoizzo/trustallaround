@@ -7,7 +7,7 @@ export default function TabMaritimo() {
     return (
         <div>
             <div>
-                <div className="sm:hidden">
+                <div className="lg:hidden text-center">
                     <Image
                         src={"/images/navio.png"}
                         alt={"navio de carga com vários containers"}
@@ -18,14 +18,14 @@ export default function TabMaritimo() {
                 </div>
                 <div
                     className={
-                        "border-l-4 border-brand-orange pl-8 sm:pl-12 text-lg lg:text-2xl font-normal mt-5 sm:mt-12"
+                        "border-l-4 border-brand-orange pl-8 lg:pl-12 text-lg md:text-xl lg:text-2xl font-normal mt-5 lg:mt-12"
                     }
                 >
                     <p>{t("servicos.content.tab3.p1")}</p>
                     <p className={"mt-3"}>{t("servicos.content.tab3.p2")}</p>
                 </div>
-                <div className={"my-8 sm:mt-12 sm:mb-0"}>
-                    <div className="hidden sm:block sm:float-right ml-6 mb-14">
+                <div className={"my-8 lg:mt-12 lg:mb-0"}>
+                    <div className="hidden lg:block lg:float-right ml-6 mb-14">
                         <Image
                             src={"/images/navio.png"}
                             alt={"navio de carga com vários containers"}
@@ -34,8 +34,8 @@ export default function TabMaritimo() {
                             layout={"intrinsic"}
                         />
                     </div>
-                    <ul className="text-lg lg:text-2xl font-semibold">
-                        <li className={"flex items-start sm:mt-7"}>
+                    <ul className="text-lg md:text-xl lg:text-2xl font-semibold">
+                        <li className={"flex items-start lg:mt-7"}>
                             <span className={"mr-7 shrink-0"}>
                                 <Image
                                     src={"/icons/seta.svg"}

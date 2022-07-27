@@ -4,9 +4,13 @@ import { useTranslation } from "next-export-i18n";
 export default function Incoterms({ setOption }) {
     const { t } = useTranslation();
     return (
-        <div className={"my-3 sm:my-8 sm:px-[6%] sm:ml-12 "}>
+        <div className={"lg:mt-8 sm:px-[6%] lg:ml-12 "}>
             <div>
-                <h1 className={"text-5xl font-semibold text-brand-orange "}>
+                <h1
+                    className={
+                        "text-5xl font-semibold text-center lg:text-left text-brand-orange "
+                    }
+                >
                     Incoterms
                 </h1>
                 <button
@@ -15,7 +19,16 @@ export default function Incoterms({ setOption }) {
                     }
                     onClick={() => setOption(null)}
                 >
-                    &#129044; {t("ferramentas.btn-voltar")}
+                    <span className={"flex items-center space-x-2"}>
+                        <Image
+                            src={"/icons/arrow-left.svg"}
+                            height={16}
+                            width={16}
+                            layout={"fixed"}
+                            alt={"seta para voltar"}
+                        />
+                        <p>{t("ferramentas.btn-voltar")}</p>
+                    </span>
                 </button>
             </div>
             <Image
