@@ -50,7 +50,7 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                                     />
                                     <div
                                         className={
-                                            "flex justify-between items-center mt-6 md:ml-12 xl:ml-6 relative z-11"
+                                            "flex justify-between items-center mt-6 md:ml-12 md:pl-6 xl:pl-0 xl:ml-6 relative z-11"
                                         }
                                     >
                                         <Dialog.Title
