@@ -15,22 +15,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-53693WR');`,
                     }}
-                ></Script>
-                <Script
-                    async
-                    src="https://www.googletagmanager.com/gtag/js?id=G-X8H7GSVDEF"
-                ></Script>
-                <Script
-                    id={"analytics"}
-                    strategy="afterInteractive"
-                    dangerouslySetInnerHTML={{
-                        __html: `window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-X8H7GSVDEF');`,
-                    }}
-                ></Script>
+                />
             </Head>
             <body>
                 <noscript
@@ -41,6 +26,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
                 ></noscript>
                 <Main />
                 <NextScript />
+                <Script
+                    type="text/javascript"
+                    id="hs-script-loader"
+                    async
+                    defer
+                    src="//js.hs-scripts.com/22416551.js"
+                ></Script>
             </body>
         </Html>
     );
