@@ -28,7 +28,7 @@ export default function Sobre() {
                     <div className="w-full lg:min-w-[45%] lg:order-2">
                         <Image
                             alt={"mapa mundi com as rotas de transporte"}
-                            src="/images/mapa_sobre.jpg"
+                            src="/images/mapa-sobre.svg"
                             width={506}
                             height={323}
                             layout={"responsive"}

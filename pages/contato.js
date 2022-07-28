@@ -2,6 +2,7 @@ import Image from "next/image";
 import AdressItem from "../components/AdressItem";
 import { useLanguageQuery, useTranslation } from "next-export-i18n";
 import NextLink from "../components/NextLink";
+import Email from "../components/Email";
 
 export default function Contato() {
     const { t } = useTranslation();
@@ -132,7 +133,7 @@ export default function Contato() {
                         >
                             Trust Gestão em Assessoria Logística LTDA.
                         </h2>
-                        <AdressItem
+                        <Email
                             src="/icons/e-mail.svg"
                             alt="email"
                             text={"contato@trustgestao.com.br"}

@@ -265,18 +265,18 @@ export default function Portos() {
             </select>
             <div className="relative max-w-full lg:max-w-screen-2xl mx-auto text-center py-16 ">
                 <Image
-                    src={"/images/mapa_portos.png"}
+                    src={"/images/mapa_portos.svg"}
                     alt={
                         "mapa mundi com a localização dos portos da trust all around"
                     }
-                    height={700}
-                    width={1556}
+                    height={900}
+                    width={1656}
                     layout={"intrinsic"}
                     priority
                     unoptimized={true}
                 />
                 <span
-                    className={"absolute top-[21%] left-[-5%] hidden lg:block"}
+                    className={"absolute top-[26%] left-[-5%] hidden lg:block"}
                     onClick={() => {
                         setContent(DialogContent.americaDoNorte);
                         openModal();
@@ -286,7 +286,7 @@ export default function Portos() {
                 </span>
 
                 <span
-                    className={"absolute top-[48%] left-[4%] hidden lg:block"}
+                    className={"absolute top-[48%] left-[2%] hidden lg:block"}
                     onClick={() => {
                         setContent(DialogContent.americaCentral);
                         openModal();
@@ -313,7 +313,7 @@ export default function Portos() {
                     <BtnPais pais={t("portos.continentes.africa")} />
                 </span>
                 <span
-                    className={"absolute top-[28%] left-[29%] hidden lg:block"}
+                    className={"absolute top-[28%] left-[28%] hidden lg:block"}
                     onClick={() => {
                         setContent(DialogContent.mediterraneo);
                         openModal();
@@ -322,7 +322,7 @@ export default function Portos() {
                     <BtnPais pais={t("portos.continentes.mediterraneo")} />
                 </span>
                 <span
-                    className={"absolute top-[13%] left-[43%] hidden lg:block"}
+                    className={"absolute top-[17%] left-[43%] hidden lg:block"}
                     onClick={() => {
                         setContent(DialogContent.europa);
                         openModal();
@@ -331,7 +331,7 @@ export default function Portos() {
                     <BtnPais pais={t("portos.continentes.europa")} />
                 </span>
                 <span
-                    className={"absolute top-[3%] left-[75%] hidden lg:block"}
+                    className={"absolute top-[7%] left-[77%] hidden lg:block"}
                     onClick={() => {
                         setContent(DialogContent.asia);
                         openModal();
@@ -340,7 +340,7 @@ export default function Portos() {
                     <BtnPais pais={t("portos.continentes.asia")} />
                 </span>
                 <span
-                    className={"absolute top-[36%] left-[86%] hidden lg:block"}
+                    className={"absolute top-[39%] left-[86%] hidden lg:block"}
                     onClick={() => {
                         setContent(DialogContent.extremoOriente);
                         openModal();

@@ -16,7 +16,7 @@ export default function Home() {
                     <span className={"hidden sm:block"}>
                         <Image
                             alt="seta"
-                            src="/images/seta.png"
+                            src="/images/seta.svg"
                             width={28}
                             height={96}
                             layout={"fixed"}
@@ -48,7 +48,7 @@ export default function Home() {
                     <span className="hidden sm:block">
                         <Image
                             alt="seta"
-                            src="/images/seta.png"
+                            src="/images/seta.svg"
                             width={28}
                             height={96}
                             layout={"fixed"}
@@ -76,7 +76,7 @@ export default function Home() {
                     <span className="hidden sm:block">
                         <Image
                             alt="seta"
-                            src="/images/seta.png"
+                            src="/images/seta.svg"
                             width={28}
                             height={96}
                             layout={"fixed"}

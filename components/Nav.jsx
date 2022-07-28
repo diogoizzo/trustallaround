@@ -10,7 +10,7 @@ export default function Nav({ className }) {
         <nav className={className}>
             <ul className="flex font-semibold text-brand-blue space-x-8">
                 <li>
-                    <Link href={{ pathname: "/", query: query }}>
+                    <Link href={{ pathname: "/", query: query }} as="/">
                         {t("nav.home").toUpperCase()}
                     </Link>
                     <div
@@ -20,7 +20,10 @@ export default function Nav({ className }) {
                     ></div>
                 </li>
                 <li>
-                    <Link href={{ pathname: "/sobre", query: query }}>
+                    <Link
+                        href={{ pathname: "/sobre", query: query }}
+                        as={t("nav.paths.sobre")}
+                    >
                         {t("nav.sobre").toUpperCase()}
                     </Link>
                     <div
@@ -30,7 +33,10 @@ export default function Nav({ className }) {
                     ></div>
                 </li>
                 <li>
-                    <Link href={{ pathname: "/servicos", query: query }}>
+                    <Link
+                        href={{ pathname: "/servicos", query: query }}
+                        as={t("nav.paths.servicos")}
+                    >
                         {t("nav.servicos").toUpperCase()}
                     </Link>
                     <div
@@ -40,7 +46,10 @@ export default function Nav({ className }) {
                     ></div>
                 </li>
                 <li>
-                    <Link href={{ pathname: "/portos", query: query }}>
+                    <Link
+                        href={{ pathname: "/portos", query: query }}
+                        as={t("nav.paths.portos")}
+                    >
                         {t("nav.portos").toUpperCase()}
                     </Link>
                     <div
@@ -50,7 +59,10 @@ export default function Nav({ className }) {
                     ></div>
                 </li>
                 <li>
-                    <Link href={{ pathname: "/ferramentas", query: query }}>
+                    <Link
+                        href={{ pathname: "/ferramentas", query: query }}
+                        as={t("nav.paths.ferramentas")}
+                    >
                         {t("nav.ferramentas").toUpperCase()}
                     </Link>
                     <div
@@ -62,7 +74,10 @@ export default function Nav({ className }) {
                     ></div>
                 </li>
                 <li>
-                    <Link href={{ pathname: "/contato", query: query }}>
+                    <Link
+                        href={{ pathname: "/contato", query: query }}
+                        as={t("nav.paths.contato")}
+                    >
                         {t("nav.contato").toUpperCase()}
                     </Link>
                     <div

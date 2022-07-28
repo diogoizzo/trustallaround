@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-export default function AdressItem({ src, alt, text }) {
+export default function Email({ src, alt, text }) {
     return (
         <div className={"flex mt-1"}>
-            <span className={"inline-flex justify-center items-center"}>
+            <span className={"inline-flex ml-1 justify-center items-center"}>
                 <Image
                     src={src}
                     alt={alt}
@@ -13,7 +13,7 @@ export default function AdressItem({ src, alt, text }) {
                     unoptimized={true}
                 />
             </span>
-            <p className={"ml-3"}>{text}</p>
+            <p className={"ml-2"}>{text}</p>
         </div>
     );
 }
