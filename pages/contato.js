@@ -132,7 +132,6 @@ export default function Contato() {
                         >
                             Trust Gestão em Assessoria Logística LTDA.
                         </h2>
-                        {/*todo não consigo retirar os ícones corretos dos contatos no XD*/}
                         <AdressItem
                             src="/icons/e-mail.svg"
                             alt="email"
@@ -161,7 +160,6 @@ export default function Contato() {
                             "w-[174px] h-[167px] relative self-center order-1 lg:order-2 "
                         }
                     >
-                        {/*todo logo vertical enviada não esta em svg*/}
                         <NextLink
                             href={{ pathname: "/", query: query }}
                             as="/"

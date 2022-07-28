@@ -1,8 +1,8 @@
 import { Tab } from "@headlessui/react";
-import { useTranslation } from "next-export-i18n";
+import { useLanguageQuery, useTranslation } from "next-export-i18n";
 import Image from "next/image";
 import Tabs from "./Tabs";
-import Link from "next/link";
+import NextLink from "./NextLink";
 
 export default function Containers({
     title,
@@ -16,7 +16,7 @@ export default function Containers({
     vizualizacao,
 }) {
     const { t } = useTranslation();
-
+    const [query] = useLanguageQuery();
     return (
         <div className={"px-[6%] w-full mt-3 sm:mt-8"}>
             <h2
@@ -91,7 +91,7 @@ export default function Containers({
                 </div>
                 <Tab.Panels className={"flex justify-center mt-8"}>
                     <Tab.Panel>
-                        <Link href={"/images/containersPadrao.png"}>
+                        <NextLink href={"/images/containersPadrao.png"}>
                             <Image
                                 src={"/images/containersPadrao.png"}
                                 alt={"Containers padrão"}
@@ -99,10 +99,10 @@ export default function Containers({
                                 height={667}
                                 layout={"intrinsic"}
                             />
-                        </Link>
+                        </NextLink>
                     </Tab.Panel>
                     <Tab.Panel>
-                        <Link href={"/images/cont_refrigerado.png"}>
+                        <NextLink href={"/images/cont_refrigerado.png"}>
                             <Image
                                 src={"/images/cont_refrigerado.png"}
                                 alt={"Containers refrigerados"}
@@ -110,10 +110,10 @@ export default function Containers({
                                 height={672}
                                 layout={"intrinsic"}
                             />
-                        </Link>
+                        </NextLink>
                     </Tab.Panel>
                     <Tab.Panel>
-                        <Link href={"/images/cont_especiais01.png"}>
+                        <NextLink href={"/images/cont_especiais01.png"}>
                             <Image
                                 src={"/images/cont_especiais01.png"}
                                 alt={"Containers especiais"}
@@ -121,10 +121,10 @@ export default function Containers({
                                 height={476}
                                 layout={"intrinsic"}
                             />
-                        </Link>
+                        </NextLink>
                     </Tab.Panel>
                     <Tab.Panel>
-                        <Link href={"/images/cont_especiais02.png"}>
+                        <NextLink href={"/images/cont_especiais02.png"}>
                             <Image
                                 src={"/images/cont_especiais02.png"}
                                 alt={"Containers especiais"}
@@ -132,7 +132,7 @@ export default function Containers({
                                 height={689}
                                 layout={"intrinsic"}
                             />
-                        </Link>
+                        </NextLink>
                     </Tab.Panel>
                 </Tab.Panels>
                 <p className={"text-center text-brand-blue lg:hidden"}>
@@ -140,12 +140,13 @@ export default function Containers({
                 </p>
             </Tab.Group>
             <div className={"text-center my-8"}>
-                <button
-                    className={`inline-flex py-2 px-3 text-lg text-brand-blue justify-center border rounded-xl border-brand-blue hover:bg-brand-orange-hover transition-colors leading-none`}
-                >
-                    {t("ferramentas.btnMedidas")}
-                </button>
-                {/* //todo pegar link do conversor de medidas para incluir no botão*/}
+                <NextLink href={`https://www.convertworld.com/${query?.lang}/`}>
+                    <button
+                        className={`inline-flex py-2 px-3 text-lg text-brand-blue justify-center border rounded-xl border-brand-blue hover:bg-brand-orange-hover transition-colors leading-none`}
+                    >
+                        {t("ferramentas.btnMedidas")}
+                    </button>
+                </NextLink>
             </div>
         </div>
     );
