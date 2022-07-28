@@ -6,7 +6,7 @@ export default function BtnSaibaMais() {
     return (
         <span
             className={
-                "relative w-19 text-brand-blue self-center md:self-end z-12 px-4 mb-3 md:mb-0 py-2 border border-brand-blue hover:bg-brand-blue-hover rounded-xl"
+                "relative w-19 text-brand-blue self-center md:self-end z-12 px-4 mb-3 md:mb-0 py-2 border border-brand-blue hover:bg-brand-orange-hover rounded-xl"
             }
         >
             <Link href={"/pdf/PORTOS_PORTS_PUERTOS.pdf"}>
