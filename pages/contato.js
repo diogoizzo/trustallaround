@@ -39,6 +39,7 @@ export default function Contato() {
                             src={"/images/quadro-branco-contato.png"}
                             alt={"moldura do formulário de contato"}
                             layout={"fill"}
+                            unoptimized={true}
                         />
 
                         <form
