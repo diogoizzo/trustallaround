@@ -39,14 +39,13 @@ export default function Contato() {
                             src={"/images/quadro-branco-contato.png"}
                             alt={"moldura do formulário de contato"}
                             layout={"fill"}
-                            unoptimized={true}
                         />
 
                         <form
                             className={
                                 "absolute flex space-y-6 flex-col top-0 left-1/2 transform -translate-x-1/2 mt-16 w-[90%]"
                             }
-                            action=""
+                            action="/"
                         >
                             <input
                                 type="text"
