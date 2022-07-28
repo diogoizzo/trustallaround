@@ -27,11 +27,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
                 <Main />
                 <NextScript />
                 <Script
-                    type="text/javascript"
+                    strategy={"afterInteractive"}
                     id="hs-script-loader"
-                    async
-                    defer
-                    src="//js.hs-scripts.com/22416551.js"
+                    src={"https://js.hs-scripts.com/22416551.js"}
                 ></Script>
             </body>
         </Html>
