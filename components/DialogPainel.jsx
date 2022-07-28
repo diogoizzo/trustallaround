@@ -62,7 +62,7 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                                         </Dialog.Title>
                                         <button
                                             type="button"
-                                            className="inline-flex shrink-0 rounded-md border border-brand-blue md:ml-5 px-2 py-1 text-2xl text-brand-orange font-medium  hover:bg-brand-blue-hover focus:outline-none focus-visible:ring-1 focus-visible:ring-brand-orange focus-visible:ring-offset-2"
+                                            className="inline-flex shrink-0 rounded-md border border-brand-blue md:ml-5 px-2 py-1 text-2xl text-brand-orange font-medium  hover:bg-brand-orange-hover focus:outline-none focus-visible:ring-1 focus-visible:ring-brand-orange focus-visible:ring-offset-2"
                                             onClick={closeModal}
                                         >
                                             <Image
