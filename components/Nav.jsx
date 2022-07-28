@@ -10,79 +10,64 @@ export default function Nav({ className }) {
         <nav className={className}>
             <ul className="flex font-semibold text-brand-blue space-x-8">
                 <li>
-                    <Link href={{ pathname: "/", query: query }} as="/">
+                    <Link href={{ pathname: "/", query: query }}>
                         {t("nav.home").toUpperCase()}
                     </Link>
                     <div
                         className={`${
-                            router.pathname == "/" ? "block" : "hidden"
+                            router.pathname === "/" ? "block" : "hidden"
                         } h-1 bg-brand-orange w-full mt-1 rounded-3xl`}
                     ></div>
                 </li>
                 <li>
-                    <Link
-                        href={{ pathname: "/sobre", query: query }}
-                        as={t("nav.paths.sobre")}
-                    >
+                    <Link href={{ pathname: "/sobre", query: query }}>
                         {t("nav.sobre").toUpperCase()}
                     </Link>
                     <div
                         className={`${
-                            router.pathname == "/sobre" ? "block" : "hidden"
+                            router.pathname === "/sobre" ? "block" : "hidden"
                         } h-1 bg-brand-orange w-full mt-1 rounded-3xl`}
                     ></div>
                 </li>
                 <li>
-                    <Link
-                        href={{ pathname: "/servicos", query: query }}
-                        as={t("nav.paths.servicos")}
-                    >
+                    <Link href={{ pathname: "/servicos", query: query }}>
                         {t("nav.servicos").toUpperCase()}
                     </Link>
                     <div
                         className={`${
-                            router.pathname == "/servicos" ? "block" : "hidden"
+                            router.pathname === "/servicos" ? "block" : "hidden"
                         } h-1 bg-brand-orange w-full mt-1 rounded-3xl`}
                     ></div>
                 </li>
                 <li>
-                    <Link
-                        href={{ pathname: "/portos", query: query }}
-                        as={t("nav.paths.portos")}
-                    >
+                    <Link href={{ pathname: "/portos", query: query }}>
                         {t("nav.portos").toUpperCase()}
                     </Link>
                     <div
                         className={`${
-                            router.pathname == "/portos" ? "block" : "hidden"
+                            router.pathname === "/portos" ? "block" : "hidden"
                         } h-1 bg-brand-orange w-full mt-1 rounded-3xl`}
                     ></div>
                 </li>
                 <li>
-                    <Link
-                        href={{ pathname: "/ferramentas", query: query }}
-                        as={t("nav.paths.ferramentas")}
-                    >
+                    <Link href={{ pathname: "/ferramentas", query: query }}>
                         {t("nav.ferramentas").toUpperCase()}
                     </Link>
                     <div
                         className={`${
-                            router.pathname == "/ferramentas"
+                            router.pathname === "/ferramentas"
                                 ? "block"
                                 : "hidden"
                         } h-1 bg-brand-orange w-full mt-1 rounded-3xl`}
                     ></div>
                 </li>
                 <li>
-                    <Link
-                        href={{ pathname: "/contato", query: query }}
-                        as={t("nav.paths.contato")}
-                    >
+                    <Link href={{ pathname: "/contato", query: query }}>
                         {t("nav.contato").toUpperCase()}
                     </Link>
                     <div
                         className={`${
-                            router.pathname == "/contato" ? "block" : "hidden"
+                            router.pathname === "/contato" ? "block" : "hidden"
                         } h-1 bg-brand-orange w-full mt-1 rounded-3xl`}
                     ></div>
                 </li>
