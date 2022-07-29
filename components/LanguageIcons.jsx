@@ -67,9 +67,10 @@ export default function LanguageIcons() {
                 <Image
                     alt="bandeira dos Estados Unidos"
                     src="/icons/bandeiraEUA.svg"
-                    height="48px"
-                    width="42px"
+                    height="55px"
+                    width="43px"
                     unoptimized={true}
+                    layout={"fixed"}
                 ></Image>
             </ChangeLanguage>
             <ChangeLanguage lang="es">
@@ -79,6 +80,7 @@ export default function LanguageIcons() {
                     height="25px"
                     width="40px"
                     unoptimized={true}
+                    layout={"fixed"}
                 ></Image>
             </ChangeLanguage>
             <ChangeLanguage lang="pt">
@@ -86,8 +88,9 @@ export default function LanguageIcons() {
                     alt="bandeira do Brasil"
                     src="/icons/bandeiraBRA.svg"
                     height="26px"
-                    width="41px"
+                    width="43px"
                     unoptimized={true}
+                    layout={"fixed"}
                 ></Image>
             </ChangeLanguage>
         </div>
