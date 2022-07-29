@@ -133,9 +133,9 @@ export default function DropdownMenu() {
                                 <ChangeLanguage lang="en">
                                     <Image
                                         alt="bandeira dos Estados Unidos"
-                                        src="/icons/BandeiraEUA.svg"
-                                        height="20px"
-                                        width="37px"
+                                        src="/icons/bandeiraEUA.svg"
+                                        height="55px"
+                                        width="43px"
                                     ></Image>
                                 </ChangeLanguage>
                             </Menu.Item>
@@ -143,9 +143,9 @@ export default function DropdownMenu() {
                                 <ChangeLanguage lang="es">
                                     <Image
                                         alt="bandeira da Espanha"
-                                        src="/icons/BandeiraSPA.svg"
-                                        height="20px"
-                                        width="37px"
+                                        src="/icons/bandeiraSPA.svg"
+                                        height="25px"
+                                        width="40px"
                                     ></Image>
                                 </ChangeLanguage>
                             </Menu.Item>
@@ -153,9 +153,9 @@ export default function DropdownMenu() {
                                 <ChangeLanguage lang="pt">
                                     <Image
                                         alt="bandeira do Brasil"
-                                        src="/icons/BandeiraBRA.svg"
-                                        height="20px"
-                                        width="37px"
+                                        src="/icons/bandeiraBRA.svg"
+                                        height="26px"
+                                        width="43px"
                                     ></Image>
                                 </ChangeLanguage>
                             </Menu.Item>
