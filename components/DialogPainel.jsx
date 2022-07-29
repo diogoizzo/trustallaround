@@ -39,7 +39,7 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                             >
                                 <Dialog.Panel
                                     as={"div"}
-                                    className="w-full relative flex h-[1050px] sm:h-fit flex-col max-w-3xl transform overflow-hidden p-8 md:p-12 align-middle text-left transition-all"
+                                    className="w-full relative flex max-h-[1300px] sm:h-fit flex-col max-w-3xl transform overflow-hidden p-8 pb-14 md:p-12 align-middle text-left transition-all"
                                 >
                                     <span className={"hidden md:block"}>
                                         <Image
