@@ -39,16 +39,29 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                             >
                                 <Dialog.Panel
                                     as={"div"}
-                                    className="w-full relative flex flex-col max-w-3xl transform overflow-hidden p-8 md:p-12 align-middle text-left transition-all"
+                                    className="w-full relative flex h-[1050px] sm:h-fit flex-col max-w-3xl transform overflow-hidden p-8 md:p-12 align-middle text-left transition-all"
                                 >
-                                    <Image
-                                        src={
-                                            "/images/quadro-branco-contato.png"
-                                        }
-                                        layout={"fill"}
-                                        alt={"quadro branco da modal"}
-                                        unoptimized={true}
-                                    />
+                                    <span className={"hidden md:block"}>
+                                        <Image
+                                            src={
+                                                "/images/quadro-branco-contato.png"
+                                            }
+                                            layout={"fill"}
+                                            alt={"quadro branco da modal"}
+                                            unoptimized={true}
+                                        />
+                                    </span>
+                                    <span className={"md:hidden"}>
+                                        <Image
+                                            src={
+                                                "/images/quadro-branco-mobile.png"
+                                            }
+                                            layout={"fill"}
+                                            alt={"quadro branco da modal"}
+                                            unoptimized={true}
+                                        />
+                                    </span>
+
                                     <div
                                         className={
                                             "flex justify-between items-center mt-6 md:ml-12 md:pl-10 xl:pl-0 xl:ml-6 relative z-11"

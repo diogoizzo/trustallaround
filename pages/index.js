@@ -25,7 +25,7 @@ export default function Home() {
                     <span className={"sm:hidden"}>
                         <Image
                             alt="seta"
-                            src="/images/setab.png"
+                            src="/images/setab.svg"
                             width={125}
                             height={38}
                             layout={"fixed"}
@@ -57,7 +57,7 @@ export default function Home() {
                     <span className={"sm:hidden"}>
                         <Image
                             alt="seta"
-                            src="/images/setab.png"
+                            src="/images/setab.svg"
                             width={125}
                             height={38}
                             layout={"fixed"}
@@ -85,7 +85,7 @@ export default function Home() {
                     <span className={"sm:hidden"}>
                         <Image
                             alt="seta"
-                            src="/images/setab.png"
+                            src="/images/setab.svg"
                             width={125}
                             height={38}
                             layout={"fixed"}

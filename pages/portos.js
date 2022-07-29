@@ -226,8 +226,6 @@ export default function Portos() {
         setIsOpen(true);
     }
 
-    console.log(t("portos.continentes"));
-
     return (
         <div className="relative px-[6%] mt-3 lg:mt-8 max-w-full md:text-center ">
             <DialogPainel
