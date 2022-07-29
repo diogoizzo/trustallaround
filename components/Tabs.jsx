@@ -12,7 +12,7 @@ export default function Tabs({ text, className }) {
                 width={40}
                 layout={"intrinsic"}
             />
-            <h3 className={"mt-2"}>{text}</h3>
+            <h3 className={"mt-2 pl-3"}>{text}</h3>
         </div>
     );
 }
