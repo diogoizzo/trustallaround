@@ -143,7 +143,7 @@ export default function DropdownMenu() {
                                 <ChangeLanguage lang="es">
                                     <Image
                                         alt="bandeira da Espanha"
-                                        src="/icons/BandeiraESP.svg"
+                                        src="/icons/BandeiraSPA.svg"
                                         height="20px"
                                         width="37px"
                                     ></Image>
