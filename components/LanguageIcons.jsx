@@ -62,31 +62,31 @@ export default function LanguageIcons() {
     }, [query]);
 
     return (
-        <div className="hidden tm:flex tm:space-x-5">
+        <div className="hidden tm:flex items-center tm:space-x-5">
             <ChangeLanguage lang="en">
                 <Image
                     alt="bandeira dos Estados Unidos"
-                    src="/icons/BandeiraEUA.svg"
-                    height="20px"
-                    width="37px"
+                    src="/icons/bandeiraEUA.svg"
+                    height="48px"
+                    width="42px"
                     unoptimized={true}
                 ></Image>
             </ChangeLanguage>
             <ChangeLanguage lang="es">
                 <Image
                     alt="bandeira da Espanha"
-                    src="/icons/BandeiraESP.svg"
-                    height="20px"
-                    width="37px"
+                    src="/icons/bandeiraSPA.svg"
+                    height="25px"
+                    width="40px"
                     unoptimized={true}
                 ></Image>
             </ChangeLanguage>
             <ChangeLanguage lang="pt">
                 <Image
                     alt="bandeira do Brasil"
-                    src="/icons/BandeiraBRA.svg"
-                    height="20px"
-                    width="37px"
+                    src="/icons/bandeiraBRA.svg"
+                    height="26px"
+                    width="41px"
                     unoptimized={true}
                 ></Image>
             </ChangeLanguage>
