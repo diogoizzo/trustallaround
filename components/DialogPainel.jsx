@@ -64,18 +64,18 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
 
                                     <div
                                         className={
-                                            "flex justify-between items-center mt-6 md:ml-12 md:pl-10 xl:pl-0 xl:ml-6 relative z-11"
+                                            "flex justify-between items-center mt-6 pl-4  xl:pl-0 xl:ml-6 z-11"
                                         }
                                     >
                                         <Dialog.Title
                                             as="h3"
-                                            className="text-3xl md:text-4xl font-medium  text-brand-blue z-15"
+                                            className="text-3xl md:text-4xl font-medium w-[80%] text-brand-blue relative z-15"
                                         >
                                             {content.titulo}
                                         </Dialog.Title>
                                         <button
                                             type="button"
-                                            className="inline-flex shrink-0 rounded-md border border-brand-blue md:ml-5 px-2 py-1 text-2xl text-brand-orange font-medium  hover:bg-brand-orange-hover focus:outline-none focus-visible:ring-1 focus-visible:ring-brand-orange focus-visible:ring-offset-2"
+                                            className="inline-flex absolute top-14 right-[9%] md:right-9 rounded-md border border-brand-blue  px-2 py-1 text-2xl text-brand-orange font-medium  hover:bg-brand-orange-hover focus:outline-none focus-visible:ring-1 focus-visible:ring-brand-orange focus-visible:ring-offset-2"
                                             onClick={closeModal}
                                         >
                                             <Image
