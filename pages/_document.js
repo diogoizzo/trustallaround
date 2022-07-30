@@ -26,11 +26,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
                 ></noscript>
                 <Main />
                 <NextScript />
-                <Script
+                {/*<Script
                     strategy={"afterInteractive"}
                     id="hs-script-loader"
                     src={"https://js.hs-scripts.com/22416551.js"}
-                ></Script>
+                ></Script>*/}
+
+                <script
+                    type="text/javascript"
+                    id="hs-script-loader"
+                    async
+                    defer
+                    src="//js.hs-scripts.com/22416551.js"
+                ></script>
             </body>
         </Html>
     );
