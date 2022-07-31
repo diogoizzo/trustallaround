@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import TagManager from "react-gtm-module/dist/TagManager";
 import { CookieConsent } from "react-cookie-consent";
 import { useTranslation } from "next-export-i18n";
+import Link from "next/link";
 
 function MyApp({ Component, pageProps }) {
     const { t } = useTranslation();
@@ -74,6 +75,11 @@ function MyApp({ Component, pageProps }) {
             >
                 <p className={"text-2xl font-semibold"}>{t("banner.titulo")}</p>
                 <p className={"text-xl mt-2"}>{t("banner.texto")}</p>
+                <Link href={"/politica"}>
+                    <a className={"underline underline-offset-2"}>
+                        Ver política de privacidade
+                    </a>
+                </Link>
             </CookieConsent>
         </>
     );
