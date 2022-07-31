@@ -15,6 +15,12 @@
       "contato": "/contato"
     }
   },
+  "banner": {
+    "titulo": "GERENCIAR CONSENTIMENTO DE COOKIES",
+    "texto": "Usamos cookies para otimizar nosso site e nossos serviços.",
+    "btnAceitar": "ACEITAR",
+    "btnRecusar": "RECUSAR"
+  },
   "slider": {
     "slider1": {
       "primeiro": "Seja por terra, ar ou mar, a",
@@ -178,7 +184,8 @@
       "assunto": "Assunto",
       "ajuda": "Como podemos ajudar você?",
       "btnEnviar": "Enviar",
-      "atendimento": "Atendimento de segunda a sexta das 08:45 às 18h15."
+      "atendimento": "Atendimento de segunda a sexta das 08:45 às 18h15.",
+      "feedBack": "Formulário enviado com sucesso!"
     }
   }
 }

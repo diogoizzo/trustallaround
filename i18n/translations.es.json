@@ -15,6 +15,12 @@
       "contato": "/contacto"
     }
   },
+  "banner": {
+    "titulo": "GESTIONAR CONSENTIMIENTO DE COOKIES",
+    "texto": "Utilizamos cookies para optimizar nuestro sitio web y nuestros servicios.",
+    "btnAceitar": "ACEPTAR",
+    "btnRecusar": "RECHAZAR"
+  },
   "slider": {
     "slider1": {
       "primeiro": "Ya sea por tierra, aire o mar, ",
@@ -178,7 +184,8 @@
       "assunto": "Tema",
       "ajuda": "Como podemos ayudarte?",
       "btnEnviar": "Enviar",
-      "atendimento": "Abierto de lunes a viernes de 8:45 am a 6h15 pm."
+      "atendimento": "Abierto de lunes a viernes de 8:45 am a 6h15 pm.",
+      "feedBack": "¡Formulario enviado con éxito!"
     }
   }
 }

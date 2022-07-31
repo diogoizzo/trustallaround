@@ -15,6 +15,12 @@
       "contato": "/contact"
     }
   },
+  "banner": {
+    "titulo": "MANAGE COOKIES CONSENT",
+    "texto": "We use cookies to optimize our website and our services.",
+    "btnAceitar": "ACCEPT",
+    "btnRecusar": "DECLINE"
+  },
   "slider": {
     "slider1": {
       "primeiro": "Whether by land, air or sea,",
@@ -178,7 +184,8 @@
       "assunto": "Subject",
       "ajuda": "How can we help you?",
       "btnEnviar": "Submit",
-      "atendimento": "Service from Monday to Friday from 08:45 to 18:15."
+      "atendimento": "Service from Monday to Friday from 08:45 to 18:15.",
+      "feedBack": "Form sent successfully!"
     }
   }
 }

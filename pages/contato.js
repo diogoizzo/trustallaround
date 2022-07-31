@@ -173,7 +173,7 @@ export default function Contato() {
                                         "font-semibold text-center text-green-600 hidden"
                                     }
                                 >
-                                    Formulário enviado com sucesso!
+                                    {t("contato.form.feedBack")}
                                 </p>
                             </div>
                         </form>
