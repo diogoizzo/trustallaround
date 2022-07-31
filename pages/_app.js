@@ -2,8 +2,13 @@ import Header from "../components/Header";
 import "../styles/globals.css";
 import Footer from "../components/Footer";
 import Head from "next/head";
+import { useEffect } from "react";
+import TagManager from "react-gtm-module/dist/TagManager";
 
 function MyApp({ Component, pageProps }) {
+    useEffect(() => {
+        TagManager.initialize({ gtmId: "GTM-53693WR" });
+    }, []);
     return (
         <>
             <Head>
