@@ -19,7 +19,8 @@
     "titulo": "MANAGE COOKIES CONSENT",
     "texto": "We use cookies to optimize our website and our services.",
     "btnAceitar": "ACCEPT",
-    "btnRecusar": "DECLINE"
+    "btnRecusar": "DECLINE",
+    "btnPolitica": "View privacy policy"
   },
   "slider": {
     "slider1": {

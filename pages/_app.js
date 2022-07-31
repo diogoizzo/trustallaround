@@ -77,7 +77,7 @@ function MyApp({ Component, pageProps }) {
                 <p className={"text-xl mt-2"}>{t("banner.texto")}</p>
                 <Link href={"/politica"}>
                     <a className={"underline underline-offset-2"}>
-                        Ver política de privacidade
+                        {t("banner.btnPolitica")}
                     </a>
                 </Link>
             </CookieConsent>

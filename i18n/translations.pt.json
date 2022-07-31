@@ -19,7 +19,8 @@
     "titulo": "GERENCIAR CONSENTIMENTO DE COOKIES",
     "texto": "Usamos cookies para otimizar nosso site e nossos serviços.",
     "btnAceitar": "ACEITAR",
-    "btnRecusar": "RECUSAR"
+    "btnRecusar": "RECUSAR",
+    "btnPolitica": "Ver política de privacidade"
   },
   "slider": {
     "slider1": {
