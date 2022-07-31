@@ -19,8 +19,18 @@ export default function Contato() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        quadro.current.style.height = "660px";
+        if (screen.width < 800) {
+            quadro.current.style.height = "720px";
+        } else {
+            quadro.current.style.height = "660px";
+        }
         confirmation.current.style.display = "block";
+        setForm({
+            nome: "",
+            email: "",
+            assunto: "",
+            corpo: "",
+        });
     }
 
     return (
@@ -140,7 +150,9 @@ export default function Contato() {
                                     {t("contato.form.btnEnviar")}
                                 </button>
                                 <div
-                                    className={"flex items-center mt-4 lg:mt-0"}
+                                    className={
+                                        "flex items-center justify-center mt-4 lg:mt-0"
+                                    }
                                 >
                                     <Image
                                         src="/icons/relogio.svg"
@@ -158,7 +170,7 @@ export default function Contato() {
                                 <p
                                     ref={confirmation}
                                     className={
-                                        "font-semibold text-green-600 hidden"
+                                        "font-semibold text-center text-green-600 hidden"
                                     }
                                 >
                                     Formulário enviado com sucesso!
