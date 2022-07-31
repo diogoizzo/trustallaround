@@ -3,12 +3,27 @@ import AdressItem from "../components/AdressItem";
 import { useLanguageQuery, useTranslation } from "next-export-i18n";
 import NextLink from "../components/NextLink";
 import Email from "../components/Email";
+import { useRef, useState } from "react";
 
 export default function Contato() {
     const { t } = useTranslation();
     const [query] = useLanguageQuery();
+    const quadro = useRef(null);
+    const confirmation = useRef(null);
+    const [form, setForm] = useState({
+        nome: "",
+        email: "",
+        assunto: "",
+        corpo: "",
+    });
+
+    function handleSubmit(e) {
+        e.preventDefault();
+        quadro.current.style.height = "660px";
+        confirmation.current.style.display = "block";
+    }
+
     return (
-        //todo solicitar e-mail para o qual será enviado o formulário desta página
         <div className={"flex flex-col lg:flex-row px-[6%] mt-3 lg:mt-8"}>
             <div className={"relative flex flex-col w-full lg:w-[55%]"}>
                 <h1
@@ -35,7 +50,10 @@ export default function Contato() {
             </div>
             <div className={"lg:w-[45%] flex flex-col mt-8 lg:mt-0"}>
                 <div>
-                    <div className="relative h-[670px] lg:h-fit w-full lg:min-h-[623px] lg:min-w-[677px] ">
+                    <div
+                        ref={quadro}
+                        className="relative h-[670px] lg:h-fit w-full lg:min-h-[623px] lg:min-w-[677px] "
+                    >
                         <Image
                             src={"/images/quadro-branco-contato.png"}
                             alt={"moldura do formulário de contato"}
@@ -46,7 +64,7 @@ export default function Contato() {
                             className={
                                 "absolute flex space-y-6 flex-col top-0 left-1/2 transform -translate-x-1/2 mt-16 w-[90%]"
                             }
-                            action="/"
+                            onSubmit={handleSubmit}
                         >
                             <input
                                 type="text"
@@ -56,6 +74,11 @@ export default function Contato() {
                                 className={
                                     "h-12 placeholder:text-xl text-lg text-brand-gray rounded-xl border-gray-400 border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
                                 }
+                                value={form.nome}
+                                onChange={(e) => {
+                                    setForm({ ...form, nome: e.target.value });
+                                    console.log(form);
+                                }}
                             />
                             <input
                                 type="email"
@@ -65,6 +88,11 @@ export default function Contato() {
                                 className={
                                     "h-12 placeholder:text-xl text-lg text-brand-gray rounded-xl border-gray-400  border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
                                 }
+                                value={form.email}
+                                onChange={(e) => {
+                                    setForm({ ...form, email: e.target.value });
+                                    console.log(form);
+                                }}
                             />
                             <input
                                 type="text"
@@ -74,6 +102,14 @@ export default function Contato() {
                                 className={
                                     "h-12 placeholder:text-xl text-lg text-brand-gray rounded-xl border-gray-400  border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
                                 }
+                                value={form.assunto}
+                                onChange={(e) => {
+                                    setForm({
+                                        ...form,
+                                        assunto: e.target.value,
+                                    });
+                                    console.log(form);
+                                }}
                             />
                             <textarea
                                 name="corpo"
@@ -84,6 +120,11 @@ export default function Contato() {
                                 className={
                                     "placeholder:text-xl text-lg text-brand-gray rounded-xl border-gray-400  border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2 resize-none"
                                 }
+                                value={form.corpo}
+                                onChange={(e) => {
+                                    setForm({ ...form, corpo: e.target.value });
+                                    console.log(form);
+                                }}
                             ></textarea>
                             <div
                                 className={
@@ -112,6 +153,16 @@ export default function Contato() {
                                         {t("contato.form.atendimento")}
                                     </p>
                                 </div>
+                            </div>
+                            <div>
+                                <p
+                                    ref={confirmation}
+                                    className={
+                                        "font-semibold text-green-600 hidden"
+                                    }
+                                >
+                                    Formulário enviado com sucesso!
+                                </p>
                             </div>
                         </form>
                     </div>
