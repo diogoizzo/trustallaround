@@ -4,7 +4,7 @@ import { useTranslation } from "next-export-i18n";
 export default function Sobre() {
     const { t } = useTranslation();
     return (
-        <>
+        <main>
             <div className="px-[6%] mt-3 lg:mt-8">
                 <h1 className="text-brand-orange text-5xl font-semibold text-center lg:text-left lg:ml-12">
                     {t("sobre.titulo")}
@@ -48,6 +48,6 @@ export default function Sobre() {
                     unoptimized={true}
                 />
             </div>
-        </>
+        </main>
     );
 }
