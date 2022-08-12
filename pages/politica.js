@@ -12,7 +12,7 @@ export default function Sobre() {
                     </h1>
                     <span className={"mb-6"}>
                         <Image
-                            src={"/images/cadeado.png"}
+                            src={"/images/cadeado.svg"}
                             alt={"cadeado"}
                             width={46}
                             height={64}
