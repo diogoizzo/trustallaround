@@ -13,7 +13,7 @@ export default function Portos() {
                 {
                     nome: t("portos.paises.mexico"),
                     bandeira: "/images/flags/Mexico.png",
-                    portos: "Altamira, Tampico e Veracruz.",
+                    portos: "Altamira, Tampico e Veracruz",
                 },
                 {
                     nome: t("portos.paises.eua"),
@@ -23,7 +23,7 @@ export default function Portos() {
                 {
                     nome: t("portos.paises.canada"),
                     bandeira: "/images/flags/Canada.png",
-                    portos: "Halifax, Hamilton, Montreal, St John's, Toronto e Vancouver.",
+                    portos: "Halifax, Hamilton, Montreal, St John's, Toronto e Vancouver",
                 },
             ],
         },
@@ -263,7 +263,7 @@ export default function Portos() {
             </select>
             <div className="relative max-w-full lg:max-w-screen-2xl mx-auto text-center py-16 ">
                 <Image
-                    src={"/images/mapa_portos.svg"}
+                    src={"/images/mapa-portos.svg"}
                     alt={
                         "mapa mundi com a localização dos portos da trust all around"
                     }

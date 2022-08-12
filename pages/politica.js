@@ -7,7 +7,7 @@ export default function Sobre() {
         <main>
             <div className="px-[6%] mt-3 lg:mt-8">
                 <div className={"mb-6"}>
-                    <h1 className="inline mr-6 text-brand-orange text-5xl font-semibold text-center lg:text-left lg:ml-12">
+                    <h1 className="inline mr-6 text-brand-orange text-5xl font-semibold leading-1 text-center lg:text-left lg:ml-12">
                         {t("politica.titulo")}
                     </h1>
                     <span className={"mb-6"}>
@@ -124,7 +124,7 @@ export default function Sobre() {
             </div>
             <div className={"w-full h-96 relative"}>
                 <Image
-                    src={"/images/polices.png"}
+                    src={"/images/politica.jpg"}
                     layout={"fill"}
                     objectFit={"cover"}
                     objectPosition={"center"}
