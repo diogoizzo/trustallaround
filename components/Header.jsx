@@ -20,8 +20,8 @@ export default function Header() {
                     <Image
                         alt="Logo da trust all around"
                         src="/images/Logo_Trust_FINAL_Horizontal_Original_JPG.jpg"
-                        height="91px"
-                        width="273px"
+                        height={91}
+                        width={273}
                     />
                 </NextLink>
                 <Nav className="hidden tm:contents" />
