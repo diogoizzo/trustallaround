@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function HeaderBanner() {
     return (
         //todo pegar links das redes sociais para colocar nos respectivos botões
-        <div className="bg-[#808080] h-10 ">
+        <div className="bg-[#808080] h-10 overflow-hidden ">
             <div className="h-full flex px-[6%] justify-center sm:justify-end items-center shrink space-x-3">
                 <a
                     href="https://www.linkedin.com/in/trust-all-around-2387b7240/"
-                    className="relative h-7 w-7"
+                    className="relative h-6 w-6"
                 >
                     <Image
                         alt="ícone do linkedin"
@@ -17,7 +17,7 @@ export default function HeaderBanner() {
                 </a>
                 <a
                     href="https://www.instagram.com/trustallaround/"
-                    className="relative h-7 w-7"
+                    className="relative h-6 w-6"
                 >
                     <Image
                         className="fill-white"
@@ -38,7 +38,7 @@ export default function HeaderBanner() {
                 </a>
                 <a
                     href="https://api.whatsapp.com/send?phone=5511986285531"
-                    className="relative h-7 w-7 mr-6"
+                    className="relative h-6 w-6 mr-4"
                 >
                     <Image
                         alt="ícone do whatsapp"
@@ -48,7 +48,7 @@ export default function HeaderBanner() {
                 </a>
                 <a
                     href="https://linktr.ee/trustallaround"
-                    className="relative h-28 w-44 "
+                    className="relative h-28 w-40 "
                 >
                     <Image
                         alt="nome da empresa"
