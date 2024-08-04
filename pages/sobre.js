@@ -32,7 +32,6 @@ export default function Sobre() {
                             width={506}
                             height={323}
                             layout={"responsive"}
-                            unoptimized={true}
                         />
                     </div>
                 </div>
@@ -45,7 +44,6 @@ export default function Sobre() {
                     objectFit={"cover"}
                     objectPosition={"center"}
                     priority={true}
-                    unoptimized={true}
                 />
             </div>
         </>

@@ -4,15 +4,35 @@ export default function HeaderBanner() {
     return (
         //todo pegar links das redes sociais para colocar nos respectivos botões
         <div className="bg-[#808080] h-10 ">
-            <div className="h-full flex px-[6%] justify-center sm:justify-end items-center shrink">
+            <div className="h-full flex px-[6%] justify-center sm:justify-end items-center shrink space-x-3">
+                <a
+                    href="https://www.linkedin.com/in/trust-all-around-2387b7240/"
+                    className="relative h-7 w-7"
+                >
+                    <Image
+                        alt="ícone do linkedin"
+                        src="/icons/Linkedin.svg"
+                        layout="fill"
+                    />
+                </a>
                 <a
                     href="https://www.instagram.com/trustallaround/"
-                    className="relative h-7 w-7 mr-6"
+                    className="relative h-7 w-7"
                 >
                     <Image
                         className="fill-white"
                         alt="ícone do instagram"
                         src="/icons/Instagram.svg"
+                        layout="fill"
+                    />
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/trust-all-around-2387b7240/"
+                    className="relative h-7 w-7"
+                >
+                    <Image
+                        alt="ícone do youtube"
+                        src="/icons/youtube.svg"
                         layout="fill"
                     />
                 </a>
@@ -27,12 +47,12 @@ export default function HeaderBanner() {
                     />
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/trust-all-around-2387b7240/"
-                    className="relative h-7 w-7"
+                    href="https://linktr.ee/trustallaround"
+                    className="relative h-28 w-44 "
                 >
                     <Image
-                        alt="ícone do linkedin"
-                        src="/icons/Linkedin.svg"
+                        alt="nome da empresa"
+                        src="/icons/trust.svg"
                         layout="fill"
                     />
                 </a>

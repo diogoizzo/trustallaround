@@ -2,19 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-.swiper-button-next, .swiper-button-prev{
+.swiper-button-next,
+.swiper-button-prev {
     color: white !important;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
     background-color: transparent !important;
     margin-right: 10px !important;
     opacity: 1 !important;
-    box-shadow: 0 0 0 3px rgba(255,255,255,1) !important;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 1) !important;
 }
 
-
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
     background-color: white !important;
+}
 
+@keyframes vibrate {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-2px);
+    }
+    50% {
+        transform: translateX(2px);
+    }
+    75% {
+        transform: translateX(-2px);
+    }
+}
+
+@keyframes vibrate {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-2px);
+    }
+    50% {
+        transform: translateX(2px);
+    }
+    75% {
+        transform: translateX(-2px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.vibrate {
+    animation: vibrate 0.3s linear infinite;
 }

@@ -75,6 +75,19 @@ export default function Nav({ className }) {
                 </li>
                 <li>
                     <Link
+                        href={{ pathname: "/galeria", query: query }}
+                        as={t("nav.paths.galeria")}
+                    >
+                        {t("nav.galeria").toUpperCase()}
+                    </Link>
+                    <div
+                        className={`${
+                            router.pathname === "/galeria" ? "block" : "hidden"
+                        } h-1 bg-brand-orange w-full mt-1 rounded-3xl`}
+                    ></div>
+                </li>
+                <li>
+                    <Link
                         href={{ pathname: "/contato", query: query }}
                         as={t("nav.paths.contato")}
                     >

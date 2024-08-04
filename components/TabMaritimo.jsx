@@ -11,7 +11,6 @@ export default function TabMaritimo({ servico }) {
                         width={666}
                         height={446}
                         layout={"intrinsic"}
-                        unoptimized={true}
                     />
                 </div>
                 <div

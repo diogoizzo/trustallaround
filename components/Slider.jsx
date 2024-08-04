@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { useTranslation } from "next-export-i18n";
+import { useTranslation, useLanguageQuery } from "next-export-i18n";
 import BallonSlider from "./BallonSlide";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -11,6 +11,7 @@ import { A11y, Autoplay, Navigation, Pagination } from "swiper";
 
 export default function Slider() {
     const { t } = useTranslation();
+    const [query] = useLanguageQuery();
 
     return (
         <Swiper
@@ -34,7 +35,6 @@ export default function Slider() {
                         objectFit={"cover"}
                         objectPosition={"80% 10%"}
                         priority={true}
-                        unoptimized={true}
                     />
                     <div className="relative flex flex-col lg:flex-row items-center justify-center h-full space-y-8 lg:space-x-12 px-[10%]">
                         <div className="relative block w-[200px] lg:min-w-[350px] shrink-0">
@@ -47,7 +47,7 @@ export default function Slider() {
                                 {t("slider.slider1.primeiro")}
                             </p>
                             <h1 className="text-xl md:text-2xl xl:text-4xl text-white inline">
-                                <strong>
+                                <strong className="text-brand-orange">
                                     &nbsp;{t("slider.slider1.bold")}
                                 </strong>
                             </h1>
@@ -55,6 +55,13 @@ export default function Slider() {
                                 {" "}
                                 {t("slider.slider1.segundo")}
                             </p>
+                            {query?.lang === "en" ? null : (
+                                <p className="text-xl md:text-2xl xl:text-4xl text-brand-orange inline">
+                                    {" "}
+                                    {t("slider.slider1.terceiro")}
+                                    <span className="text-white">.</span>
+                                </p>
+                            )}
                         </span>
                     </div>
                 </div>
@@ -67,7 +74,6 @@ export default function Slider() {
                         layout="fill"
                         objectFit={"cover"}
                         objectPosition={"0 90%"}
-                        unoptimized={true}
                     />
                     <div className="flex flex-col lg:flex-row items-center justify-center h-full w-full space-y-8 lg:space-x-12 px-[10%]">
                         <div className="relative block w-[200px] lg:min-w-[350px] shrink-0">
@@ -76,8 +82,24 @@ export default function Slider() {
                             />
                         </div>
                         <span className="relative z-12 text-center lg:text-left">
-                            <p className="text-xl md:text-2xl xl:text-4xl text-white">
-                                {t("slider.slider2")}
+                            <p className="text-xl md:text-2xl xl:text-4xl text-white inline">
+                                {t("slider.slider2.primeiro")}
+                            </p>
+                            <p className="text-xl md:text-2xl xl:text-4xl text-brand-orange inline">
+                                {" "}
+                                {t("slider.slider2.segundo")}
+                            </p>
+                            <p className="text-xl md:text-2xl xl:text-4xl text-white inline">
+                                {" "}
+                                {t("slider.slider2.terceiro")}
+                            </p>
+                            <p className="text-xl md:text-2xl xl:text-4xl text-brand-orange inline">
+                                {" "}
+                                {t("slider.slider2.quarto")}
+                            </p>
+                            <p className="text-xl md:text-2xl xl:text-4xl text-white inline">
+                                {" "}
+                                {t("slider.slider2.quinto")}
                             </p>
                         </span>
                     </div>
@@ -91,7 +113,6 @@ export default function Slider() {
                         layout="fill"
                         objectFit={"cover"}
                         objectPosition={"center"}
-                        unoptimized={true}
                     />
                     <div className="flex flex-col lg:flex-row items-center justify-center h-full space-y-8 lg:space-x-12 px-[10%]">
                         <div className="relative  w-[200px] lg:min-w-[350px] shrink-0">
@@ -100,8 +121,13 @@ export default function Slider() {
                             />
                         </div>
                         <span className="relative z-12 text-center lg:text-left">
-                            <p className="text-xl md:text-2xl xl:text-4xl text-white">
-                                {t("slider.slider3")}
+                            <p className="text-xl md:text-2xl xl:text-4xl text-white inline">
+                                {t("slider.slider3.primeiro")}
+                            </p>
+                            <p className="text-xl md:text-2xl xl:text-4xl text-brand-orange inline">
+                                {" "}
+                                {t("slider.slider3.segundo")}
+                                <span className="text-white">.</span>
                             </p>
                         </span>
                     </div>

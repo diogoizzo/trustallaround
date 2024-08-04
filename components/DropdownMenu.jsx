@@ -114,6 +114,24 @@ export default function DropdownMenu() {
                             {({ active }) => (
                                 <NextLink
                                     href={{
+                                        pathname: "/galeira",
+                                        query: query,
+                                    }}
+                                    as={t("nav.paths.galeria")}
+                                    className={`${
+                                        active
+                                            ? "bg-gray-100 text-gray-900"
+                                            : "text-gray-700"
+                                    } flex justify-center w-full px-4 py-2 text-sm leading-5 text-left`}
+                                >
+                                    {t("nav.galeria").toUpperCase()}
+                                </NextLink>
+                            )}
+                        </Menu.Item>
+                        <Menu.Item>
+                            {({ active }) => (
+                                <NextLink
+                                    href={{
                                         pathname: "/contato",
                                         query: query,
                                     }}

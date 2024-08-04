@@ -1,191 +1,207 @@
 {
-  "nav": {
-    "home": "Página de inicio",
-    "sobre": "acerca de nosostros",
-    "servicos": "Servicios",
-    "portos": "Puertos",
-    "ferramentas": "Herramientas",
-    "contato": "Contacto",
-    "paths": {
-      "home": "/",
-      "sobre": "/nosostros",
-      "servicos": "/servicios",
-      "portos": "/puertos",
-      "ferramentas": "/herramientas",
-      "contato": "/contacto"
-    }
-  },
-  "banner": {
-    "titulo": "GESTIONAR CONSENTIMIENTO DE COOKIES",
-    "texto": "Utilizamos cookies para optimizar nuestro sitio web y nuestros servicios.",
-    "btnAceitar": "ACEPTAR",
-    "btnRecusar": "RECHAZAR"
-  },
-  "slider": {
-    "slider1": {
-      "primeiro": "Ya sea por tierra, aire o mar, ",
-      "bold": "TRUST ALL AROUND",
-      "segundo": "busca la solución logística más inteligente para que tu negocio."
-    },
-    "slider2": "Desde la recogida hasta el destino, contamos con un equipo especializado para encontrar el servicio que necesitas.",
-    "slider3": "Conozca un poco mejor nuestras soluciones, póngase en contacto y solicite su cotización ahora."
-  },
-  "bullets": {
-    "valores": {
-      "seguranca": "Seguridad",
-      "confianca": "Confianza",
-      "comprometimento": "Compromiso",
-      "inteligencia": "Inteligencia",
-      "singularidade": "Singularidad"
-    },
-    "visao": "Tener su confianza y convertirse en la primera opción en logística.",
-    "missao": "Ofrecer siempre la alternativa logistica más inteligente y eficiente para su negocio."
-  },
-  "sobre": {
-    "titulo": "Acerca de nosostros",
-    "p1": "El TRUST ALL AROUND nació en 2017 con el propósito de entender la necesidad de sus clientes para luego presentar la mejor solución logística.",
-    "p2": "Proporcionamos un asesoramiento completo a través de un equipo altamente cualificado y una red internacional de agentes con cobertura en más de 100 países de todo el mundo, todo ello para satisfacer su demanda de la mejor manera posible.",
-    "p3": "Ofrecemos soluciones completas en todas las fases de las operaciones de importación y exportación, simplificando su logística de principio a fin, con el objetivo de convertirnos en su primera opción como proveedor logístico."
-  },
-  "ferramentas": {
-    "tipos": "Tipos de contenedores",
-    "titulo": "Herramientas",
-    "btn-voltar": "Regresar",
-    "tabs": {
-      "tab1": "CONTENEDORES ESTÁNDAR",
-      "tab2": "CONTENEDORES REFRIGERADOS",
-      "tab3": "CONTENEDORES ESPECIALES 1",
-      "tab4": "CONTENEDORES ESPECIALES 2"
-    },
-    "btnMedidas": "Accede al conversor de moneda y medidas",
-    "vizualizacao": "Para una mejor vista, haga clic en la imagen de arriba."
-  },
-  "servicos": {
-    "titulo": "Servicios",
-    "tabs": {
-      "tab1": "TRANSPORTE AEREO",
-      "tab2": "TRANSPORTE MARÍTIMO",
-      "tab3": "TRANSPORTE POR CARRETERA"
-    },
-    "content": {
-      "tab1": {
-        "p1": "Básicamente, nuestro trabajo consiste em escucharte, entender sus necesidades y elegir juntos la alternativa logística más inteligente y efectiva para su negocio.",
-        "p2": "Desde la recogida hasta el destino, contamos con un equipo especializado para mantenerte informado durante todo el proceso.",
-        "list": {
-          "li1": "Importación y exportación de carga marítima FCL y LCL.",
-          "li2": "Transporte nacional e internacional por carretera.",
-          "li3": "Importação e exportação de carga aérea.",
-          "li4": "Flete competitivo, seguimiento y análisis de mercado, buscando siempre la logística más inteligente y rentable para nuestros clientes."
+    "nav": {
+        "home": "Página de inicio",
+        "sobre": "acerca de nosostros",
+        "servicos": "Servicios",
+        "portos": "Puertos",
+        "ferramentas": "Herramientas",
+        "galeria": "Galería",
+        "contato": "Contacto",
+        "paths": {
+            "home": "/",
+            "sobre": "/nosostros",
+            "servicos": "/servicios",
+            "portos": "/puertos",
+            "ferramentas": "/herramientas",
+            "galeria": "/galeria",
+            "contato": "/contacto"
         }
-      },
-      "tab2": {
-        "p1": "Con rapidez y agilidad en la recepción y entrega de sus cargas, TRUST ALL AROUND junto con sus agentes en todo el mundo trabaja para satisfacer sus necesidades en esta modalidad, teniendo en cuenta puntos importantes: el tiempo de entrega, las rutas, el tiempo de tránsito y el manejo de cargas especiales y de alto valor agregado, actuando en la siguiente modalidades:",
-        "list": {
-          "li1": {
-            "titulo": "CARGA CONSOLIDADA",
-            "texto": "Envío de carga con salidas programadas desde su origen, que puede agruparse en envíos a precios más competitivos."
-          },
-          "li2": {
-            "titulo": "CARGA PUERTA A PUERTA",
-            "texto": "Servicio en el que nos encargamos de la recogida, el transporte internacional y la entrega de su mercancía en destino final."
-          },
-          "li3": {
-            "titulo": "CARGA URGENTE",
-            "texto": "Servicio utilizado para cargas con máxima urgencia."
-          }
-        }
-      },
-      "tab3": {
-        "p1": "El transporte marítimo es uno de los tipos de transporte acuático (o fluvial) que se dan en los mares y océanos por medio de embarcaciones (lanchas, barcos, transatlánticos), siendo muy utilizado para el transporte de carga en distancias cortas y largas.",
-        "p2": "TRUST ALL AROUND trabaja en la agencia de carga consolidada, contenerizada y proyecto, asesorando en todo el proceso logístico desde el recojo de su mercancía hasta la entrega en su destino (puerta a puerta) a través de las siguientes modalidades:",
-        "list": {
-          "li1": {
-            "titulo": "CARGA CONSOLIDADA",
-            "texto": "Combinación de volúmenes y productos enviados por diferentes exportadores al mismo cliente, con las mismas condiciones de entrega y ruta."
-          },
-          "li2": {
-            "titulo": "CARGA DE CONTENEDOR LLENO ",
-            "texto": "Un contenedor totalmente dedicado a su empresa. Ideal para el transporte de grandes volúmenes de carga."
-          },
-          "li3": {
-            "titulo": "MENOS CARGA DO CONTENTOR ",
-            "texto": "Ideal para el envío de carga en menor cantidad, volumen y bajo valor agregado, compartiendo espacio con otros clientes en un mismo contenedor."
-          }
-        }
-      },
-      "tab4": {
-        "p1": "Por medio de nuestros socios de transporte en todo el mundo y especializados en el MERCOSUR y sus fronteras, acompañamos todo el proceso, desde la recogida por el transportista hasta la entrega en su destino. Mediante de una amplia flota de camiones, nuestros socios prestan servicio en diversas categorías, tales como:",
-        "list": {
-          "li1": "Estudios estratégicos para optimizar costes logísticos.",
-          "li2": "Transporte de productos en general.",
-          "li3": "Transporte de cargas fraccionadas y no estándar.",
-          "li4": "Transporte de productos especiales y peligrosos.",
-          "li5": "Tránsito aduaneiro."
-        }
-      }
-    }
-  },
-  "portos": {
-    "titulo": "Puertos",
-    "btnMais": "Más puertos",
-    "select": "Elija el continente deseado:",
-    "continentes": {
-      "americaDoNorte": "AMÉRICA DEL NORTE",
-      "americaCentral": "AMÉRICA CENTRAL Y CARIBE",
-      "americaDoSul": "AMÉRICA DEL SUR",
-      "africa": "AFRICA",
-      "mediterraneo": "MEDITERRÁNEO Y NORTE DE ÁFRICA",
-      "europa": "EUROPA",
-      "asia": "ASIA",
-      "extremoOriente": "EXTREMO ORIENTE Y SUBCONTINENTE",
-      "australia": "AUSTRALIA Y OCEANÍA"
     },
-    "paises": {
-      "mexico": "MÉXICO",
-      "eua": "EUA",
-      "canada": "CANADÁ",
-      "costaRica": "COSTA RICA",
-      "guatemala": "GUATEMALA",
-      "jamaica": "JAMAICA",
-      "nicaragua": "NICARAGUA",
-      "argentina": "ARGENTINA",
-      "brasil": "BRASIL",
-      "colombia": "COLOMBIA",
-      "chile": "CHILE",
-      "africaDoSul": "SUDÁFRICA",
-      "quenia": "KENIA",
-      "mocambique": "MOZAMBIQUE",
-      "nigeria": "NIGERIA",
-      "egito": "EGIPTO",
-      "italia": "ITALIA",
-      "israel": "ISRAEL",
-      "turquia": "TURQUÍA",
-      "alemanha": "ALEMANIA",
-      "belgica": "BÉLGICA",
-      "espanha": "ESPAÑA",
-      "inglaterra": "INGLATERRA",
-      "china": "CHINA",
-      "japao": "JAPÓN",
-      "coreiaDoSul": "COREA DEL SUR",
-      "taiwan": "TAIWÁN",
-      "bangladesh": "BANGLADESH",
-      "emiradosArabes": "EMIRATOS ÁRABES",
-      "india": "INDIA",
-      "paquistao": "PAKISTÁN",
-      "australia": "AUSTRALIA",
-      "novaZelandia": "NUEVA ZELANDA"
+    "banner": {
+        "titulo": "GESTIONAR CONSENTIMIENTO DE COOKIES",
+        "texto": "Utilizamos cookies para optimizar nuestro sitio web y nuestros servicios.",
+        "btnAceitar": "ACEPTAR",
+        "btnRecusar": "RECHAZAR"
+    },
+    "slider": {
+        "slider1": {
+            "primeiro": "Ya sea por tierra, aire o mar, ",
+            "bold": "TRUST ALL AROUND",
+            "segundo": "busca para usted la solución logística más inteligente para que su negocio",
+            "terceiro": "prospere"
+        },
+        "slider2": {
+            "primeiro": "Desde la recogida hasta el destino final, contamos con un",
+            "segundo": "equipo especializado",
+            "terceiro": "para encontrar la",
+            "quarto": "solución",
+            "quinto": "que necesitas."
+        },
+        "slider3": {
+            "primeiro": "Conozca un poco mejor nuestras soluciones, póngase en contacto y ",
+            "segundo": "solicite una cotización"
+        }
+    },
+    "bullets": {
+        "valores": {
+            "seguranca": "Seguridad",
+            "confianca": "Confianza",
+            "comprometimento": "Compromiso",
+            "inteligencia": "Inteligencia",
+            "singularidade": "Singularidad"
+        },
+        "visao": "Tener su confianza y convertirse en la primera opción en logística.",
+        "missao": "Ofrecer siempre la alternativa logistica más inteligente y eficiente para su negocio."
+    },
+    "sobre": {
+        "titulo": "Acerca de nosostros",
+        "p1": "El TRUST ALL AROUND nació en 2017 con el propósito de entender la necesidad de sus clientes para luego presentar la mejor solución logística.",
+        "p2": "Proporcionamos un asesoramiento completo a través de un equipo altamente cualificado y una red internacional de agentes con cobertura en más de 100 países de todo el mundo, todo ello para satisfacer su demanda de la mejor manera posible.",
+        "p3": "Ofrecemos soluciones completas en todas las fases de las operaciones de importación y exportación, simplificando su logística de principio a fin, con el objetivo de convertirnos en su primera opción como proveedor logístico."
+    },
+    "ferramentas": {
+        "tipos": "Tipos de contenedores",
+        "titulo": "Herramientas",
+        "btn-voltar": "Regresar",
+        "tabs": {
+            "tab1": "CONTENEDORES ESTÁNDAR",
+            "tab2": "CONTENEDORES REFRIGERADOS",
+            "tab3": "CONTENEDORES ESPECIALES 1",
+            "tab4": "CONTENEDORES ESPECIALES 2"
+        },
+        "btnMedidas": "Accede al conversor de moneda y medidas",
+        "vizualizacao": "Para una mejor vista, haga clic en la imagen de arriba."
+    },
+    "servicos": {
+        "titulo": "Servicios",
+        "tabs": {
+            "tab1": "TRANSPORTE AEREO",
+            "tab2": "TRANSPORTE MARÍTIMO",
+            "tab3": "TRANSPORTE POR CARRETERA"
+        },
+        "content": {
+            "tab1": {
+                "p1": "Básicamente, nuestro trabajo consiste em escucharte, entender sus necesidades y elegir juntos la alternativa logística más inteligente y efectiva para su negocio.",
+                "p2": "Desde la recogida hasta el destino, contamos con un equipo especializado para mantenerte informado durante todo el proceso.",
+                "list": {
+                    "li1": "Importación y exportación de carga marítima FCL y LCL.",
+                    "li2": "Transporte nacional e internacional por carretera.",
+                    "li3": "Importação e exportação de carga aérea.",
+                    "li4": "Flete competitivo, seguimiento y análisis de mercado, buscando siempre la logística más inteligente y rentable para nuestros clientes."
+                }
+            },
+            "tab2": {
+                "p1": "Con rapidez y agilidad en la recepción y entrega de sus cargas, TRUST ALL AROUND junto con sus agentes en todo el mundo trabaja para satisfacer sus necesidades en esta modalidad, teniendo en cuenta puntos importantes: el tiempo de entrega, las rutas, el tiempo de tránsito y el manejo de cargas especiales y de alto valor agregado, actuando en la siguiente modalidades:",
+                "list": {
+                    "li1": {
+                        "titulo": "CARGA CONSOLIDADA",
+                        "texto": "Envío de carga con salidas programadas desde su origen, que puede agruparse en envíos a precios más competitivos."
+                    },
+                    "li2": {
+                        "titulo": "CARGA PUERTA A PUERTA",
+                        "texto": "Servicio en el que nos encargamos de la recogida, el transporte internacional y la entrega de su mercancía en destino final."
+                    },
+                    "li3": {
+                        "titulo": "CARGA URGENTE",
+                        "texto": "Servicio utilizado para cargas con máxima urgencia."
+                    }
+                }
+            },
+            "tab3": {
+                "p1": "El transporte marítimo es uno de los tipos de transporte acuático (o fluvial) que se dan en los mares y océanos por medio de embarcaciones (lanchas, barcos, transatlánticos), siendo muy utilizado para el transporte de carga en distancias cortas y largas.",
+                "p2": "TRUST ALL AROUND trabaja en la agencia de carga consolidada, contenerizada y proyecto, asesorando en todo el proceso logístico desde el recojo de su mercancía hasta la entrega en su destino (puerta a puerta) a través de las siguientes modalidades:",
+                "list": {
+                    "li1": {
+                        "titulo": "CARGA CONSOLIDADA",
+                        "texto": "Combinación de volúmenes y productos enviados por diferentes exportadores al mismo cliente, con las mismas condiciones de entrega y ruta."
+                    },
+                    "li2": {
+                        "titulo": "CARGA DE CONTENEDOR LLENO ",
+                        "texto": "Un contenedor totalmente dedicado a su empresa. Ideal para el transporte de grandes volúmenes de carga."
+                    },
+                    "li3": {
+                        "titulo": "MENOS CARGA DO CONTENTOR ",
+                        "texto": "Ideal para el envío de carga en menor cantidad, volumen y bajo valor agregado, compartiendo espacio con otros clientes en un mismo contenedor."
+                    }
+                }
+            },
+            "tab4": {
+                "p1": "Por medio de nuestros socios de transporte en todo el mundo y especializados en el MERCOSUR y sus fronteras, acompañamos todo el proceso, desde la recogida por el transportista hasta la entrega en su destino. Mediante de una amplia flota de camiones, nuestros socios prestan servicio en diversas categorías, tales como:",
+                "list": {
+                    "li1": "Estudios estratégicos para optimizar costes logísticos.",
+                    "li2": "Transporte de productos en general.",
+                    "li3": "Transporte de cargas fraccionadas y no estándar.",
+                    "li4": "Transporte de productos especiales y peligrosos.",
+                    "li5": "Tránsito aduaneiro."
+                }
+            }
+        }
+    },
+    "portos": {
+        "titulo": "Puertos",
+        "btnMais": "Más puertos",
+        "select": "Elija el continente deseado:",
+        "continentes": {
+            "americaDoNorte": "AMÉRICA DEL NORTE",
+            "americaCentral": "AMÉRICA CENTRAL Y CARIBE",
+            "americaDoSul": "AMÉRICA DEL SUR",
+            "africa": "AFRICA",
+            "mediterraneo": "MEDITERRÁNEO Y NORTE DE ÁFRICA",
+            "europa": "EUROPA",
+            "asia": "ASIA",
+            "extremoOriente": "EXTREMO ORIENTE Y SUBCONTINENTE",
+            "australia": "AUSTRALIA Y OCEANÍA"
+        },
+        "paises": {
+            "mexico": "MÉXICO",
+            "eua": "EUA",
+            "canada": "CANADÁ",
+            "costaRica": "COSTA RICA",
+            "guatemala": "GUATEMALA",
+            "jamaica": "JAMAICA",
+            "nicaragua": "NICARAGUA",
+            "argentina": "ARGENTINA",
+            "brasil": "BRASIL",
+            "colombia": "COLOMBIA",
+            "chile": "CHILE",
+            "africaDoSul": "SUDÁFRICA",
+            "quenia": "KENIA",
+            "mocambique": "MOZAMBIQUE",
+            "nigeria": "NIGERIA",
+            "egito": "EGIPTO",
+            "italia": "ITALIA",
+            "israel": "ISRAEL",
+            "turquia": "TURQUÍA",
+            "alemanha": "ALEMANIA",
+            "belgica": "BÉLGICA",
+            "espanha": "ESPAÑA",
+            "inglaterra": "INGLATERRA",
+            "china": "CHINA",
+            "japao": "JAPÓN",
+            "coreiaDoSul": "COREA DEL SUR",
+            "taiwan": "TAIWÁN",
+            "bangladesh": "BANGLADESH",
+            "emiradosArabes": "EMIRATOS ÁRABES",
+            "india": "INDIA",
+            "paquistao": "PAKISTÁN",
+            "australia": "AUSTRALIA",
+            "novaZelandia": "NUEVA ZELANDA"
+        }
+    },
+    "contato": {
+        "titulo": "Contacto",
+        "form": {
+            "nome": "Nombre",
+            "email": "Correo electrónico",
+            "assunto": "Tema",
+            "ajuda": "Como podemos ayudarte?",
+            "btnEnviar": "Enviar",
+            "atendimento": "Abierto de lunes a viernes de 8:45 am a 6h15 pm.",
+            "feedBack": "¡Formulario enviado con éxito!"
+        }
+    },
+    "atendimento": {
+        "titulo": "¡Hable con nosotros!",
+        "texto": "¿Cómo puedo ayudarte?"
     }
-  },
-  "contato": {
-    "titulo": "Contacto",
-    "form": {
-      "nome": "Nombre",
-      "email": "Correo electrónico",
-      "assunto": "Tema",
-      "ajuda": "Como podemos ayudarte?",
-      "btnEnviar": "Enviar",
-      "atendimento": "Abierto de lunes a viernes de 8:45 am a 6h15 pm.",
-      "feedBack": "¡Formulario enviado con éxito!"
-    }
-  }
 }

@@ -271,7 +271,6 @@ export default function Portos() {
                     width={1656}
                     layout={"intrinsic"}
                     priority
-                    unoptimized={true}
                 />
                 <span
                     className={"absolute top-[26%] left-[-5%] hidden lg:block"}

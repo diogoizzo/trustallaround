@@ -69,7 +69,6 @@ export default function LanguageIcons() {
                     src="/icons/bandeiraEUA.svg"
                     height="55px"
                     width="43px"
-                    unoptimized={true}
                     layout={"fixed"}
                 ></Image>
             </ChangeLanguage>
@@ -79,7 +78,6 @@ export default function LanguageIcons() {
                     src="/icons/bandeiraSPA.svg"
                     height="25px"
                     width="40px"
-                    unoptimized={true}
                     layout={"fixed"}
                 ></Image>
             </ChangeLanguage>
@@ -89,7 +87,6 @@ export default function LanguageIcons() {
                     src="/icons/bandeiraBRA.svg"
                     height="26px"
                     width="43px"
-                    unoptimized={true}
                     layout={"fixed"}
                 ></Image>
             </ChangeLanguage>

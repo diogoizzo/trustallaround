@@ -10,7 +10,6 @@ export default function Email({ src, alt, text }) {
                     width={25}
                     height={25}
                     layout={"intrinsic"}
-                    unoptimized={true}
                 />
             </span>
             <p className={"ml-2"}>{text}</p>

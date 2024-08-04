@@ -48,7 +48,6 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                                             }
                                             layout={"fill"}
                                             alt={"quadro branco da modal"}
-                                            unoptimized={true}
                                         />
                                     </span>
                                     <span className={"md:hidden"}>
@@ -58,7 +57,6 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                                             }
                                             layout={"fill"}
                                             alt={"quadro branco da modal"}
-                                            unoptimized={true}
                                         />
                                     </span>
 
