@@ -55,13 +55,6 @@ export default function Slider() {
                                 {" "}
                                 {t("slider.slider1.segundo")}
                             </p>
-                            {query?.lang === "en" ? null : (
-                                <p className="text-xl md:text-2xl xl:text-4xl text-brand-orange inline">
-                                    {" "}
-                                    {t("slider.slider1.terceiro")}
-                                    <span className="text-white">.</span>
-                                </p>
-                            )}
                         </span>
                     </div>
                 </div>

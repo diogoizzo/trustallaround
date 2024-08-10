@@ -38,7 +38,7 @@ export default function HeaderBanner() {
                 </a>
                 <a
                     href="https://api.whatsapp.com/send?phone=5511986285531"
-                    className="relative h-6 w-6 mr-4"
+                    className="relative h-6 w-6"
                 >
                     <Image
                         alt="ícone do whatsapp"
@@ -48,13 +48,9 @@ export default function HeaderBanner() {
                 </a>
                 <a
                     href="https://linktr.ee/trustallaround"
-                    className="relative h-28 w-40 "
+                    className="relative text-2xl text-white -left-1 font-medium"
                 >
-                    <Image
-                        alt="nome da empresa"
-                        src="/icons/trust.svg"
-                        layout="fill"
-                    />
+                    <span className="mr-1">/</span>trustallaround
                 </a>
             </div>
         </div>

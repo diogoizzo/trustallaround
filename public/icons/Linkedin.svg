@@ -1,12 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1,0,0,1,-1.52239,-0.766633)">
-        <g transform="matrix(0.339738,0,0,0.320954,0,0)">
-            <g transform="matrix(0.313963,0,0,0.332337,4.4772,2.33261)">
-                <path d="M15.244,0.168C23.641,0.168 30.443,6.987 30.443,15.372C30.443,23.775 23.641,30.593 15.239,30.593C6.808,30.593 0.012,23.78 0.012,15.372C0.012,6.987 6.808,0.174 15.239,0.174L15.244,0.168ZM2.102,42.13L28.365,42.13L28.365,126.524L2.102,126.524L2.102,42.13Z" style="fill:white;"/>
-                <path d="M44.827,42.13L69.961,42.13L69.961,53.66L70.326,53.66C73.819,47.022 82.384,40.029 95.14,40.029C121.683,40.029 126.586,57.502 126.586,80.238L126.586,126.529L100.38,126.529L100.38,85.489C100.38,75.7 100.183,63.107 86.748,63.107C73.1,63.107 71.011,73.768 71.011,84.782L71.011,126.529L44.815,126.529L44.815,42.135L44.827,42.13Z" style="fill:white;"/>
-            </g>
-        </g>
-    </g>
+<!-- Creator: CorelDRAW Standard 2021 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="44.5771mm" height="44.5771mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 17.6 17.6"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M2.07 0l13.46 0c1.14,0 2.07,0.93 2.07,2.07l0 13.46c0,1.14 -0.93,2.07 -2.07,2.07l-13.46 0c-1.14,0 -2.07,-0.93 -2.07,-2.07l0 -13.46c0,-1.14 0.93,-2.07 2.07,-2.07zm2.26 2.92c0.78,0 1.42,0.63 1.42,1.42 0,0.78 -0.63,1.42 -1.42,1.42 -0.79,0 -1.42,-0.63 -1.42,-1.42 0,-0.78 0.63,-1.42 1.42,-1.42l0 -0zm-1.22 3.91l2.45 0 0 7.86 -2.45 0 0 -7.86zm3.98 0l2.34 0 0 1.07 0.03 0c0.33,-0.62 1.12,-1.27 2.31,-1.27 2.47,0 2.93,1.63 2.93,3.74l0 4.31 -2.44 0 0 -3.82c0,-0.91 -0.02,-2.08 -1.27,-2.08 -1.27,0 -1.47,0.99 -1.47,2.02l0 3.89 -2.44 0 0 -7.86z"/>
+ </g>
 </svg>
