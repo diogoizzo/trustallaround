@@ -62,17 +62,17 @@ export default function Contato() {
                 <div>
                     <div
                         ref={quadro}
-                        className="relative h-[670px] lg:h-fit w-full lg:min-h-[623px] lg:min-w-[677px] "
+                        className="relative h-[670px] lg:h-fit w-full lg:min-h-[623px] lg:min-w-[677px] border border-brand-blue/25 rounded-md shadow-md "
                     >
-                        <Image
+                        {/* <Image
                             src={"/images/quadro-branco-contato.png"}
                             alt={"moldura do formulário de contato"}
                             layout={"fill"}
-                        />
+                        /> */}
 
                         <form
                             className={
-                                "absolute flex space-y-6 flex-col top-0 left-1/2 transform -translate-x-1/2 mt-16 w-[90%]"
+                                "absolute flex space-y-6 flex-col top-0 left-1/2 transform -translate-x-1/2 mt-12 w-[90%]"
                             }
                             onSubmit={handleSubmit}
                         >
@@ -151,7 +151,7 @@ export default function Contato() {
                                 </button>
                                 <div
                                     className={
-                                        "flex items-center justify-center mt-4 lg:mt-0"
+                                        "flex items-center justify-center ml-3 mt-4 lg:mt-0"
                                     }
                                 >
                                     <Image
