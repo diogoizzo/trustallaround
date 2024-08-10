@@ -273,7 +273,7 @@ export default function Portos() {
                     priority
                 />
                 <span
-                    className={"absolute top-[26%] left-[-5%] hidden lg:block"}
+                    className={"absolute top-[26%] left-[-6%] hidden lg:block"}
                     onClick={() => {
                         setContent(DialogContent.americaDoNorte);
                         openModal();
@@ -292,7 +292,7 @@ export default function Portos() {
                     <BtnPais pais={t("portos.continentes.americaCentral")} />
                 </span>
                 <span
-                    className={"absolute top-[74%] left-[32%] hidden lg:block"}
+                    className={"absolute top-[77%] left-[32%] hidden lg:block"}
                     onClick={() => {
                         setContent(DialogContent.americaDoSul);
                         openModal();
@@ -310,7 +310,7 @@ export default function Portos() {
                     <BtnPais pais={t("portos.continentes.africa")} />
                 </span>
                 <span
-                    className={"absolute top-[28%] left-[28%] hidden lg:block"}
+                    className={"absolute top-[28%] left-[27%] hidden lg:block"}
                     onClick={() => {
                         setContent(DialogContent.mediterraneo);
                         openModal();
@@ -337,7 +337,7 @@ export default function Portos() {
                     <BtnPais pais={t("portos.continentes.asia")} />
                 </span>
                 <span
-                    className={"absolute top-[39%] left-[86%] hidden lg:block"}
+                    className={"absolute top-[43%] left-[86%] hidden lg:block"}
                     onClick={() => {
                         setContent(DialogContent.extremoOriente);
                         openModal();

@@ -54,9 +54,12 @@
     },
     "sobre": {
         "titulo": "Sobre nós",
-        "p1": "A TRUST ALL AROUND nasceu em 2017 com o propósito de entender a necessidade de seus clientes para então apresentar a melhor solução logística.",
-        "p2": "Prestamos uma assessoria completa através de uma equipe altamente qualificada e uma rede internacional de agentes com abrangência em mais de 100 países ao redor do mundo, tudo para atender à sua demanda da melhor forma possível.",
-        "p3": "Oferecemos soluções completas em todas as etapas das operações de importação e exportação, simplificando sua logística de ponta a ponta no processo, visando assim tornar-se sua primeira escolha como provedor logístico."
+        "p1": "Somos a <strong>TRUST ALL AROUND</strong>, uma empresa brasileira apaixonada pela gestão logística internacional. Desde nossa jornada iniciada em 2017, com mais de três décadas de experiência no mercado, nos destacamos por entender profundamente as necessidades de nossos clientes e por oferecer soluções logísticas sempre eficientes e personalizadas",
+        "p2": "Contamos com uma equipe extremamente qualificada e uma vasta rede de parceiros internacionais, presentes em mais de 100 países, prontos para fornecer um suporte abrangente em todas as etapas de suas operações de importação e exportação.",
+        "p3": "Nosso principal objetivo é tornar sua vida mais fácil, simplificando o processo logístico de ponta a ponta.",
+        "p4": "Além disso, oferecemos consultoria especializada, fornecendo insights estratégicos e soluções inovadoras que agregam valor a cada etapa do seu processo logístico.",
+        "p5": "Com a <strong>TRUST ALL AROUND</strong>, você não apenas obtém um parceiro de confiança, mas também alguém comprometido com o sucesso de suas operações, tanto em âmbito nacional quanto internacional. Estamos aqui para fazer a diferença e ajudá-lo a alcançar seus objetivos.",
+        "btn": "Fale conosco"
     },
     "ferramentas": {
         "tipos": "Tipos de containers",

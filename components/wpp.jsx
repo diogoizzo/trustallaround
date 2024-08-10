@@ -24,7 +24,7 @@ export default function Wpp() {
                     " w-0 h-0 fixed bottom-12 flex items-center right-12 z-40 bg-gray-100 border border-gray-200 shadow-md rounded-md transition-all duration-500 ease-in-out overflow-hidden group-hover:w-64 group-hover:h-20 group-hover:bottom-12 group-hover:right-12"
                 }
             >
-                <div className={"ml-5"}>
+                <div className={"ml-5 text-brand-blue"}>
                     <h3
                         className={
                             "font-bold opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100"

@@ -27,7 +27,7 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                     </Transition.Child>
 
                     <div className="fixed inset-0 overflow-y-auto">
-                        <div className="flex min-h-full items-center justify-center p-4 text-center">
+                        <div className="flex min-h-full items-center justify-center p-10 text-center">
                             <Transition.Child
                                 as={Fragment}
                                 enter="ease-out duration-300"
@@ -39,9 +39,9 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                             >
                                 <Dialog.Panel
                                     as={"div"}
-                                    className="w-full relative flex max-h-[1300px] sm:h-fit flex-col max-w-3xl transform overflow-hidden p-8 pb-14 md:p-12 align-middle text-left transition-all"
+                                    className="w-full bg-gray-100 rounded-lg border border-gray-200 relative flex max-h-[1300px] sm:h-fit flex-col max-w-[44rem] transform overflow-hidden p-8 pb-14 md:p-10 align-middle text-left transition-all shadow-xl shadow-black/20"
                                 >
-                                    <span className={"hidden md:block"}>
+                                    {/* <span className={"hidden md:block"}>
                                         <Image
                                             src={
                                                 "/images/quadro-branco-contato.png"
@@ -58,7 +58,7 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                                             layout={"fill"}
                                             alt={"quadro branco da modal"}
                                         />
-                                    </span>
+                                    </span> */}
 
                                     <div
                                         className={
@@ -67,7 +67,7 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                                     >
                                         <Dialog.Title
                                             as="h3"
-                                            className="text-3xl md:text-4xl font-medium w-[80%] text-brand-blue relative z-15"
+                                            className="text-3xl md:text-3xl font-medium w-[80%] text-brand-blue relative z-15"
                                         >
                                             {content.titulo}
                                         </Dialog.Title>
@@ -85,7 +85,7 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                                             />
                                         </button>
                                     </div>
-                                    <div className=" relative w-[92%] mx-auto z-11 text-center md:text-left md:mt-14 mb-7">
+                                    <div className=" relative w-full mx-auto z-11 text-center md:text-left md:mt-8 mb-7">
                                         {content.paises?.map((pais) => (
                                             <PortosPais
                                                 key={pais.nome}

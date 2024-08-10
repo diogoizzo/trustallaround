@@ -4,24 +4,26 @@ export default function PortosPais({ bandeira, pais, portos }) {
     return (
         <div className={"mt-3"}>
             <div className={"flex flex-col md:flex-row items-center"}>
-                <div className={"min-w-[181px] flex items-center flex-col"}>
+                <div className={"flex items-center flex-col"}>
                     <Image
                         priority={true}
                         src={bandeira}
                         alt={`bandeira do ${pais}`}
-                        height={148}
-                        width={160}
+                        height={133}
+                        width={144}
                         layout={"fixed"}
                     />
+                </div>
+                <div className="ml-3">
                     <h4
                         className={
-                            "text-lg text-center font-semibold text-brand-blue"
+                            "text-xl text-left font-semibold text-brand-blue mb-1"
                         }
                     >
                         {pais}
                     </h4>
+                    <p className={" text-brand-blue"}>{portos}</p>
                 </div>
-                <p className={"md:-mt-8 text-brand-blue"}>{portos}</p>
             </div>
         </div>
     );

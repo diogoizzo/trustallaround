@@ -54,9 +54,12 @@
     },
     "sobre": {
         "titulo": "Acerca de nosostros",
-        "p1": "El TRUST ALL AROUND nació en 2017 con el propósito de entender la necesidad de sus clientes para luego presentar la mejor solución logística.",
-        "p2": "Proporcionamos un asesoramiento completo a través de un equipo altamente cualificado y una red internacional de agentes con cobertura en más de 100 países de todo el mundo, todo ello para satisfacer su demanda de la mejor manera posible.",
-        "p3": "Ofrecemos soluciones completas en todas las fases de las operaciones de importación y exportación, simplificando su logística de principio a fin, con el objetivo de convertirnos en su primera opción como proveedor logístico."
+        "p1": "Somos <strong>TRUST ALL AROUND</strong>, una empresa brasileña apasionada por la gestión logística internacional. Desde que nuestra jornada empezo en 2017, con más de tres décadas de experiencia en el mercado, nos hemos destacado por comprender profundamente las necesidades de nuestros clientes y ofrecer soluciones logísticas a medida, siempre eficientes y personalizadas.",
+        "p2": "Contamos con un equipo extremadamente calificado y una vasta red de socios internacionales, presentes en más de 100 países, listos para proporcionar un apoyo integral en todas las etapas de sus operaciones de importación y exportación.",
+        "p3": "Nuestro principal objetivo es hacer su vida más fácil, simplificando el proceso logístico de principio a fin.",
+        "p4": "Además, ofrecemos consultoría especializada, proporcionando conocimientos estratégicos y soluciones innovadoras que agregan valor a cada etapa de su proceso logístico.",
+        "p5": "Con <strong>TRUST ALL AROUND</strong>, no solo obtiene un socio confiable, sino también alguien comprometido con el éxito de sus operaciones, tanto a nivel nacional como internacional. Estamos aquí para marcar la diferencia y ayudarte a alcanzar sus objetivos.",
+        "btn": "CONTÁCTENOS"
     },
     "ferramentas": {
         "tipos": "Tipos de contenedores",

@@ -55,9 +55,12 @@
     },
     "sobre": {
         "titulo": "About Us",
-        "p1": "TRUST All AROUND was born in 2017 to understand the need of its customers to present them the best logistics solution.",
-        "p2": "We provide complete advice through a highly qualified team and an international network of agents covering more than 100 countries around the world, all to meet your demand in the best possible way.",
-        "p3": "We offer complete solutions in all stages of import and export operations, simplifying your door-to-door logistics, aiming to become your first choice as a logistics provider."
+        "p1": "We are <strong>TRUST ALL AROUND</strong>, a Brazilian company passionate about international logistics. Since our journey began in 2017, with more than three decades of market experience, we have stood out for deeply understanding our clients' needs and offering tailored, efficient, and personalized logistics solutions.",
+        "p2": "We have an extremely qualified team and a vast network of international partners, present in over 100 countries, ready to provide comprehensive support at all stages of your import and export operations.",
+        "p3": "Our main goal is to make your life easier by simplifying the logistics process from end to end.",
+        "p4": "Additionally, we offer specialized consulting, providing strategic insights and innovative solutions that solves your logistics process.",
+        "p5": "With <strong>TRUST ALL AROUND</strong>, you not only get a reliable partner but also someone committed to the success of your operations, both nationally and internationally. We are here to make a difference and help you reach your goals.",
+        "btn": "CONTACT US"
     },
     "ferramentas": {
         "tipos": "Container Types",
