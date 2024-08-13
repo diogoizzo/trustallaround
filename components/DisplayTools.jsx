@@ -1,4 +1,5 @@
 import ToolsOptions from "./ToolsOptions";
+import ToolsOptions2 from "./ToolsOptions2";
 import { useLanguageQuery, useTranslation } from "next-export-i18n";
 import { useEffect, useState } from "react";
 import Incoterms from "./Incoterms";
@@ -24,9 +25,9 @@ export default function DisplayTools() {
             <div className="flex justify-center mx-auto sm:min-h-[638px] px-[6%] sm:px-5">
                 {option === null ? (
                     <div className="flex flex-col sm:flex-row items-center sm:space-x-3 lg:space-x-[5%]">
-                        <ToolsOptions
+                        <ToolsOptions2
                             title={"Incoterms"}
-                            src={"/images/incoterms.png"}
+                            src={"/images/incoterms.svg"}
                             alt={"Ilustração de uma navio, avião e caminhão"}
                             width={402}
                             height={339}
@@ -36,7 +37,7 @@ export default function DisplayTools() {
                         />
                         <ToolsOptions
                             title={t("ferramentas.tipos")}
-                            src={"/images/Containers.png"}
+                            src={"/images/Containers.svg"}
                             alt={"Ilustração de dois containers"}
                             width={382}
                             height={246}

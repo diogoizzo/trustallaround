@@ -13,7 +13,7 @@ export default function Sobre() {
                 </h1>
 
                 <div className="mt-8 lg:mt-12   relative">
-                    <div className="float-right relative inline-block w-[506px] h-[323px] ml-6 ">
+                    <div className="float-right relative inline-block w-[570px] h-[350px] ml-6 ">
                         <Image
                             alt={"mapa mundi com as rotas de transporte"}
                             src="/images/mapa-sobre.svg"

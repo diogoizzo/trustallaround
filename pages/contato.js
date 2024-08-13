@@ -62,7 +62,7 @@ export default function Contato() {
                 <div>
                     <div
                         ref={quadro}
-                        className="relative h-[670px] lg:h-fit w-full lg:min-h-[623px] lg:min-w-[677px] border border-brand-blue/25 rounded-md shadow-md "
+                        className="relative h-[670px] lg:h-fit w-full lg:min-h-[623px] lg:min-w-[677px] border-2 border-brand-orange rounded-md shadow-lg "
                     >
                         {/* <Image
                             src={"/images/quadro-branco-contato.png"}
@@ -82,7 +82,7 @@ export default function Contato() {
                                 placeholder={t("contato.form.nome") + "*"}
                                 name="nome"
                                 className={
-                                    "h-12 placeholder:text-xl text-lg text-brand-gray rounded-xl border-gray-400 border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
+                                    "h-12 placeholder:text-xl placeholder:text-brand-gray/60 text-lg text-brand-gray rounded-xl border-brand-orange border focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
                                 }
                                 value={form.nome}
                                 onChange={(e) => {
@@ -96,7 +96,7 @@ export default function Contato() {
                                 placeholder={t("contato.form.email") + "*"}
                                 name="email"
                                 className={
-                                    "h-12 placeholder:text-xl text-lg text-brand-gray rounded-xl border-gray-400  border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
+                                    "h-12 placeholder:text-xl text-lg placeholder:text-brand-gray/60  text-brand-gray rounded-xl border-brand-orange  border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
                                 }
                                 value={form.email}
                                 onChange={(e) => {
@@ -110,7 +110,7 @@ export default function Contato() {
                                 placeholder={t("contato.form.assunto") + "*"}
                                 name="assunto"
                                 className={
-                                    "h-12 placeholder:text-xl text-lg text-brand-gray rounded-xl border-gray-400  border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
+                                    "h-12 placeholder:text-xl text-lg placeholder:text-brand-gray/60  text-brand-gray rounded-xl border-brand-orange  border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
                                 }
                                 value={form.assunto}
                                 onChange={(e) => {
@@ -128,7 +128,7 @@ export default function Contato() {
                                 rows="7"
                                 placeholder={t("contato.form.ajuda") + "*"}
                                 className={
-                                    "placeholder:text-xl text-lg text-brand-gray rounded-xl border-gray-400  border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2 resize-none"
+                                    "placeholder:text-xl text-lg placeholder:text-brand-gray/60 text-brand-gray rounded-xl border-brand-orange border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2 resize-none"
                                 }
                                 value={form.corpo}
                                 onChange={(e) => {
@@ -144,7 +144,7 @@ export default function Contato() {
                                 <button
                                     type={"submit"}
                                     className={
-                                        "h-14 bg-brand-gray self-center  hover:bg-[#888888] font-medium text-white w-40 rounded-xl text-xl focus:outline-none focus:border-brand-orange focus:border-1 focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
+                                        "h-14 bg-brand-orange self-center  hover:bg-brand-orange/80 font-medium text-white w-40 rounded-xl text-xl focus:outline-none focus:border-brand-orange focus:border-1 focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
                                     }
                                 >
                                     {t("contato.form.btnEnviar")}
@@ -191,20 +191,23 @@ export default function Contato() {
                     >
                         <h2
                             className={
-                                "text-2xl text-center lg:text-left font-medium mt-2 lg:mt-0 mb-3 "
+                                "text-2xl text-center lg:text-left uppercase font-bold mt-2 lg:mt-2 mb-1 "
                             }
                         >
-                            Trust Gestão em Assessoria Logística LTDA.
+                            Trust all around
                         </h2>
+                        <p className="text-xl mb-2">
+                            Gestão em Assessoria Logística Internacional
+                        </p>
                         <Email
                             src="/icons/e-mail.svg"
                             alt="email"
-                            text={"contato@trustgestao.com.br"}
+                            text={"comercial@trustgestao.log.br"}
                         />
                         <AdressItem
                             src={"/icons/telefone.svg"}
                             alt={"Telefones"}
-                            text={"+55 (11) 3796-1845 / +55 (11) 98628-5531"}
+                            text={"+55 (11) 2021-3894 / +55 (11) 3796-1845"}
                         />
                         <AdressItem
                             src={"/icons/site.svg"}

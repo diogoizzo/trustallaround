@@ -39,7 +39,7 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                             >
                                 <Dialog.Panel
                                     as={"div"}
-                                    className="w-full bg-gray-100 rounded-lg border border-gray-200 relative flex max-h-[1300px] sm:h-fit flex-col max-w-[44rem] transform overflow-hidden p-8 pb-14 md:p-10 align-middle text-left transition-all shadow-xl shadow-black/20"
+                                    className="w-full bg-gray-100 rounded-lg border border-brand-orange relative flex max-h-[1300px] sm:h-fit flex-col max-w-[44rem]  p-8 pb-14 md:p-10 align-middle text-left transition-all shadow-xl shadow-black/20"
                                 >
                                     {/* <span className={"hidden md:block"}>
                                         <Image
@@ -62,30 +62,41 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
 
                                     <div
                                         className={
-                                            "flex justify-between items-center mt-6 pl-[1%] sm:pl-4  xl:pl-0 xl:ml-6 z-11"
+                                            "flex justify-between items-center mt-2  z-11"
                                         }
                                     >
                                         <Dialog.Title
                                             as="h3"
-                                            className="text-3xl md:text-3xl font-medium w-[80%] text-brand-blue relative z-15"
+                                            className="text-3xl md:text-3xl text-center font-semibold w-full text-brand-blue relative z-15"
                                         >
                                             {content.titulo}
+                                            <div className="w-24 mx-auto mt-3 h-1 bg-brand-orange rounded-md"></div>
                                         </Dialog.Title>
                                         <button
                                             type="button"
-                                            className="inline-flex absolute top-14 right-[9%] md:right-9 rounded-md border border-brand-blue  px-2 py-1 text-2xl text-brand-orange font-medium  hover:bg-brand-orange-hover focus:outline-none focus-visible:ring-1 focus-visible:ring-brand-orange focus-visible:ring-offset-2"
+                                            className="inline-flex absolute -top-5 -right-5 rounded-full  p-3 text-2xl bg-brand-orange font-medium  focus:outline-none focus-visible:ring-1 focus-visible:ring-brand-orange focus-visible:ring-offset-2"
                                             onClick={closeModal}
                                         >
-                                            <Image
+                                            <svg
+                                                className="w-5 h-5 text-gray-100 "
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 384 512"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                                                />
+                                            </svg>
+                                            {/* <Image
                                                 src={"/icons/xmark-solid.svg"}
                                                 height={32}
                                                 width={32}
                                                 alt={"icone de sair"}
                                                 layout={"intrinsic"}
-                                            />
+                                            /> */}
                                         </button>
                                     </div>
-                                    <div className=" relative w-full mx-auto z-11 text-center md:text-left md:mt-8 mb-7">
+                                    <div className=" relative w-full mx-auto z-11 text-center md:text-left md:mt-4 mb-7">
                                         {content.paises?.map((pais) => (
                                             <PortosPais
                                                 key={pais.nome}
