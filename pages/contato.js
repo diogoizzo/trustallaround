@@ -62,17 +62,18 @@ export default function Contato() {
                 <div>
                     <div
                         ref={quadro}
-                        className="relative h-[670px] lg:h-fit w-full lg:min-h-[623px] lg:min-w-[677px] border-2 border-brand-orange rounded-md shadow-lg "
+                        className="relative h-[670px] lg:h-fit w-full lg:min-h-[623px] lg:min-w-[677px] border-2 border-brand-gray/20 rounded-md shadow-lg "
                     >
                         {/* <Image
                             src={"/images/quadro-branco-contato.png"}
                             alt={"moldura do formulário de contato"}
                             layout={"fill"}
                         /> */}
+                        <div className="absolute -top-[1px] -left-[1px] rounded-tl-md w-0 h-0 border-t-[70px] border-t-brand-orange border-r-[70px] border-r-transparent"></div>
 
                         <form
                             className={
-                                "absolute flex space-y-6 flex-col top-0 left-1/2 transform -translate-x-1/2 mt-12 w-[90%]"
+                                "absolute flex space-y-6 flex-col top-0 left-1/2 transform -translate-x-1/2 mt-16 w-[90%]"
                             }
                             onSubmit={handleSubmit}
                         >
@@ -82,7 +83,7 @@ export default function Contato() {
                                 placeholder={t("contato.form.nome") + "*"}
                                 name="nome"
                                 className={
-                                    "h-12 placeholder:text-xl placeholder:text-brand-gray/60 text-lg text-brand-gray rounded-xl border-brand-orange border focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
+                                    "h-12 placeholder:text-xl placeholder:text-brand-gray/60 text-lg text-brand-gray rounded-xl border-brand-gray/40 border focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
                                 }
                                 value={form.nome}
                                 onChange={(e) => {
@@ -96,7 +97,7 @@ export default function Contato() {
                                 placeholder={t("contato.form.email") + "*"}
                                 name="email"
                                 className={
-                                    "h-12 placeholder:text-xl text-lg placeholder:text-brand-gray/60  text-brand-gray rounded-xl border-brand-orange  border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
+                                    "h-12 placeholder:text-xl text-lg placeholder:text-brand-gray/60  text-brand-gray rounded-xl border-brand-gray/40  border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
                                 }
                                 value={form.email}
                                 onChange={(e) => {
@@ -110,7 +111,7 @@ export default function Contato() {
                                 placeholder={t("contato.form.assunto") + "*"}
                                 name="assunto"
                                 className={
-                                    "h-12 placeholder:text-xl text-lg placeholder:text-brand-gray/60  text-brand-gray rounded-xl border-brand-orange  border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
+                                    "h-12 placeholder:text-xl text-lg placeholder:text-brand-gray/60  text-brand-gray rounded-xl border-brand-gray/40   border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2"
                                 }
                                 value={form.assunto}
                                 onChange={(e) => {
@@ -128,7 +129,7 @@ export default function Contato() {
                                 rows="7"
                                 placeholder={t("contato.form.ajuda") + "*"}
                                 className={
-                                    "placeholder:text-xl text-lg placeholder:text-brand-gray/60 text-brand-gray rounded-xl border-brand-orange border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2 resize-none"
+                                    "placeholder:text-xl text-lg placeholder:text-brand-gray/60 text-brand-gray rounded-xl border-brand-gray/40  border-1 focus:outline-none focus:border-brand-orange focus:border-1 focus:bg-white focus:ring-2 focus:ring-brand-orange focus:ring-offset-2 resize-none"
                                 }
                                 value={form.corpo}
                                 onChange={(e) => {
@@ -196,9 +197,7 @@ export default function Contato() {
                         >
                             Trust all around
                         </h2>
-                        <p className="text-xl mb-2">
-                            Gestão em Assessoria Logística Internacional
-                        </p>
+                        <p className="text-xl mb-2">{t("contato.info")}</p>
                         <Email
                             src="/icons/e-mail.svg"
                             alt="email"

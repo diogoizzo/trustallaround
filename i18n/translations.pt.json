@@ -200,7 +200,8 @@
             "btnEnviar": "Enviar",
             "atendimento": "Atendimento de segunda a sexta das 08:30 às 18:00.",
             "feedBack": "Formulário enviado com sucesso!"
-        }
+        },
+        "info": "Gestão em Assessoria Logística Internacional"
     },
     "atendimento": {
         "titulo": "Fale Conosco!",

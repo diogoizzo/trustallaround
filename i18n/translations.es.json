@@ -198,9 +198,10 @@
             "assunto": "Tema",
             "ajuda": "Como podemos ayudarte?",
             "btnEnviar": "Enviar",
-            "atendimento": "Abierto de lunes a viernes de 8:30 am a 6:00 pm.",
+            "atendimento": "Abierto de lunes a viernes de 8:30 AM a 6:00 PM.",
             "feedBack": "¡Formulario enviado con éxito!"
-        }
+        },
+        "info": "Gestión en Asesoría Logística Internacional"
     },
     "atendimento": {
         "titulo": "¡Hable con nosotros!",
