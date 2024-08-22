@@ -22,7 +22,7 @@ export default function TabServicos({ servico }) {
                 <p>{servico.p1}</p>
                 <p className="mt-3">{servico.p2}</p>
             </div>
-            <div className={"my-6 lg:mt-12"}>
+            <div className={"mt-6 lg:mt-12"}>
                 <ul className="text-lg md:text-xl lg:text-2xl font-semibold">
                     <li className={"flex items-center mt-7"}>
                         <span className={"mr-7 shrink-0"}>
@@ -72,7 +72,42 @@ export default function TabServicos({ servico }) {
                         </span>
                         <span className={"-mt-2"}>{servico.li4}</span>
                     </li>
+                    <li className={"flex items-center mt-7"}>
+                        <span className={"mr-7 shrink-0"}>
+                            <Image
+                                src={"/icons/seta.svg"}
+                                alt={"seta"}
+                                width={55}
+                                height={55}
+                                layout={"intrinsic"}
+                            />
+                        </span>
+                        <span className={"-mt-2"}>{servico.li5}</span>
+                    </li>
+                    <li className={"flex items-center mt-7"}>
+                        <span className={"mr-7 shrink-0"}>
+                            <Image
+                                src={"/icons/seta.svg"}
+                                alt={"seta"}
+                                width={55}
+                                height={55}
+                                layout={"intrinsic"}
+                            />
+                        </span>
+                        <span className={"-mt-2"}>{servico.li6}</span>
+                    </li>
                 </ul>
+            </div>
+            <div className="clear-both"></div>
+            <div className="w-full relative flex justify-center">
+                <Image
+                    className=" mx-auto"
+                    src={"/images/brasil-servicos.svg"}
+                    alt={"seta"}
+                    width={839}
+                    height={949}
+                    layout={"intrinsic"}
+                />
             </div>
         </div>
     );

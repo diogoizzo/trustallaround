@@ -99,6 +99,42 @@ export default function NavServicos() {
                     />
                 </span>
             </NextLink>
+            <NextLink
+                href={{ pathname: "/servicos/china", query: query }}
+                as={t("nav.paths.china")}
+                className={"focus:outline-none"}
+            >
+                <BtnServicos
+                    src={"/icons/china.svg"}
+                    alt={"ícone com simbolo da china"}
+                    height={46}
+                    width={53}
+                    text={t("servicos.tabs.tab4")}
+                    className={
+                        router.pathname === "/servicos/china"
+                            ? "border-brand-blue bg-brand-orange-hover"
+                            : "border-brand-blue hover:bg-brand-orange-hover"
+                    }
+                />
+            </NextLink>
+            <NextLink
+                href={{ pathname: "/servicos/seguro", query: query }}
+                as={t("nav.paths.china")}
+                className={"focus:outline-none"}
+            >
+                <BtnServicos
+                    src={"/icons/seguro.svg"}
+                    alt={"ícone representando seguro internacional"}
+                    height={46}
+                    width={53}
+                    text={t("servicos.tabs.tab5")}
+                    className={
+                        router.pathname === "/servicos/seguro"
+                            ? "border-brand-blue bg-brand-orange-hover"
+                            : "border-brand-blue hover:bg-brand-orange-hover"
+                    }
+                />
+            </NextLink>
         </div>
     );
 }

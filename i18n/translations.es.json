@@ -14,6 +14,8 @@
             "aereo": "/servicios/aereo",
             "maritimo": "/servicios/maritimo",
             "rodoviario": "/servicios/carretero",
+            "china": "/servicios/china",
+            "seguro": "/servicios/seguro",
             "portos": "/puertos",
             "ferramentas": "/herramientas",
             "galeria": "/galeria",
@@ -82,7 +84,9 @@
         "tabs": {
             "tab1": "TRANSPORTE AEREO",
             "tab2": "TRANSPORTE MARÍTIMO",
-            "tab3": "TRANSPORTE POR CARRETERA"
+            "tab3": "TRANSPORTE POR CARRETERA",
+            "tab4": "COMPRAS EN CHINA",
+            "tab5": "SEGURO INTERNACIONAL"
         },
         "content": {
             "tab1": {
@@ -91,8 +95,10 @@
                 "list": {
                     "li1": "Importación y exportación de carga marítima FCL y LCL.",
                     "li2": "Transporte nacional e internacional por carretera.",
-                    "li3": "Importação e exportação de carga aérea.",
-                    "li4": "Flete competitivo, seguimiento y análisis de mercado, buscando siempre la logística más inteligente y rentable para nuestros clientes."
+                    "li3": "Seguro Internacional.",
+                    "li4": "Importação e exportação de carga aérea.",
+                    "li5": "Flete competitivo, seguimiento y análisis de mercado, buscando siempre la logística más inteligente y rentable para nuestros clientes.",
+                    "li6": "Compras seguras de proveedores confiables en China."
                 }
             },
             "tab2": {

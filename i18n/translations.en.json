@@ -14,6 +14,8 @@
             "aereo": "/services/air",
             "maritimo": "/services/maritime",
             "rodoviario": "/services/road",
+            "china": "/services/china",
+            "seguro": "/services/insurance",
             "portos": "/ports",
             "ferramentas": "/tools",
             "galeria": "/gallery",
@@ -83,7 +85,9 @@
         "tabs": {
             "tab1": "AIR TRANSPORTATION",
             "tab2": "SEA TRANSPORTATION",
-            "tab3": "ROAD TRANSPORTATION"
+            "tab3": "ROAD TRANSPORTATION",
+            "tab4": "SHOPPING IN CHINA",
+            "tab5": "INTERNATIONAL INSURANCE"
         },
         "content": {
             "tab1": {
@@ -92,8 +96,10 @@
                 "list": {
                     "li1": "Import and Export sea cargo FCL and LCL.",
                     "li2": "National and International road transportation.",
-                    "li3": "Import and Export of air cargo.",
-                    "li4": "Competitive freights, follow up and market analysis always seeking the smartest and most cost-effective logistics for our customers."
+                    "li3": "International Insurance.",
+                    "li4": "Import and Export of air cargo.",
+                    "li5": "Competitive freights, follow up and market analysis always seeking the smartest and most cost-effective logistics for our customers.",
+                    "li6": "Safe Purchases from Reliable Suppliers in China."
                 }
             },
             "tab2": {

@@ -2,6 +2,7 @@ import { useLanguageQuery, useTranslation } from "next-export-i18n";
 import TabServicos from "../../components/TabServicos";
 import { useEffect, useState } from "react";
 import NavServicos from "../../components/NavServicos";
+import Image from "next/image";
 
 export default function Servicos() {
     const { t } = useTranslation();
@@ -13,6 +14,8 @@ export default function Servicos() {
         li2: t("servicos.content.tab1.list.li2"),
         li3: t("servicos.content.tab1.list.li3"),
         li4: t("servicos.content.tab1.list.li4"),
+        li5: t("servicos.content.tab1.list.li5"),
+        li6: t("servicos.content.tab1.list.li6"),
     });
 
     useEffect(() => {
@@ -23,6 +26,8 @@ export default function Servicos() {
             li2: t("servicos.content.tab1.list.li2"),
             li3: t("servicos.content.tab1.list.li3"),
             li4: t("servicos.content.tab1.list.li4"),
+            li5: t("servicos.content.tab1.list.li5"),
+            li6: t("servicos.content.tab1.list.li6"),
         });
     }, [query]);
 
