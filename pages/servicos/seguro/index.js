@@ -57,7 +57,7 @@ export default function Servicos() {
                                         }
                                         width={674}
                                         height={411}
-                                        layout={"responsive"}
+                                        layout={"intrinsic"}
                                     />
                                 </div>
                                 <p
