@@ -66,36 +66,42 @@ export default function Servicos() {
                                         __html: t("servicos.content.tab6.p5"),
                                     }}
                                 ></p>
-                                <p
-                                    className="mt-4 lg:mt-8 mb-16"
-                                    dangerouslySetInnerHTML={{
-                                        __html: t("servicos.content.tab6.p6"),
-                                    }}
-                                ></p>
-                                <NextLink
-                                    className={`inline-flex px-4 mb-24 ml-44 py-2 items-center  border rounded-xl transition-colors border-brand-blue hover:bg-brand-orange-hover text-brand-blue`}
-                                    href={{
-                                        pathname: "/contato",
-                                        query: query,
-                                    }}
-                                    as={t("nav.paths.contato")}
-                                >
-                                    <Image
-                                        className=""
-                                        src={"/icons/contact.svg"}
-                                        alt={"icone de contato pelo whatsapp"}
-                                        width={40}
-                                        height={40}
-                                        layout="fixed"
-                                    />
+                                <div className="flex flex-col w-fit items-center ">
                                     <p
-                                        className={
-                                            "ml-3 w-full text-center text-[16px]  sm:w-fit uppercase  "
-                                        }
+                                        className="mt-4 lg:mt-8 mb-16"
+                                        dangerouslySetInnerHTML={{
+                                            __html: t(
+                                                "servicos.content.tab6.p6"
+                                            ),
+                                        }}
+                                    ></p>
+                                    <NextLink
+                                        className={`inline-flex w-fit px-4 mb-24  py-2 items-center  border rounded-xl transition-colors border-brand-blue hover:bg-brand-orange-hover text-brand-blue`}
+                                        href={{
+                                            pathname: "/contato",
+                                            query: query,
+                                        }}
+                                        as={t("nav.paths.contato")}
                                     >
-                                        {t("sobre.btn")}
-                                    </p>
-                                </NextLink>
+                                        <Image
+                                            className=""
+                                            src={"/icons/contact.svg"}
+                                            alt={
+                                                "icone de contato pelo whatsapp"
+                                            }
+                                            width={40}
+                                            height={40}
+                                            layout="fixed"
+                                        />
+                                        <p
+                                            className={
+                                                "ml-3 w-full text-center text-[16px]  sm:w-fit uppercase  "
+                                            }
+                                        >
+                                            {t("sobre.btn")}
+                                        </p>
+                                    </NextLink>
+                                </div>
                             </div>
                         </div>
                     </div>

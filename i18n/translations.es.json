@@ -19,6 +19,9 @@
             "portos": "/puertos",
             "ferramentas": "/herramientas",
             "galeria": "/galeria",
+            "fotos": "/galeria/fotos",
+            "videos": "/galeria/videos",
+            "curiosidades": "/galeria/curiosidades",
             "contato": "/contacto"
         }
     },
@@ -211,6 +214,14 @@
             "paquistao": "PAKISTÁN",
             "australia": "AUSTRALIA",
             "novaZelandia": "NUEVA ZELANDA"
+        }
+    },
+    "galeria": {
+        "titulo": "Galería",
+        "tabs": {
+            "tab1": "FOTOS",
+            "tab2": "VÍDEOS",
+            "tab3": "Curiosidades en COMEX"
         }
     },
     "contato": {

@@ -99,13 +99,19 @@ export default function TabServicos({ servico }) {
                 </ul>
             </div>
             <div className="clear-both"></div>
-            <div className="w-full relative flex justify-center">
+            <div className="w-fit mx-auto relative flex justify-center py-20">
+                <div className="absolute flex flex-col items-center right-[14rem] top-20">
+                    <h3 className="text-5xl text-brand-blue">Mapa do Brasil</h3>
+                    <h3 className="text-3xl mt-1 text-brand-orange">
+                        Brazil Map
+                    </h3>
+                </div>
                 <Image
                     className=" mx-auto"
                     src={"/images/brasil-servicos.svg"}
-                    alt={"seta"}
-                    width={839}
-                    height={949}
+                    alt={"mapa do brasil com rotas comerciais"}
+                    width={1037}
+                    height={569}
                     layout={"intrinsic"}
                 />
             </div>

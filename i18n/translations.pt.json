@@ -17,7 +17,10 @@
             "china": "/servicos/china",
             "seguro": "/servicos/seguro",
             "ferramentas": "/ferramentas",
-            "geleria": "/galeria",
+            "galeria": "/galeria",
+            "fotos": "/galeria/fotos",
+            "videos": "/galeria/videos",
+            "curiosidades": "/galeria/curiosidades",
             "contato": "/contato"
         }
     },
@@ -210,6 +213,14 @@
             "paquistao": "PAQUISTÃO",
             "australia": "AUSTRÁLIA",
             "novaZelandia": "NOVA ZELÂNDIA"
+        }
+    },
+    "galeria": {
+        "titulo": "Galeria",
+        "tabs": {
+            "tab1": "FOTOS",
+            "tab2": "VÍDEOS",
+            "tab3": "Curiosidades no COMEX"
         }
     },
     "contato": {
