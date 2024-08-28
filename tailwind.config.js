@@ -5,6 +5,10 @@ module.exports = {
     ],
     theme: {
         extend: {
+            screens: {
+                tm: "1300px",
+                Bfullhd: "1930px",
+            },
             colors: {
                 "brand-orange-hover": "#FDEBD8",
                 "brand-orange": "#F59B2C",
