@@ -1,5 +1,6 @@
 import { useLanguageQuery, useTranslation } from "next-export-i18n";
 import NavGaleria from "../../../components/NavGaleria";
+import ReactPlayer from "react-player";
 
 export default function Servicos() {
     const { t } = useTranslation();
@@ -15,13 +16,30 @@ export default function Servicos() {
                     <div className={"flex flex-col lg:flex-row lg:items-end"}>
                         <NavGaleria />
                     </div>
-                    <div className={"mt-8"}>
-                        <div className="relative">
-                            <div
-                                className={
-                                    "border-l-4 border-brand-orange pl-8 lg:pl-12 pb-8 text-lg md:text-xl lg:text-2xl font-normal mt-5 lg:mt-12 "
-                                }
-                            ></div>
+                    <div className={"my-12 w-full flex h-[550px]"}>
+                        <div className={"w-[65%]"}>
+                            <ReactPlayer
+                                className="react-player"
+                                url="https://www.youtube.com/watch?v=7LqCj0FVtyY"
+                                width="100%"
+                                height="100%"
+                                controls={true}
+                                playing={true}
+                            />
+                        </div>
+                        <div
+                            className={
+                                "flex-1 pl-3 grid grid-cols-2 grid-rows-4 gap-4"
+                            }
+                        >
+                            <div className="bg-blue-500 p-4">Item 1</div>
+                            <div className="bg-green-500 p-4">Item 2</div>
+                            <div className="bg-red-500 p-4">Item 3</div>
+                            <div className="bg-yellow-500 p-4">Item 4</div>
+                            <div className="bg-purple-500 p-4">Item 5</div>
+                            <div className="bg-pink-500 p-4">Item 6</div>
+                            <div className="bg-indigo-500 p-4">Item 7</div>
+                            <div className="bg-teal-500 p-4">Item 8</div>
                         </div>
                     </div>
                 </div>
