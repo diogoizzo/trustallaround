@@ -13,16 +13,7 @@ export default function TriviaDisplay({ title, text, imgSrc, imgAlt }) {
                 <div
                     className={"h-1 my-2 rounded-full  bg-brand-orange w-16"}
                 ></div>
-                <p className={"text-slate-600/80 text-xl"}>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eius sint id nulla numquam hic in quibusdam doloribus ut
-                    aliquid, fugit beatae iste tenetur quas neque labore sed
-                    architecto ad aliquam dicta ullam corrupti alias laudantium
-                    aspernatur incidunt. Inventore animi earum recusandae
-                    consequatur voluptatem optio voluptate tenetur facilis
-                    provident nesciunt. Natus a sequi molestiae aliquid tenetur
-                    voluptate quia harum in est?
-                </p>
+                <p className={"text-slate-600/80 text-xl"}>{text}</p>
             </div>
         </div>
     );
