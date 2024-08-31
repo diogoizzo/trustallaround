@@ -1,5 +1,6 @@
 import { useLanguageQuery, useTranslation } from "next-export-i18n";
 import NavGaleria from "../../components/NavGaleria";
+import ReactPlayer from "react-player";
 
 export default function Servicos() {
     const { t } = useTranslation();
@@ -8,21 +9,22 @@ export default function Servicos() {
         <div className="w-full overflow-hidden">
             <div
                 className={
-                    "w-full mt-3 lg:mt-8 px-[6%] mx-auto text-brand-blue"
+                    "w-full mt-3 lg:mt-8 px-[6%] mx-auto text-brand-blue relative"
                 }
             >
                 <div>
                     <div className={"flex flex-col lg:flex-row lg:items-end"}>
                         <NavGaleria />
                     </div>
-                    <div className={"mt-8"}>
-                        <div className="relative">
-                            <div
-                                className={
-                                    "border-l-4 border-brand-orange pl-8 lg:pl-12 pb-8 text-lg md:text-xl lg:text-2xl font-normal mt-5 lg:mt-12 "
-                                }
-                            ></div>
-                        </div>
+                    <div className={"my-12 w-[60%] mx-auto h-[500px]"}>
+                        <ReactPlayer
+                            className="react-player"
+                            url="https://www.youtube.com/watch?v=7LqCj0FVtyY"
+                            width="100%"
+                            height="100%"
+                            controls={true}
+                            playing={true}
+                        />
                     </div>
                 </div>
             </div>

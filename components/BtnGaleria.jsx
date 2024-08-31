@@ -10,7 +10,7 @@ export default function BtnGaleria({
 }) {
     return (
         <div
-            className={`inline-flex space-x-4 min-h-[60px]  px-6 py-1 items-center  border rounded-xl transition-colors ${className}`}
+            className={`inline-flex space-x-4 max-h-[57px]  px-6 py-1 items-center  border rounded-xl transition-colors ${className}`}
         >
             <Image
                 className=""
