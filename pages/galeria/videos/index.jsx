@@ -29,7 +29,7 @@ export default function Servicos() {
                         </div>
                         <div
                             className={
-                                "flex-1 pl-3 grid grid-cols-2 grid-rows-4 gap-4"
+                                "flex-1 pl-4 grid grid-cols-2 grid-rows-4 gap-4"
                             }
                         >
                             <div className="bg-blue-500 p-4">Item 1</div>

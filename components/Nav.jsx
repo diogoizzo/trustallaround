@@ -41,7 +41,11 @@ export default function Nav({ className }) {
                     </Link>
                     <div
                         className={`${
-                            router.pathname === "/servicos" ? "block" : "hidden"
+                            router.pathname.includes(
+                                "servicos" || "services" || "servicios"
+                            )
+                                ? "block"
+                                : "hidden"
                         } h-1 bg-brand-orange w-full mt-1 rounded-3xl`}
                     ></div>
                 </li>
@@ -82,7 +86,9 @@ export default function Nav({ className }) {
                     </Link>
                     <div
                         className={`${
-                            router.pathname === "/galeria" ? "block" : "hidden"
+                            router.pathname.includes("galeria" || "gallery")
+                                ? "block"
+                                : "hidden"
                         } h-1 bg-brand-orange w-full mt-1 rounded-3xl`}
                     ></div>
                 </li>
