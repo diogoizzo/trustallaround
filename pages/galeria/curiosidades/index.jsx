@@ -15,7 +15,7 @@ export default function Servicos() {
                     <div className={"flex flex-col lg:flex-row lg:items-end"}>
                         <NavGaleria />
                     </div>
-                    <div className={"my-12"}>
+                    <div className={"my-12 "}>
                         <div
                             className={
                                 "border-l-4 border-brand-orange space-y-8 pl-8 lg:pl-12 pb-8 text-lg md:text-xl lg:text-2xl font-normal mt-5 lg:mt-12 "

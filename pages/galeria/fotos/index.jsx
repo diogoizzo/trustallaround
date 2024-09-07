@@ -236,7 +236,7 @@ export default function Servicos() {
             <div className="w-full overflow-hidden">
                 <div
                     className={
-                        "w-full mt-3 lg:mt-8 px-[6%] mx-auto text-brand-blue"
+                        "w-full   mt-3 lg:mt-8 px-[6%] mx-auto text-brand-blue"
                     }
                 >
                     <div>
@@ -245,10 +245,10 @@ export default function Servicos() {
                         >
                             <NavGaleria />
                         </div>
-                        <div className={"my-12"}>
+                        <div className={"my-12 max-w-[1900px] mx-auto "}>
                             <div
                                 className={
-                                    "grid grid-cols-4 gap-4 auto-rows-[200px] "
+                                    "grid grid-cols-4 gap-4 auto-rows-[230px]  desktop:auto-rows-[300px]  "
                                 }
                             >
                                 <div

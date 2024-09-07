@@ -3,7 +3,11 @@ import Image from "next/image";
 export default function TriviaDisplay({ title, text, imgSrc, imgAlt }) {
     return (
         <div className={"w-full flex"}>
-            <div className={"w-[25%] h-[200px] bg-black relative"}>
+            <div
+                className={
+                    "w-[25%] h-[200px] desktop:w-[400px] desktop:h-[240px] bg-black relative"
+                }
+            >
                 <Image src={imgSrc} alt={imgAlt} layout="fill" />
             </div>
             <div className={"flex-1  pl-6 inline-flex flex-col"}>

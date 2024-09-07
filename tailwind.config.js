@@ -7,6 +7,7 @@ module.exports = {
         extend: {
             screens: {
                 tm: "1300px",
+                desktop: "1800px",
                 Bfullhd: "1930px",
             },
             colors: {

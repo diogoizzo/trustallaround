@@ -16,7 +16,11 @@ export default function Servicos() {
                     <div className={"flex flex-col lg:flex-row lg:items-end"}>
                         <NavGaleria />
                     </div>
-                    <div className={"my-12 w-[60%] mx-auto h-[500px]"}>
+                    <div
+                        className={
+                            "my-12 w-[60%] max-w-[890px] mx-auto h-[500px] desktop:max-w-[1300px] desktop:h-[680px]"
+                        }
+                    >
                         <ReactPlayer
                             className="react-player"
                             url="https://www.youtube.com/watch?v=7LqCj0FVtyY"
