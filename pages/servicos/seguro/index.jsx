@@ -17,11 +17,11 @@ export default function Servicos() {
                     <div className={"flex flex-col lg:flex-row lg:items-end"}>
                         <NavServicos />
                     </div>
-                    <div className={"mt-8"}>
-                        <div className="relative">
+                    <div className={"mt-8 flex flex-row justify-between"}>
+                        <div className="relative w-[65%] ">
                             <div
                                 className={
-                                    "border-l-4 border-brand-orange pl-8 lg:pl-12 pb-8 text-lg md:text-xl lg:text-2xl font-normal mt-5 lg:mt-12 "
+                                    "border-l-4 border-brand-orange pl-8 lg:pl-12 mb-20 text-lg md:text-xl lg:text-2xl font-normal mt-5 lg:mt-12 "
                                 }
                             >
                                 <p
@@ -49,34 +49,22 @@ export default function Servicos() {
                                         __html: t("servicos.content.tab6.p4"),
                                     }}
                                 ></p>
-                                <div className="float-right w-[40%] mt-8 mb-8 mr-24">
-                                    <Image
-                                        src={"/images/caixa.jpg"}
-                                        alt={
-                                            "imagem mostrando um container vindo da china com vários produtos"
-                                        }
-                                        width={674}
-                                        height={411}
-                                        layout={"intrinsic"}
-                                    />
-                                </div>
+
                                 <p
                                     className="mt-4 lg:mt-8"
                                     dangerouslySetInnerHTML={{
                                         __html: t("servicos.content.tab6.p5"),
                                     }}
                                 ></p>
-                                <div className="flex flex-col w-fit items-center ">
-                                    <p
-                                        className="mt-4 lg:mt-8 mb-16"
-                                        dangerouslySetInnerHTML={{
-                                            __html: t(
-                                                "servicos.content.tab6.p6"
-                                            ),
-                                        }}
-                                    ></p>
+                                <p
+                                    className="mt-4 lg:mt-8 mb-16"
+                                    dangerouslySetInnerHTML={{
+                                        __html: t("servicos.content.tab6.p6"),
+                                    }}
+                                ></p>
+                                <div className={"w-full text-center"}>
                                     <NextLink
-                                        className={`inline-flex w-fit px-4 mb-24  py-2 items-center  border rounded-xl transition-colors border-brand-blue hover:bg-brand-orange-hover text-brand-blue`}
+                                        className={`inline-flex   px-4   py-2 items-center  border rounded-xl transition-colors border-brand-blue hover:bg-brand-orange-hover text-brand-blue`}
                                         href={{
                                             pathname: "/contato",
                                             query: query,
@@ -103,6 +91,17 @@ export default function Servicos() {
                                     </NextLink>
                                 </div>
                             </div>
+                        </div>
+                        <div className=" mt-12">
+                            <Image
+                                src={"/images/caixa.jpg"}
+                                alt={
+                                    "imagem mostrando um container vindo da china com vários produtos"
+                                }
+                                width={674}
+                                height={411}
+                                layout={"intrinsic"}
+                            />
                         </div>
                     </div>
                 </div>
