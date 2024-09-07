@@ -245,14 +245,14 @@ export default function Servicos() {
                         >
                             <NavGaleria />
                         </div>
-                        <div className={"my-12 max-w-[1900px] mx-auto "}>
+                        <div className={"my-12 w-[1400px]  mx-auto "}>
                             <div
                                 className={
-                                    "grid grid-cols-4 gap-4 auto-rows-[230px]  desktop:auto-rows-[300px]  "
+                                    "grid grid-cols-4 gap-4 auto-rows-[230px]   "
                                 }
                             >
                                 <div
-                                    className="cursor-pointer col-span-2 row-span-2 rounded-md relative overflow-hidden"
+                                    className="cursor-pointer  col-span-2 row-span-2 rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[1]);
                                         openModal();
