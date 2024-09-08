@@ -5,7 +5,7 @@ export default function TriviaDisplay({ title, text, imgSrc, imgAlt }) {
         <div className={"w-full flex"}>
             <div
                 className={
-                    "w-[320px] h-[200px] desktop:w-[400px] desktop:h-[240px] bg-black relative"
+                    "w-[320px] h-[180px] desktop:w-[400px] desktop:h-[240px] bg-black relative"
                 }
             >
                 <Image src={imgSrc} alt={imgAlt} layout="fill" />
