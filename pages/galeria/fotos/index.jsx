@@ -29,6 +29,12 @@ export default function Servicos() {
             width: "900px",
             src: "/images/galeria/t3.jpg",
         },
+        "3_1": {
+            alt: "brunch de recepção da trustallaround",
+            height: "600px",
+            width: "900px",
+            src: "/images/galeria/T3_1.jpg",
+        },
         4: {
             alt: "pessoas em um barco",
             height: "600px",
@@ -130,6 +136,18 @@ export default function Servicos() {
             height: "600px",
             width: "900px",
             src: "/images/galeria/t20.jpg",
+        },
+        "20_1": {
+            alt: "foto de um xícara com a logo da trustallaround",
+            height: "600px",
+            width: "900px",
+            src: "/images/galeria/t20_1.jpg",
+        },
+        "20_2": {
+            alt: "foto de um mackbook ligado, com a logo da trustallaround na tela",
+            height: "600px",
+            width: "900px",
+            src: "/images/galeria/t20_2.jpg",
         },
         21: {
             alt: "foto de várias pessoas na recepção da trustallaround",
@@ -260,8 +278,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[1].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[1].alt}
                                         layout="fill"
                                     />
@@ -275,8 +291,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[2].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[2].alt}
                                         layout="fill"
                                     />
@@ -290,9 +304,20 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[3].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[3].alt}
+                                        layout="fill"
+                                    />
+                                </div>
+                                <div
+                                    className=" cursor-pointer rounded-md relative overflow-hidden"
+                                    onClick={() => {
+                                        setContent(images["3_1"]);
+                                        openModal();
+                                    }}
+                                >
+                                    <Image
+                                        src={images["3_1"].src}
+                                        alt={images["3_1"].alt}
                                         layout="fill"
                                     />
                                 </div>
@@ -305,8 +330,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[4].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[4].alt}
                                         layout="fill"
                                     />
@@ -320,8 +343,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[5].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[5].alt}
                                         layout="fill"
                                     />
@@ -335,14 +356,12 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[6].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[6].alt}
                                         layout="fill"
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer rounded-md relative overflow-hidden col-span-2 row-span-2"
                                     onClick={() => {
                                         setContent(images[7]);
                                         openModal();
@@ -350,14 +369,12 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[7].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[7].alt}
                                         layout="fill"
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden col-span-2 row-span-2"
+                                    className="cursor-pointer rounded-md relative overflow-hidden  "
                                     onClick={() => {
                                         setContent(images[8]);
                                         openModal();
@@ -365,8 +382,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[8].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[8].alt}
                                         layout="fill"
                                     />
@@ -380,14 +395,12 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[9].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[9].alt}
                                         layout="fill"
                                     />
                                 </div>
                                 <div
-                                    className=" cursor-pointer rounded-md relative overflow-hidden"
+                                    className=" cursor-pointer rounded-md relative overflow-hidden col-span-2 row-span-2"
                                     onClick={() => {
                                         setContent(images[10]);
                                         openModal();
@@ -395,14 +408,12 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[10].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[10].alt}
                                         layout="fill"
                                     />
                                 </div>
                                 <div
-                                    className=" cursor-pointer rounded-md relative overflow-hidden col-span-2 row-span-2"
+                                    className=" cursor-pointer rounded-md relative overflow-hidden "
                                     onClick={() => {
                                         setContent(images[11]);
                                         openModal();
@@ -410,8 +421,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[11].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[11].alt}
                                         layout="fill"
                                     />
@@ -425,8 +434,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[12].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[12].alt}
                                         layout="fill"
                                     />
@@ -440,8 +447,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[13].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[13].alt}
                                         layout="fill"
                                     />
@@ -455,8 +460,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[14].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[14].alt}
                                         layout="fill"
                                     />
@@ -470,8 +473,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[15].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[15].alt}
                                         layout="fill"
                                     />
@@ -485,14 +486,12 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[16].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[16].alt}
                                         layout="fill"
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden "
+                                    className="cursor-pointer rounded-md relative overflow-hidden col-span-2 row-span-2"
                                     onClick={() => {
                                         setContent(images[17]);
                                         openModal();
@@ -500,14 +499,12 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[17].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[17].alt}
                                         layout="fill"
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden col-span-2 row-span-2"
+                                    className="cursor-pointer rounded-md relative overflow-hidden "
                                     onClick={() => {
                                         setContent(images[18]);
                                         openModal();
@@ -515,14 +512,12 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[18].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[18].alt}
                                         layout="fill"
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer rounded-md relative overflow-hidden "
                                     onClick={() => {
                                         setContent(images[19]);
                                         openModal();
@@ -530,14 +525,12 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[19].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[19].alt}
                                         layout="fill"
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer rounded-md relative overflow-hidden  col-span-2 row-span-2"
                                     onClick={() => {
                                         setContent(images[20]);
                                         openModal();
@@ -545,14 +538,38 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[20].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[20].alt}
                                         layout="fill"
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden col-span-2 row-span-2"
+                                    className="cursor-pointer rounded-md relative overflow-hidden "
+                                    onClick={() => {
+                                        setContent(images["20_1"]);
+                                        openModal();
+                                    }}
+                                >
+                                    <Image
+                                        src={images["20_1"].src}
+                                        alt={images["20_1"].alt}
+                                        layout="fill"
+                                    />
+                                </div>
+                                <div
+                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    onClick={() => {
+                                        setContent(images["20_2"]);
+                                        openModal();
+                                    }}
+                                >
+                                    <Image
+                                        src={images["20_2"].src}
+                                        alt={images["20_2"].alt}
+                                        layout="fill"
+                                    />
+                                </div>
+                                <div
+                                    className="cursor-pointer rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[21]);
                                         openModal();
@@ -560,8 +577,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[21].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[21].alt}
                                         layout="fill"
                                     />
@@ -575,8 +590,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[22].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[22].alt}
                                         layout="fill"
                                     />
@@ -590,8 +603,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[23].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[23].alt}
                                         layout="fill"
                                     />
@@ -605,14 +616,12 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[24].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[24].alt}
                                         layout="fill"
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden "
+                                    className="cursor-pointer rounded-md relative overflow-hidden col-span-2 row-span-2 "
                                     onClick={() => {
                                         setContent(images[25]);
                                         openModal();
@@ -620,14 +629,12 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[25].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[25].alt}
                                         layout="fill"
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer rounded-md relative overflow-hidden "
                                     onClick={() => {
                                         setContent(images[26]);
                                         openModal();
@@ -635,14 +642,12 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[26].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[26].alt}
                                         layout="fill"
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer rounded-md relative overflow-hidden "
                                     onClick={() => {
                                         setContent(images[27]);
                                         openModal();
@@ -650,14 +655,12 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[27].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[27].alt}
                                         layout="fill"
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md col-span-2 row-span-2 relative overflow-hidden"
+                                    className="cursor-pointer rounded-md relative overflow-hidden "
                                     onClick={() => {
                                         setContent(images[28]);
                                         openModal();
@@ -665,8 +668,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[28].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[28].alt}
                                         layout="fill"
                                     />
@@ -680,8 +681,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[29].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[29].alt}
                                         layout="fill"
                                     />
@@ -695,8 +694,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[30].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[30].alt}
                                         layout="fill"
                                     />
@@ -710,8 +707,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[31].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[31].alt}
                                         layout="fill"
                                     />
@@ -725,8 +720,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[32].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[32].alt}
                                         layout="fill"
                                     />
@@ -740,8 +733,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[33].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[33].alt}
                                         layout="fill"
                                     />
@@ -755,8 +746,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[34].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[34].alt}
                                         layout="fill"
                                     />
@@ -770,8 +759,6 @@ export default function Servicos() {
                                 >
                                     <Image
                                         src={images[35].src}
-                                        width={900}
-                                        height={600}
                                         alt={images[35].alt}
                                         layout="fill"
                                     />

@@ -1,10 +1,12 @@
-import { useLanguageQuery, useTranslation } from "next-export-i18n";
 import NavGaleria from "../../../components/NavGaleria";
 import ReactPlayer from "react-player";
+import { useState } from "react";
+import Image from "next/image";
 
 export default function Servicos() {
-    const { t } = useTranslation();
-    const [query] = useLanguageQuery();
+    let [activeVideo, setActiveVideo] = useState(
+        "https://www.youtube.com/watch?v=7LqCj0FVtyY"
+    );
     return (
         <div className="w-full overflow-hidden">
             <div
@@ -18,13 +20,13 @@ export default function Servicos() {
                     </div>
                     <div
                         className={
-                            "my-12 w-full max-w-[1900px] mx-auto flex h-[550px] desktop:h-[650px]"
+                            "my-12 w-full max-w-[1350px] desktop:max-w-[1600px] mx-auto flex h-[550px] desktop:h-[650px]"
                         }
                     >
                         <div className={"w-[65%]"}>
                             <ReactPlayer
                                 className="react-player"
-                                url="https://www.youtube.com/watch?v=7LqCj0FVtyY"
+                                url={activeVideo}
                                 width="100%"
                                 height="100%"
                                 controls={true}
@@ -36,14 +38,94 @@ export default function Servicos() {
                                 "flex-1 pl-4 grid grid-cols-2 grid-rows-4 gap-4"
                             }
                         >
-                            <div className="bg-blue-500 p-4">Item 1</div>
-                            <div className="bg-green-500 p-4">Item 2</div>
-                            <div className="bg-red-500 p-4">Item 3</div>
-                            <div className="bg-yellow-500 p-4">Item 4</div>
-                            <div className="bg-purple-500 p-4">Item 5</div>
-                            <div className="bg-pink-500 p-4">Item 6</div>
+                            <div
+                                className=" p-4 relative w-full overflow-clip cursor-pointer rounded-sm "
+                                onClick={() => {
+                                    setActiveVideo(
+                                        "https://www.youtube.com/watch?v=7LqCj0FVtyY"
+                                    );
+                                }}
+                            >
+                                <Image
+                                    className={"mx-w-full object-cover"}
+                                    src={"/images/video1.jpg"}
+                                    width={1080}
+                                    height={1920}
+                                    layout="fill"
+                                    alt={""}
+                                />
+                            </div>
+                            <div
+                                className=" p-4 relative w-full overflow-clip cursor-pointer rounded-sm  "
+                                onClick={() => {
+                                    setActiveVideo(
+                                        "https://www.youtube.com/shorts/sUmiXQxFFGk"
+                                    );
+                                }}
+                            >
+                                <Image
+                                    className={"mx-w-full object-cover"}
+                                    src={"/images/video2.jpg"}
+                                    width={1080}
+                                    height={1920}
+                                    layout="fill"
+                                    alt={""}
+                                />
+                            </div>
+                            <div
+                                className=" p-4 relative w-full overflow-clip cursor-pointer rounded-sm  "
+                                onClick={() => {
+                                    setActiveVideo(
+                                        "https://www.youtube.com/watch?v=XQBq-sIGv24"
+                                    );
+                                }}
+                            >
+                                <Image
+                                    className={"mx-w-full object-cover"}
+                                    src={"/images/video3.jpeg"}
+                                    width={1080}
+                                    height={1920}
+                                    layout="fill"
+                                    alt={""}
+                                />
+                            </div>
+                            <div
+                                className=" p-4 relative w-full overflow-clip cursor-pointer rounded-sm  "
+                                onClick={() => {
+                                    setActiveVideo(
+                                        "https://www.youtube.com/shorts/zT_BkfVf1Ks"
+                                    );
+                                }}
+                            >
+                                <Image
+                                    className={"mx-w-full object-cover"}
+                                    src={"/images/video4.jpeg"}
+                                    width={1080}
+                                    height={1920}
+                                    layout="fill"
+                                    alt={""}
+                                />
+                            </div>
+                            <div
+                                className=" p-4 relative w-full overflow-clip cursor-pointer rounded-sm  "
+                                onClick={() => {
+                                    setActiveVideo(
+                                        "https://www.youtube.com/watch?v=Bygx_JtNFYw"
+                                    );
+                                }}
+                            >
+                                <Image
+                                    className={"mx-w-full object-cover"}
+                                    src={"/images/video5.jpg"}
+                                    width={1080}
+                                    height={1920}
+                                    layout="fill"
+                                    alt={""}
+                                />
+                            </div>
+                            {/* <div className="bg-pink-500 p-4">Item 6</div>
                             <div className="bg-indigo-500 p-4">Item 7</div>
-                            <div className="bg-teal-500 p-4">Item 8</div>
+                            <div className="bg-teal-500 p-4">Item 8</div> */}
                         </div>
                     </div>
                 </div>
