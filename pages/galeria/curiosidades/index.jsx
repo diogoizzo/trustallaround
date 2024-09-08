@@ -22,60 +22,48 @@ export default function Servicos() {
                             }
                         >
                             <TriviaDisplay
-                                title={"Teste de título"}
+                                title={t("galeria.comex.trivia1.title")}
                                 imgAlt={"caminhão em uma rodovia"}
                                 imgSrc={"/images/caminhao.jpg"}
-                                text={
-                                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius sint id nulla numquam hic in quibusdam doloribus ut aliquid, fugit beatae iste tenetur quas neque labore sed architecto ad aliquam dicta ullam corrupti alias laudantiumaspernatur incidunt. Inventore animi earum recusandae  consequatur voluptatem optio voluptate tenetur facilis provident nesciunt. Natus a sequi molestiae aliquid tenetur voluptate quia harum in est?"
-                                }
+                                text={t("galeria.comex.trivia1.content")}
                             />
                             <TriviaDisplay
-                                title={"Teste de título"}
+                                title={t("galeria.comex.trivia2.title")}
                                 imgAlt={"bandeira do Brasil e da China"}
                                 imgSrc={"/images/bandeira.jpg"}
-                                text={
-                                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius sint id nulla numquam hic in quibusdam doloribus ut aliquid, fugit beatae iste tenetur quas neque labore sed architecto ad aliquam dicta ullam corrupti alias laudantiumaspernatur incidunt. Inventore animi earum recusandae  consequatur voluptatem optio voluptate tenetur facilis provident nesciunt. Natus a sequi molestiae aliquid tenetur voluptate quia harum in est?"
-                                }
+                                text={t("galeria.comex.trivia2.content")}
                             />
                             <TriviaDisplay
-                                title={"Teste de título"}
+                                title={t("galeria.comex.trivia3.title")}
                                 imgAlt={
                                     "imagem mostrando um home de negócios com conexões no mundo inteiro"
                                 }
                                 imgSrc={"/images/conexoes.jpg"}
-                                text={
-                                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius sint id nulla numquam hic in quibusdam doloribus ut aliquid, fugit beatae iste tenetur quas neque labore sed architecto ad aliquam dicta ullam corrupti alias laudantiumaspernatur incidunt. Inventore animi earum recusandae  consequatur voluptatem optio voluptate tenetur facilis provident nesciunt. Natus a sequi molestiae aliquid tenetur voluptate quia harum in est?"
-                                }
+                                text={t("galeria.comex.trivia3.content")}
                             />
                             <TriviaDisplay
-                                title={"Teste de título"}
+                                title={t("galeria.comex.trivia4.title")}
                                 imgAlt={
                                     "imagem com uma tabela mostrando os icoterms"
                                 }
                                 imgSrc={"/images/icoterms.jpg"}
-                                text={
-                                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius sint id nulla numquam hic in quibusdam doloribus ut aliquid, fugit beatae iste tenetur quas neque labore sed architecto ad aliquam dicta ullam corrupti alias laudantiumaspernatur incidunt. Inventore animi earum recusandae  consequatur voluptatem optio voluptate tenetur facilis provident nesciunt. Natus a sequi molestiae aliquid tenetur voluptate quia harum in est?"
-                                }
+                                text={t("galeria.comex.trivia4.content")}
                             />
                             <TriviaDisplay
-                                title={"Teste de título"}
+                                title={t("galeria.comex.trivia5.title")}
                                 imgAlt={
                                     "imagem mostrando containers em um porto"
                                 }
                                 imgSrc={"/images/porto.jpg"}
-                                text={
-                                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius sint id nulla numquam hic in quibusdam doloribus ut aliquid, fugit beatae iste tenetur quas neque labore sed architecto ad aliquam dicta ullam corrupti alias laudantiumaspernatur incidunt. Inventore animi earum recusandae  consequatur voluptatem optio voluptate tenetur facilis provident nesciunt. Natus a sequi molestiae aliquid tenetur voluptate quia harum in est?"
-                                }
+                                text={t("galeria.comex.trivia5.content")}
                             />
                             <TriviaDisplay
-                                title={"Teste de título"}
+                                title={t("galeria.comex.trivia6.title")}
                                 imgAlt={
                                     "imagem mostrando duas pessoas apertando as mãos"
                                 }
                                 imgSrc={"/images/acordo.jpg"}
-                                text={
-                                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius sint id nulla numquam hic in quibusdam doloribus ut aliquid, fugit beatae iste tenetur quas neque labore sed architecto ad aliquam dicta ullam corrupti alias laudantiumaspernatur incidunt. Inventore animi earum recusandae  consequatur voluptatem optio voluptate tenetur facilis provident nesciunt. Natus a sequi molestiae aliquid tenetur voluptate quia harum in est?"
-                                }
+                                text={t("galeria.comex.trivia6.content")}
                             />
                         </div>
                     </div>

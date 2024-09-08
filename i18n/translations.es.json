@@ -223,6 +223,32 @@
             "tab1": "FOTOS",
             "tab2": "VÍDEOS",
             "tab3": "Curiosidades en COMEX"
+        },
+        "comex": {
+            "trivia1": {
+                "title": "La Importancia de la Logística Internacional en la Competitividad Global",
+                "content": "La logística internacional es un diferenciador competitivo en el comercio exterior. Empresas como TRUST ALL AROUND garantizan que los productos se entreguen de forma segura y puntual, minimizando costos y aumentando la eficiencia operativa."
+            },
+            "trivia2": {
+                "title": "La Conexión Brasil x China: Un Camino de Oportunidades",
+                "content": "China es uno de los mayores socios comerciales de Brasil. TRUST ALL AROUND facilita esta conexión, ayudando a las empresas brasileñas a encontrar proveedores confiables y a negociar mejores condiciones comerciales, impulsando la economía local."
+            },
+            "trivia3": {
+                "title": "¿Cómo funciona la logística internacional y por qué es importante para el comercio exterior?",
+                "content": "La logística internacional implica la gestión del transporte, almacenamiento y distribución de mercancías a través de las fronteras. Es importante porque afecta directamente los costos, los plazos de entrega y la integridad de los productos. TRUST ALL AROUND ofrece soluciones integradas para garantizar eficiencia y seguridad."
+            },
+            "trivia4": {
+                "title": "¿Qué son los Incoterms y por qué son importantes en el comercio exterior?",
+                "content": "Los Incoterms son términos internacionales de comercio que definen las responsabilidades de los vendedores y compradores en transacciones internacionales. Son importantes porque aclaran quién es responsable de los costos, riesgos y seguros en diferentes puntos del proceso logístico. TRUST ALL AROUND ayuda a los clientes a comprender y aplicar correctamente los Incoterms."
+            },
+            "trivia5": {
+                "title": "¿Cuáles son las ventajas del transporte Aéreo versus el Marítimo?",
+                "content": "El transporte aéreo es más rápido e ideal para mercancías urgentes o de alto valor, pero es más caro. El transporte marítimo es más económico y adecuado para grandes volúmenes y mercancías menos urgentes. TRUST ALL AROUND ofrece ambas opciones, ayudando a los clientes a elegir la mejor solución según sus necesidades."
+            },
+            "trivia6": {
+                "title": "¿Cómo pueden beneficiar las asociaciones estratégicas a los negocios en el comercio exterior?",
+                "content": "Las asociaciones estratégicas permiten el acceso a nuevos mercados, el intercambio de recursos y la reducción de riesgos. TRUST ALL AROUND trabaja junto con socios confiables, conectando a nuestros clientes con una red global que facilita las negociaciones y garantiza mejores condiciones comerciales."
+            }
         }
     },
     "contato": {

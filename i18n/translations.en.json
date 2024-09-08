@@ -224,6 +224,32 @@
             "tab1": "PHOTOS",
             "tab2": "VIDEOS",
             "tab3": "Trivia in COMEX"
+        },
+        "comex": {
+            "trivia1": {
+                "title": "The Importance of International Logistics in Global Competitiveness",
+                "content": "International logistics is a competitive differentiator in foreign trade. Companies like TRUST ALL AROUND ensure that products are delivered safely and on time, minimizing costs and increasing operational efficiency."
+            },
+            "trivia2": {
+                "title": "The Brazil x China Connection: A Path of Opportunities",
+                "content": "China is one of Brazil's largest trading partners. TRUST ALL AROUND develop this connection, helping Brazilian companies find reliable suppliers and negotiate better commercial conditions, boosting the local economy."
+            },
+            "trivia3": {
+                "title": "How Does International Logistics Work and Why Is It Important for Foreign Trade?",
+                "content": "International logistics involves the management of transportation, storage, and distribution of goods across borders. It is important because it directly affects costs, delivery times, and the integrity of products. TRUST ALL AROUND offers integrated solutions to ensure efficiency and security."
+            },
+            "trivia4": {
+                "title": "What Are Incoterms and Why Are They Important in Foreign Trade?",
+                "content": "Incoterms are international trade terms that define the responsibilities of sellers and buyers in international transactions. They are important because they clarify who is responsible for costs, risks, and insurance at different points on the logistics process. TRUST ALL AROUND assists clients in understanding the correct applying of Incoterms."
+            },
+            "trivia5": {
+                "title": "What Are the Advantages of Air Transport versus Maritime Transport?",
+                "content": "Air transport is faster and ideal for urgent or high-value goods, but it is more expensive. Maritime transport is more economical and suitable for large volumes and less urgent goods. TRUST ALL AROUND offers both options, helping clients choose the best solution based on their needs."
+            },
+            "trivia6": {
+                "title": "How Can Strategic Partnerships Benefit Businesses in Foreign Trade?",
+                "content": "Strategic partnerships provide access to new markets, resource sharing, and risk reduction. TRUST ALL AROUND works together with reliable partners, connecting our clients to a global network that facilitates negotiations and ensures better commercial conditions."
+            }
         }
     },
     "contato": {
