@@ -15,7 +15,9 @@ export default function TriviaDisplay({ title, text, imgSrc, imgAlt }) {
                     {title}
                 </h3>
                 <div
-                    className={"h-1 my-2 rounded-full  bg-brand-orange w-16"}
+                    className={
+                        "w-16 my-2 shrink-0 border-b-4 border-brand-orange rounded-full"
+                    }
                 ></div>
                 <p className={"text-slate-600/80 text-xl"}>{text}</p>
             </div>
