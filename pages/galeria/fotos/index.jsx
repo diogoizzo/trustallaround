@@ -120,16 +120,16 @@ export default function Servicos() {
             src: "/images/galeria/t17.jpg",
         },
         18: {
-            alt: "outra foto da festa de Halloween da trustallaround",
-            height: "600px",
-            width: "900px",
-            src: "/images/galeria/t18.jpg",
-        },
-        19: {
             alt: "foto de palestra na trustallaround",
             height: "600px",
             width: "900px",
             src: "/images/galeria/t19.jpg",
+        },
+        19: {
+            alt: "outra foto da festa de Halloween da trustallaround",
+            height: "600px",
+            width: "900px",
+            src: "/images/galeria/t18.jpg",
         },
         20: {
             alt: "foto de vários impressos da trustallaround sobre uma mesa",

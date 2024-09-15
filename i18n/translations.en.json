@@ -94,8 +94,8 @@
         },
         "content": {
             "tab1": {
-                "p1": "Basically, our job is to listen to you, understand your needs and together choose the most intelligent and effective logistics alternative for your business. ",
-                "p2": "From the pick up to the destination, we count on a specialized team to keep you updated during the whole process.",
+                "p1": "Basically, our function is to listen to you, understand your needs, and together choose the most intelligent and effective logistics alternative for your business.",
+                "p2": "From collection to the final destination, we have a specialized team to keep you updated throughout the entire process.",
                 "list": {
                     "li1": "Import and Export sea cargo FCL and LCL.",
                     "li2": "National and International road transportation.",
@@ -250,7 +250,8 @@
                 "title": "How Can Strategic Partnerships Benefit Businesses in Foreign Trade?",
                 "content": "Strategic partnerships provide access to new markets, resource sharing, and risk reduction. TRUST ALL AROUND works together with reliable partners, connecting our clients to a global network that facilitates negotiations and ensures better commercial conditions."
             }
-        }
+        },
+        "btnVideos": "+ Videos"
     },
     "contato": {
         "titulo": "Contact",

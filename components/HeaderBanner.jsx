@@ -6,7 +6,7 @@ export default function HeaderBanner() {
         <div className="bg-[#808080] h-10 overflow-hidden ">
             <div className="h-full flex px-[6%] justify-center sm:justify-end items-center shrink space-x-3">
                 <a
-                    href="https://www.linkedin.com/in/trust-all-around-2387b7240/"
+                    href="https://www.linkedin.com/company/trustallaround/"
                     className="relative h-6 w-6"
                 >
                     <Image
@@ -27,7 +27,7 @@ export default function HeaderBanner() {
                     />
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/trust-all-around-2387b7240/"
+                    href="https://www.youtube.com/@TRUSTALLAROUND"
                     className="relative h-7 w-7"
                 >
                     <Image
