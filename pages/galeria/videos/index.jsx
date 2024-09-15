@@ -118,7 +118,12 @@ export default function Servicos() {
                                         alt=""
                                     />
                                 </div>
-                                <div className={"flex justify-center"}>
+                                <a
+                                    href={
+                                        "https://www.youtube.com/@TRUSTALLAROUND"
+                                    }
+                                    className={"flex justify-center"}
+                                >
                                     <div
                                         className={
                                             "flex flex-row items-center space-x-4"
@@ -140,7 +145,7 @@ export default function Servicos() {
                                             {t("galeria.btnVideos")}
                                         </p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div className="h-[5px] rounded-full mt-8 ml-4 bg-brand-orange "></div>
                         </div>
