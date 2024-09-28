@@ -75,6 +75,14 @@ function MyApp({ Component, pageProps }) {
             >
                 <p className={"text-2xl font-semibold"}>{t("banner.titulo")}</p>
                 <p className={"text-xl mt-2"}>{t("banner.texto")}</p>
+                <a
+                    href={"/pdf/politicas.pdf"}
+                    className={
+                        "text-lg underline inline-block underline-offset-2 mt-2"
+                    }
+                >
+                    {t("footer.politicas")}
+                </a>
             </CookieConsent>
             <Wpp />
         </>

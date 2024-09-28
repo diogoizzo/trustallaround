@@ -56,7 +56,7 @@ export default function Servicos() {
                                     className="relative w-full h-full cursor-pointer rounded-sm overflow-hidden"
                                     onClick={() => {
                                         setActiveVideo(
-                                            "https://www.youtube.com/shorts/sUmiXQxFFGk"
+                                            "https://www.youtube.com/watch?v=XQBq-sIGv24"
                                         );
                                     }}
                                 >
@@ -73,7 +73,7 @@ export default function Servicos() {
                                     className="relative w-full h-full cursor-pointer rounded-sm overflow-hidden"
                                     onClick={() => {
                                         setActiveVideo(
-                                            "https://www.youtube.com/watch?v=XQBq-sIGv24"
+                                            "https://www.youtube.com/watch?v=Bygx_JtNFYw"
                                         );
                                     }}
                                 >
@@ -107,7 +107,7 @@ export default function Servicos() {
                                     className="relative w-full h-full cursor-pointer rounded-sm overflow-hidden"
                                     onClick={() => {
                                         setActiveVideo(
-                                            "https://www.youtube.com/watch?v=Bygx_JtNFYw"
+                                            "https://www.youtube.com/shorts/sUmiXQxFFGk"
                                         );
                                     }}
                                 >

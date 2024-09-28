@@ -267,5 +267,9 @@
     "atendimento": {
         "titulo": "Fale Conosco!",
         "texto": "Como posso ajudá-lo?"
+    },
+    "footer": {
+        "direitos": "© 2024 TRUST ALL AROUND. Todos os direitos reservados.",
+        "politicas": "Política de Privacidade"
     }
 }
