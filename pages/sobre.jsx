@@ -12,8 +12,8 @@ export default function Sobre() {
                     {t("sobre.titulo")}
                 </h1>
 
-                <div className="mt-8 lg:mt-12   relative">
-                    <div className="float-right relative inline-block w-[570px] h-[350px] ml-6 ">
+                <div className="mt-8 lg:mt-12 w-full relative text-center">
+                    <div className="md:float-right   relative inline-block w-[325px] h-[200px]  md:w-[570px] md:h-[350px] md:ml-6 md:mb-4">
                         <Image
                             alt={"mapa mundi com as rotas de transporte"}
                             src="/images/mapa-sobre.svg"
@@ -24,7 +24,7 @@ export default function Sobre() {
                     </div>
                     <div
                         className={
-                            "border-l-4 border-brand-orange  mt-8 lg:mt-0 text-brand-blue pr-4 lg:pr-8 order-2 lg:order-1"
+                            "border-l-4 border-brand-orange text-left  mt-8 lg:mt-0 text-brand-blue pr-4 lg:pr-8 order-2 lg:order-1"
                         }
                     >
                         <p
@@ -59,7 +59,7 @@ export default function Sobre() {
                         ></p>
                     </div>
                     <div className="clear-both"></div>
-                    <div className="relative h-[30rem] mt-20">
+                    <div className="relative h-[12rem] mt-12 md:h-[30rem] md:mt-20">
                         {query?.lang === "pt" ? (
                             <Image
                                 src="/images/quadro-fale-pt.svg"
@@ -115,7 +115,7 @@ export default function Sobre() {
                     </div> */}
                 </div>
             </div>
-            <div className="relative mt-12 w-full min-h-[200px] lg:mt-24">
+            <div className="relative mt-12 w-full min-h-[170px] md:min-h-[200px] lg:mt-24">
                 <Image
                     src="/images/juntos.png"
                     alt={"várias mãos segurando a logo do trust all around"}

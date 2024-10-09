@@ -5,8 +5,10 @@ export default function TabServicos({ servico }) {
     const { t } = useTranslation();
     return (
         <div className={"h-fit"}>
-            <div className={"flex flex-row relative justify-between"}>
-                <div className={"w-[55%]"}>
+            <div
+                className={"flex flex-col md:flex-row relative justify-between"}
+            >
+                <div className={"w-full order-2 md:order-1 md:w-[55%]"}>
                     <div
                         className={
                             "border-l-4 border-brand-orange pl-8 lg:pl-12 text-lg md:text-xl lg:text-2xl font-normal mt-5 lg:mt-12"
@@ -15,7 +17,7 @@ export default function TabServicos({ servico }) {
                         <p>{servico.p1}</p>
                         <p className="mt-3">{servico.p2}</p>
                     </div>
-                    <div className={"mt-6 lg:mt-12"}>
+                    <div className={"mt-12"}>
                         <ul className="text-lg md:text-xl lg:text-2xl font-semibold">
                             <li className={"flex items-center mt-7"}>
                                 <span className={"mr-7 shrink-0"}>
@@ -92,7 +94,7 @@ export default function TabServicos({ servico }) {
                         </ul>
                     </div>
                 </div>
-                <div className="mt-12  w-[45%] desktop:w-[33%]   relative ">
+                <div className="my-6 md:mt-12 order-1 md:order-2 md:w-[45%] desktop:w-[33%]   relative ">
                     <Image
                         className={"max-w-full object-contain "}
                         src={"/images/circulo-servicos.svg"}
@@ -106,18 +108,18 @@ export default function TabServicos({ servico }) {
                 </div>
             </div>
 
-            <div className="w-[80%] desktop:w-[70%] mx-auto relative flex justify-center py-20">
-                <div className="absolute flex flex-col items-center right-[14rem] desktop:right-[28rem] top-20">
-                    <h3 className="text-5xl desktop:text-7xl text-brand-blue">
+            <div className="w-full md:w-[80%] desktop:w-[70%] mx-auto relative flex flex-col md:flex-row justify-center py-14 md:py-20">
+                <div className="md:absolute flex flex-col items-center md:right-[14rem] desktop:right-[28rem] top-20">
+                    <h3 className="text-4xl md:text-5xl desktop:text-7xl text-brand-blue">
                         {t("servicos.content.tab1.map")}
                     </h3>
-                    <h3 className="text-3xl desktop:text-4xl mt-1 text-brand-orange">
+                    <h3 className="text-2xl mb-4 md:text-3xl desktop:text-4xl mt-1 text-brand-orange">
                         Brazil Map
                     </h3>
                 </div>
                 <div
                     className={
-                        "w-full mx-auto relative h-[700px] desktop:pb-[1000px]"
+                        "w-full mb-12 md:mb-0 mx-auto relative md:h-[700px] desktop:pb-[1000px]"
                     }
                 >
                     <Image

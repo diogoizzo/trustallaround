@@ -287,7 +287,8 @@
         "texto": "How can I help you?"
     },
     "footer": {
-        "direitos": "© 2024 TRUST ALL AROUND. All rights reserved.",
+        "marca": "© 2024 TRUST ALL AROUND.",
+        "direitos": "All rights reserved.",
         "politicas": "Privacy Policy"
     }
 }

@@ -9,7 +9,7 @@ export default function NavServicos() {
     return (
         <div
             className={
-                "flex flex-col items-stretch space-y-3 lg:space-y-0 lg:flex-row lg:space-x-9"
+                "flex flex-col items-stretch text-center space-y-3 lg:space-y-0 lg:flex-row lg:space-x-9"
             }
         >
             <NextLink
