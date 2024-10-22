@@ -1,10 +1,16 @@
+"use client";
 import { useLanguageQuery, useTranslation } from "next-export-i18n";
 import NavGaleria from "../../components/NavGaleria";
 import ReactPlayer from "react-player";
+import { useEffect, useState } from "react";
 
 export default function Servicos() {
-    const { t } = useTranslation();
-    const [query] = useLanguageQuery();
+    const [isHydrated, setIsHydrated] = useState(false);
+
+    useEffect(() => {
+        setIsHydrated(true);
+    }, []);
+
     return (
         <div className="w-full overflow-hidden">
             <div
@@ -18,17 +24,19 @@ export default function Servicos() {
                     </div>
                     <div
                         className={
-                            "my-12 w-[60%] max-w-[890px] mx-auto h-[500px] desktop:max-w-[1300px] desktop:h-[680px]"
+                            "my-14 w-full max-w-[890px] mx-auto h-[250px] md:h-[500px] desktop:max-w-[1300px] desktop:h-[680px]"
                         }
                     >
-                        <ReactPlayer
-                            className="react-player"
-                            url="https://www.youtube.com/watch?v=7LqCj0FVtyY"
-                            width="100%"
-                            height="100%"
-                            controls={true}
-                            playing={true}
-                        />
+                        {isHydrated && (
+                            <ReactPlayer
+                                className="react-player"
+                                url="https://www.youtube.com/watch?v=7LqCj0FVtyY"
+                                width="100%"
+                                height="100%"
+                                controls={true}
+                                playing={true}
+                            />
+                        )}
                     </div>
                 </div>
             </div>

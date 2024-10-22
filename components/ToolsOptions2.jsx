@@ -16,7 +16,7 @@ export default function ToolsOptions2({
             <h2 className="text-5xl font-bold text-center text-brand-orange">
                 {title}
             </h2>
-            <div className="w-full sm:w-[350px] sm:h-[300px] mt-7">
+            <div className=" w-[280px] h-[240px] p-1 md:p-2 md:w-[350px] md:h-[300px] mt-7">
                 <Image
                     src={src}
                     alt={alt}

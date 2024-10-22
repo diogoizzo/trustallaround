@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function TabRodoviario({ servico }) {
     return (
         <div>
-            <div className={"flex flex-col md:flex-row justify-between"}>
-                <div className={"w-full md:w-[65%] pb-20 order-2 md:order-1"}>
+            <div className={"flex flex-col lg:flex-row justify-between"}>
+                <div className={"w-full lg:w-[65%] pb-20 order-2 lg:order-1"}>
                     <div
                         className={
                             "border-l-4 border-brand-orange pl-8 lg:pl-12 text-lg lg:text-2xl font-normal mt-5 md:text-xl lg:mt-12"
@@ -88,7 +88,7 @@ export default function TabRodoviario({ servico }) {
                     </div>
                 </div>
 
-                <div className="md:order-2">
+                <div className="lg:order-2">
                     {/* <div className="lg:hidden">
                         <Image
                             src={"/images/caminhao.png"}

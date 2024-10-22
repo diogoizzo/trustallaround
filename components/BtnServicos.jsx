@@ -10,7 +10,7 @@ export default function BtnServicos({
 }) {
     return (
         <div
-            className={`inline-flex h-15 w-full sm:w-[300px]  lg:w-[210px] px-2 py-1 items-center  border rounded-xl transition-colors ${className}`}
+            className={`inline-flex h-15 w-full  lg:w-[210px] px-2 py-1  items-center  border rounded-xl transition-colors ${className}`}
         >
             <Image
                 src={src}
@@ -19,7 +19,7 @@ export default function BtnServicos({
                 width={width}
                 layout={"fixed"}
             />
-            <h2 className={"ml-2 w-full text-center  sm:w-fit "}>{text}</h2>
+            <h2 className={"ml-2 w-full text-center  lg:w-fit "}>{text}</h2>
         </div>
     );
 }

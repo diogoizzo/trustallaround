@@ -1,11 +1,14 @@
+max-w-[890px] mx-auto h-[250px] md:h-[500px] desktop:max-w-[1300px] desktop:h-[680px]
+
+
 import Image from "next/image";
 
 export default function TriviaDisplay({ title, text, imgSrc, imgAlt }) {
     return (
-        <div className={"w-full flex flex-col lg:flex-row"}>
+        <div className={"w-full flex-col desktop::flex-row"}>
             <div
                 className={
-                    "w-full h-[200px] md:h-[360px] lg:w-[400px] lg:h-[240px] bg-black relative"
+                    "w-full h-[180px] md:h-[360px] desktop:w-[400px] desktop:h-[240px] bg-black relative"
                 }
             >
                 <Image src={imgSrc} alt={imgAlt} layout="fill" />

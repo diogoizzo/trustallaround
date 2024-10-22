@@ -10,7 +10,7 @@ export default function BtnGaleria({
 }) {
     return (
         <div
-            className={`inline-flex space-x-4 h-[57px]  px-6 py-1 items-center  border rounded-xl transition-colors ${className}`}
+            className={`inline-flex space-x-4 h-[57px] w-full px-6 py-1 items-center   border rounded-xl transition-colors ${className}`}
         >
             <Image
                 className=""
@@ -20,7 +20,7 @@ export default function BtnGaleria({
                 width={width}
                 layout={"fixed"}
             />
-            <h2 className={"w-full text-center max-w-[90px]   sm:w-fit "}>
+            <h2 className={"w-full  text-center lg:max-w-[90px]    "}>
                 {text}
             </h2>
         </div>

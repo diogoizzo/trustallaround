@@ -6,9 +6,9 @@ export default function TabServicos({ servico }) {
     return (
         <div className={"h-fit"}>
             <div
-                className={"flex flex-col md:flex-row relative justify-between"}
+                className={"flex flex-col lg:flex-row relative justify-between"}
             >
-                <div className={"w-full order-2 md:order-1 md:w-[55%]"}>
+                <div className={"w-full order-2 lg:order-1 lg:w-[55%]"}>
                     <div
                         className={
                             "border-l-4 border-brand-orange pl-8 lg:pl-12 text-lg md:text-xl lg:text-2xl font-normal mt-5 lg:mt-12"
@@ -94,7 +94,7 @@ export default function TabServicos({ servico }) {
                         </ul>
                     </div>
                 </div>
-                <div className="my-6 md:mt-12 order-1 md:order-2 md:w-[45%] desktop:w-[33%]   relative ">
+                <div className="my-6 md:mt-12 lg:order-2 order-1 lg:w-[45%] desktop:w-[33%]   relative ">
                     <Image
                         className={"max-w-full object-contain "}
                         src={"/images/circulo-servicos.svg"}
@@ -109,7 +109,7 @@ export default function TabServicos({ servico }) {
             </div>
 
             <div className="w-full md:w-[80%] desktop:w-[70%] mx-auto relative flex flex-col md:flex-row justify-center py-14 md:py-20">
-                <div className="md:absolute flex flex-col items-center md:right-[14rem] desktop:right-[28rem] top-20">
+                <div className="md:absolute flex flex-col items-center right-[3rem] top-[2rem]  lg:right-[14rem] desktop:right-[28rem] lg:top-20">
                     <h3 className="text-4xl md:text-5xl desktop:text-7xl text-brand-blue">
                         {t("servicos.content.tab1.map")}
                     </h3>
@@ -119,7 +119,7 @@ export default function TabServicos({ servico }) {
                 </div>
                 <div
                     className={
-                        "w-full mb-12 md:mb-0 mx-auto relative md:h-[700px] desktop:pb-[1000px]"
+                        "w-full mb-12 md:mb-0 mx-auto relative lg:h-[700px] "
                     }
                 >
                     <Image

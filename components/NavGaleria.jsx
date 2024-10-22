@@ -9,7 +9,7 @@ export default function NavGaleria() {
     return (
         <div
             className={
-                "flex flex-col items-stretch space-y-3 lg:space-y-0 lg:flex-row lg:space-x-9"
+                "mx-auto items-center flex flex-col w-full  space-y-3 lg:space-y-0 lg:mx-0 lg:justify-start  lg:flex-row lg:space-x-9"
             }
         >
             <NextLink
@@ -23,7 +23,7 @@ export default function NavGaleria() {
             >
                 <h1
                     className={
-                        "text-5xl font-semibold focus:outline-none mb-3 lg:ml-12"
+                        "text-5xl font-semibold focus:outline-none mb-3  lg:ml-12"
                     }
                 >
                     {t("galeria.titulo")}
@@ -32,7 +32,7 @@ export default function NavGaleria() {
             <NextLink
                 href={{ pathname: "/galeria/fotos", query: query }}
                 as={t("nav.paths.fotos")}
-                className={"focus:outline-none"}
+                className={"focus:outline-none w-full lg:w-fit"}
             >
                 <BtnGaleria
                     src={"/icons/camera.svg"}
@@ -50,7 +50,7 @@ export default function NavGaleria() {
             <NextLink
                 href={{ pathname: "/galeria/videos", query: query }}
                 as={t("nav.paths.videos")}
-                className={"focus:outline-none"}
+                className={"focus:outline-none w-full lg:w-fit"}
             >
                 <BtnGaleria
                     src={"/icons/video.svg"}
@@ -68,9 +68,9 @@ export default function NavGaleria() {
             <NextLink
                 href={{ pathname: "/galeria/curiosidades", query: query }}
                 as={t("nav.paths.curiosidades")}
-                className={"focus:outline-none"}
+                className={"focus:outline-none w-full lg:w-fit"}
             >
-                <span className={"hidden lg:block"}>
+                <span className={""}>
                     <BtnGaleria
                         src={"/icons/curiosidade.svg"}
                         alt={"ícone de globo terrestre com um balão de fala"}

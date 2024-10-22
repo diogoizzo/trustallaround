@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function TabMaritimo({ servico }) {
     return (
         <div>
-            <div className={"flex flex-col md:flex-row justify-between pb-20"}>
-                <div className={"w-full md:w-[65%] order-2 md:order-1"}>
+            <div className={"flex flex-col lg:flex-row justify-between pb-20"}>
+                <div className={"w-full lg:w-[65%] order-2 lg:order-1"}>
                     <div
                         className={
                             "border-l-4 border-brand-orange pl-8 lg:pl-12 text-lg md:text-xl lg:text-2xl font-normal mt-5 lg:mt-12"
@@ -69,7 +69,7 @@ export default function TabMaritimo({ servico }) {
                         </ul>
                     </div>
                 </div>
-                <div className="order-1 md:order-2">
+                <div className="order-1 lg:order-2">
                     <div className=" py-4 md:mt-12 md:ml-6 md:mb-14  ">
                         <Image
                             src={"/images/navio.png"}

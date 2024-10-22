@@ -263,10 +263,12 @@ export default function Servicos() {
                         >
                             <NavGaleria />
                         </div>
-                        <div className={"my-12 w-[1400px]  mx-auto "}>
+                        <div
+                            className={" my-14 w-full lg:w-[1400px]  mx-auto "}
+                        >
                             <div
                                 className={
-                                    "grid grid-cols-4 gap-4 auto-rows-[230px]   "
+                                    "grid grid-cols-2 auto-rows-[100px] md:auto-rows-[200px] lg:grid-cols-4 gap-4 lg:auto-rows-[230px]   "
                                 }
                             >
                                 <div

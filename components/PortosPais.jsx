@@ -17,7 +17,7 @@ export default function PortosPais({ bandeira, pais, portos }) {
                 <div className="ml-3">
                     <h4
                         className={
-                            "text-xl text-left font-semibold text-brand-blue mb-1"
+                            "text-lg md:text-xl md:text-left font-semibold text-brand-blue mb-1"
                         }
                     >
                         {pais}

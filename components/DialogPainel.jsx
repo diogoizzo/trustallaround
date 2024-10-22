@@ -67,7 +67,7 @@ export default function DialogPainel({ isOpen, setIsOpen, content }) {
                                     >
                                         <Dialog.Title
                                             as="h3"
-                                            className="text-3xl md:text-3xl text-center font-semibold w-full text-brand-blue relative z-15"
+                                            className="text-2xl md:text-3xl text-center font-semibold w-full text-brand-blue relative z-15"
                                         >
                                             {content.titulo}
                                             <div className="w-24 mx-auto mt-3 h-1 bg-brand-orange rounded-md"></div>

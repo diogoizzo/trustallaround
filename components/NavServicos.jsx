@@ -17,8 +17,8 @@ export default function NavServicos() {
                 as={t("nav.paths.servicos")}
                 className={
                     router.pathname === "/servicos"
-                        ? "text-brand-orange focus:outline-none hover:text-brand-blue transition-colors"
-                        : "text-brand-blue hover:text-brand-orange focus:outline-none transition-colors"
+                        ? "text-brand-orange focus:outline-none hover:text-brand-blue  transition-colors"
+                        : "text-brand-blue hover:text-brand-orange focus:outline-none  transition-colors"
                 }
             >
                 <h1
@@ -42,7 +42,7 @@ export default function NavServicos() {
                     text={t("servicos.tabs.tab1")}
                     className={
                         router.pathname === "/servicos/aereo"
-                            ? "border-brand-blue bg-brand-orange-hover"
+                            ? "border-brand-blue bg-brand-orange-hover w-full"
                             : "border-brand-blue hover:bg-brand-orange-hover"
                     }
                 />

@@ -182,22 +182,24 @@ export default function Contato() {
                 </div>
                 <div
                     className={
-                        "flex flex-col lg:flex-row w-full my-6 justify-between lg:min-w-[677px] "
+                        "flex flex-col lg:flex-row w-full my-6 justify-between lg:min-w-[677px] pb-8 md:pb-20 lg:pb-6 "
                     }
                 >
                     <div
                         className={
-                            "flex flex-col text-brand-gray text-lg order-2 lg:order-1"
+                            "flex flex-col text-center text-brand-gray text-lg order-2 lg:order-1"
                         }
                     >
                         <h2
                             className={
-                                "text-2xl text-center lg:text-left uppercase font-bold mt-2 lg:mt-2 mb-1 "
+                                "hidden lg:block text-2xl lg:text-left uppercase font-bold mt-2 lg:mt-2 mb-1 "
                             }
                         >
                             Trust all around
                         </h2>
-                        <p className="text-xl mb-2">{t("contato.info")}</p>
+                        <p className="text-xl lg:text-left mt-3 lg:mt-0 mb-2">
+                            {t("contato.info")}
+                        </p>
                         <Email
                             src="/icons/e-mail.svg"
                             alt="email"
@@ -223,7 +225,7 @@ export default function Contato() {
                     </div>
                     <div
                         className={
-                            "w-[174px] h-[167px] relative self-center order-1 lg:order-2 "
+                            "w-[174px] h-[167px] relative self-center mt-6 order-1 lg:order-2 "
                         }
                     >
                         <NextLink
