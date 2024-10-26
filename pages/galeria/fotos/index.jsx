@@ -268,11 +268,11 @@ export default function Servicos() {
                         >
                             <div
                                 className={
-                                    "grid grid-cols-2 auto-rows-[100px] md:auto-rows-[200px] lg:grid-cols-4 gap-4 lg:auto-rows-[230px]   "
+                                    "grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4"
                                 }
                             >
                                 <div
-                                    className="cursor-pointer  col-span-2 row-span-2 rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] col-span-2 row-span-2 rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[1]);
                                         openModal();
@@ -285,7 +285,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className=" cursor-pointer rounded-md relative overflow-hidden"
+                                    className=" cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[2]);
                                         openModal();
@@ -298,7 +298,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className=" cursor-pointer rounded-md relative overflow-hidden"
+                                    className=" cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[3]);
                                         openModal();
@@ -311,7 +311,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className=" cursor-pointer rounded-md relative overflow-hidden"
+                                    className=" cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images["3_1"]);
                                         openModal();
@@ -324,7 +324,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[4]);
                                         openModal();
@@ -337,7 +337,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className=" cursor-pointer rounded-md relative overflow-hidden"
+                                    className=" cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[5]);
                                         openModal();
@@ -350,7 +350,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className=" cursor-pointer rounded-md relative overflow-hidden"
+                                    className=" cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[6]);
                                         openModal();
@@ -363,7 +363,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden col-span-2 row-span-2"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden col-span-2 row-span-2"
                                     onClick={() => {
                                         setContent(images[7]);
                                         openModal();
@@ -376,7 +376,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden  "
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden  "
                                     onClick={() => {
                                         setContent(images[8]);
                                         openModal();
@@ -389,7 +389,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className=" cursor-pointer rounded-md relative overflow-hidden "
+                                    className=" cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden "
                                     onClick={() => {
                                         setContent(images[9]);
                                         openModal();
@@ -402,7 +402,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className=" cursor-pointer rounded-md relative overflow-hidden col-span-2 row-span-2"
+                                    className=" cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden col-span-2 row-span-2"
                                     onClick={() => {
                                         setContent(images[10]);
                                         openModal();
@@ -415,7 +415,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className=" cursor-pointer rounded-md relative overflow-hidden "
+                                    className=" cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden "
                                     onClick={() => {
                                         setContent(images[11]);
                                         openModal();
@@ -428,7 +428,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[12]);
                                         openModal();
@@ -441,7 +441,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[13]);
                                         openModal();
@@ -454,7 +454,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[14]);
                                         openModal();
@@ -467,7 +467,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[15]);
                                         openModal();
@@ -480,7 +480,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[16]);
                                         openModal();
@@ -493,7 +493,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden col-span-2 row-span-2"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden col-span-2 row-span-2"
                                     onClick={() => {
                                         setContent(images[17]);
                                         openModal();
@@ -506,7 +506,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden "
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden "
                                     onClick={() => {
                                         setContent(images[18]);
                                         openModal();
@@ -519,7 +519,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden "
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden "
                                     onClick={() => {
                                         setContent(images[19]);
                                         openModal();
@@ -532,7 +532,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden  col-span-2 row-span-2"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden  col-span-2 row-span-2"
                                     onClick={() => {
                                         setContent(images[20]);
                                         openModal();
@@ -545,7 +545,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden "
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden "
                                     onClick={() => {
                                         setContent(images["20_1"]);
                                         openModal();
@@ -558,7 +558,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images["20_2"]);
                                         openModal();
@@ -571,7 +571,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[21]);
                                         openModal();
@@ -584,7 +584,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className=" cursor-pointer rounded-md relative overflow-hidden"
+                                    className=" cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[22]);
                                         openModal();
@@ -597,7 +597,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[23]);
                                         openModal();
@@ -610,7 +610,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[24]);
                                         openModal();
@@ -623,7 +623,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden col-span-2 row-span-2 "
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden col-span-2 row-span-2 "
                                     onClick={() => {
                                         setContent(images[25]);
                                         openModal();
@@ -636,7 +636,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden "
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden "
                                     onClick={() => {
                                         setContent(images[26]);
                                         openModal();
@@ -649,7 +649,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden "
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden "
                                     onClick={() => {
                                         setContent(images[27]);
                                         openModal();
@@ -662,7 +662,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden "
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden "
                                     onClick={() => {
                                         setContent(images[28]);
                                         openModal();
@@ -675,7 +675,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[29]);
                                         openModal();
@@ -688,7 +688,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[30]);
                                         openModal();
@@ -701,7 +701,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[31]);
                                         openModal();
@@ -714,7 +714,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[32]);
                                         openModal();
@@ -727,7 +727,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[33]);
                                         openModal();
@@ -740,7 +740,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[34]);
                                         openModal();
@@ -753,7 +753,7 @@ export default function Servicos() {
                                     />
                                 </div>
                                 <div
-                                    className="cursor-pointer rounded-md relative overflow-hidden"
+                                    className="cursor-pointer aspect-[3/2] rounded-md relative overflow-hidden"
                                     onClick={() => {
                                         setContent(images[35]);
                                         openModal();
