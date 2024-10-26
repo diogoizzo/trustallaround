@@ -37,7 +37,7 @@ export default function HeaderBanner() {
                     />
                 </a>
                 <a
-                    href="https://api.whatsapp.com/send?phone=5511986285531"
+                    href="https://api.whatsapp.com/send?phone=5511965978823"
                     className="relative h-6 w-6"
                 >
                     <Image

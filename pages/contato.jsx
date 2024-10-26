@@ -187,7 +187,7 @@ export default function Contato() {
                 >
                     <div
                         className={
-                            "flex flex-col text-center text-brand-gray text-lg order-2 lg:order-1"
+                            "flex flex-col text-center text-brand-gray text-lg order-2 lg:order-1 lg:pr-[16px] "
                         }
                     >
                         <h2
@@ -223,7 +223,7 @@ export default function Contato() {
                     </div>
                     <div
                         className={
-                            "w-[174px] h-[167px] relative self-center mt-6 order-1 lg:order-2 "
+                            "w-[174px] h-[167px] relative self-center mt-6 order-1  lg:order-2 "
                         }
                     >
                         <NextLink
