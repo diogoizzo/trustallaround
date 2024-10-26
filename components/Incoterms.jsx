@@ -32,7 +32,7 @@ export default function Incoterms({ setOption, btnVoltar }) {
             </div>
             <Link href={"/images/incotermsTable.svg"}>
                 <Image
-                    src={"/images/incotermsTable.svg"}
+                    src={"/images/incoTable.svg"}
                     alt={"tabela com os tipos de incoterms"}
                     width={1557}
                     height={771}
