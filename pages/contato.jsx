@@ -218,9 +218,7 @@ export default function Contato() {
                         <AdressItem
                             src={"/icons/endereco.svg"}
                             alt={"Endereço"}
-                            text={
-                                "Rua Umuarama, nº. 382, Vila Prudente, São Paulo, BR"
-                            }
+                            text={t("contato.end")}
                         />
                     </div>
                     <div
