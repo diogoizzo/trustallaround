@@ -108,7 +108,7 @@ export default function TabServicos({ servico }) {
                 </div>
             </div>
 
-            <div className="w-full md:w-[80%] desktop:w-[70%] mx-auto relative flex flex-col md:flex-row justify-center py-14 md:py-20">
+            <div className="w-full md:w-[80%] desktop:w-[70%] mx-auto relative flex flex-col md:flex-row justify-center py-14 md:py-20 Bfullhd:pb-96">
                 <div className="md:absolute flex flex-col items-center right-[3rem] top-[2rem]  lg:right-[14rem] desktop:right-[28rem] lg:top-20">
                     <h3 className="text-4xl md:text-5xl desktop:text-7xl text-brand-blue">
                         {t("servicos.content.tab1.map")}
