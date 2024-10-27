@@ -10,7 +10,6 @@ export default function LanguageIcons() {
     const [query] = useLanguageQuery();
 
     function changURL(query) {
-        //todo tentar refatorar para não ter toda essa extenção - com um switch separado para definir a lingua e usando template strings
         switch (router.pathname) {
             case "/":
                 router.push(
@@ -33,6 +32,41 @@ export default function LanguageIcons() {
                     { shallow: true }
                 );
                 break;
+            case "/servicos/aereo":
+                router.push(
+                    { pathname: "/servicos/aereo", query: query },
+                    t("nav.paths.aereo"),
+                    { shallow: true }
+                );
+                break;
+            case "/servicos/maritimo":
+                router.push(
+                    { pathname: "/servicos/maritimo", query: query },
+                    t("nav.paths.maritimo"),
+                    { shallow: true }
+                );
+                break;
+            case "/servicos/rodoviario":
+                router.push(
+                    { pathname: "/servicos/rodoviario", query: query },
+                    t("nav.paths.rodoviario"),
+                    { shallow: true }
+                );
+                break;
+            case "/servicos/china":
+                router.push(
+                    { pathname: "/servicos/china", query: query },
+                    t("nav.paths.china"),
+                    { shallow: true }
+                );
+                break;
+            case "/servicos/seguro":
+                router.push(
+                    { pathname: "/servicos/seguro", query: query },
+                    t("nav.paths.seguro"),
+                    { shallow: true }
+                );
+                break;
             case "/portos":
                 router.push(
                     { pathname: "/portos", query: query },
@@ -51,6 +85,34 @@ export default function LanguageIcons() {
                 router.push(
                     { pathname: "/contato", query: query },
                     t("nav.paths.contato"),
+                    { shallow: true }
+                );
+                break;
+            case "/galeria":
+                router.push(
+                    { pathname: "/galeria", query: query },
+                    t("nav.paths.galeria"),
+                    { shallow: true }
+                );
+                break;
+            case "/galeria/fotos":
+                router.push(
+                    { pathname: "/galeria/fotos", query: query },
+                    t("nav.paths.fotos"),
+                    { shallow: true }
+                );
+                break;
+            case "/galeria/videos":
+                router.push(
+                    { pathname: "/galeria/videos", query: query },
+                    t("nav.paths.videos"),
+                    { shallow: true }
+                );
+                break;
+            case "/galeria/curiosidades":
+                router.push(
+                    { pathname: "/galeria/curiosidades", query: query },
+                    t("nav.paths.curiosidades"),
                     { shallow: true }
                 );
                 break;

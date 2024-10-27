@@ -8,8 +8,9 @@ const i18n = {
         en,
         es,
     },
-    defaultLang:'pt',
+    defaultLang: "pt",
     useBrowserDefault: true,
+    languageDataStore: "query" || "localStorage",
 };
 
 module.exports = i18n;

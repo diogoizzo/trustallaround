@@ -1,137 +1,169 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    reactStrictMode: true,
-    // images: {
-    //     loader: "akamai", // Define um loader alternativo
-    //     path: "", // Define o caminho para imagens como vazio para uso local
-    //     unoptimized: true, // Desativa a otimização automática das imagens
-    // },
-    exportPathMap: async function (
-        defaultPathMap,
-        { dev, dir, outDir, distDir, buildId }
-    ) {
-        return {
-            // Portuguese pages
-            "/": { page: "/", query: { lang: "pt" } },
-            "/sobre": { page: "/sobre", query: { lang: "pt" } },
-            "/servicos": { page: "/servicos", query: { lang: "pt" } },
-            "/servicos/aereo": {
-                page: "/servicos/aereo",
-                query: { lang: "pt" },
+module.exports = {
+    async redirects() {
+        return [
+            // Rotas para a página inicial
+            {
+                source: "/en",
+                destination: "/?lang=en",
+                permanent: true,
             },
-            "/servicos/maritimo": {
-                page: "/servicos/maritimo",
-                query: { lang: "pt" },
-            },
-            "/servicos/rodoviario": {
-                page: "/servicos/rodoviario",
-                query: { lang: "pt" },
-            },
-            "/servicos/china": {
-                page: "/servicos/china",
-                query: { lang: "pt" },
-            },
-            "/servicos/seguro": {
-                page: "/servicos/seguro",
-                query: { lang: "pt" },
-            },
-            "/ferramentas": { page: "/ferramentas", query: { lang: "pt" } },
-            "/portos": { page: "/portos", query: { lang: "pt" } },
-            "/contato": { page: "/contato", query: { lang: "pt" } },
-            "/galeria": { page: "/galeria", query: { lang: "pt" } },
-            "/galeria/fotos": { page: "/galeria/fotos", query: { lang: "pt" } },
-            "/galeria/videos": {
-                page: "/galeria/videos",
-                query: { lang: "pt" },
-            },
-            "/galeria/curiosidades": {
-                page: "/galeria/curiosidades",
-                query: { lang: "pt" },
+            {
+                source: "/es",
+                destination: "/?lang=es",
+                permanent: true,
             },
 
-            // English pages
-            "/en": { page: "/", query: { lang: "en" } },
-            "/en/about": { page: "/sobre", query: { lang: "en" } },
-            "/en/services": { page: "/servicos", query: { lang: "en" } },
-            "/en/services/air": {
-                page: "/servicos/aereo",
-                query: { lang: "en" },
+            // Rotas para a página "Sobre"
+            {
+                source: "/en/about",
+                destination: "/sobre?lang=en",
+                permanent: true,
             },
-            "/en/services/maritime": {
-                page: "/servicos/maritimo",
-                query: { lang: "en" },
-            },
-            "/en/services/road": {
-                page: "/servicos/rodoviario",
-                query: { lang: "en" },
-            },
-            "/en/services/china": {
-                page: "/servicos/china",
-                query: { lang: "en" },
-            },
-            "/en/services/insurance": {
-                page: "/servicos/seguro",
-                query: { lang: "en" },
-            },
-            "/en/tools": { page: "/ferramentas", query: { lang: "en" } },
-            "/en/ports": { page: "/portos", query: { lang: "en" } },
-            "/en/contact": { page: "/contato", query: { lang: "en" } },
-            "/en/gallery": { page: "/galeria", query: { lang: "en" } },
-            "/en/gallery/photos": {
-                page: "/galeria/fotos",
-                query: { lang: "en" },
-            },
-            "/en/gallery/videos": {
-                page: "/galeria/videos",
-                query: { lang: "en" },
-            },
-            "/en/gallery/trivia": {
-                page: "/galeria/curiosidades",
-                query: { lang: "en" },
+            {
+                source: "/es/nosotros",
+                destination: "/sobre?lang=es",
+                permanent: true,
             },
 
-            // Spanish pages
-            "/es": { page: "/", query: { lang: "es" } },
-            "/es/nosotros": { page: "/sobre", query: { lang: "es" } },
-            "/es/servicios": { page: "/servicos", query: { lang: "es" } },
-            "/es/servicios/aereo": {
-                page: "/servicos/aereo",
-                query: { lang: "es" },
+            // Rotas para "Serviços"
+            {
+                source: "/en/services",
+                destination: "/servicos?lang=en",
+                permanent: true,
             },
-            "/es/servicios/maritimo": {
-                page: "/servicos/maritimo",
-                query: { lang: "es" },
+            {
+                source: "/es/servicios",
+                destination: "/servicos?lang=es",
+                permanent: true,
             },
-            "/es/servicios/carretero": {
-                page: "/servicos/rodoviario",
-                query: { lang: "es" },
+            {
+                source: "/en/services/air",
+                destination: "/servicos/aereo?lang=en",
+                permanent: true,
             },
-            "/es/servicios/china": {
-                page: "/servicos/china",
-                query: { lang: "es" },
+            {
+                source: "/es/servicios/aereo",
+                destination: "/servicos/aereo?lang=es",
+                permanent: true,
             },
-            "/es/servicios/seguro": {
-                page: "/servicos/seguro",
-                query: { lang: "es" },
+            {
+                source: "/en/services/maritime",
+                destination: "/servicos/maritimo?lang=en",
+                permanent: true,
             },
-            "/es/herramientas": { page: "/ferramentas", query: { lang: "es" } },
-            "/es/puertos": { page: "/portos", query: { lang: "es" } },
-            "/es/contacto": { page: "/contato", query: { lang: "es" } },
-            "/es/galeria": { page: "/galeria", query: { lang: "es" } },
-            "/es/galeria/fotos": {
-                page: "/galeria/fotos",
-                query: { lang: "es" },
+            {
+                source: "/es/servicios/maritimo",
+                destination: "/servicos/maritimo?lang=es",
+                permanent: true,
             },
-            "/es/galeria/videos": {
-                page: "/galeria/videos",
-                query: { lang: "es" },
+            {
+                source: "/en/services/road",
+                destination: "/servicos/rodoviario?lang=en",
+                permanent: true,
             },
-            "/es/galeria/curiosidades": {
-                page: "/galeria/curiosidades",
-                query: { lang: "es" },
+            {
+                source: "/es/servicios/carretero",
+                destination: "/servicos/rodoviario?lang=es",
+                permanent: true,
             },
-        };
+            {
+                source: "/en/services/china",
+                destination: "/servicos/china?lang=en",
+                permanent: true,
+            },
+            {
+                source: "/es/servicios/china",
+                destination: "/servicos/china?lang=es",
+                permanent: true,
+            },
+            {
+                source: "/en/services/insurance",
+                destination: "/servicos/seguro?lang=en",
+                permanent: true,
+            },
+            {
+                source: "/es/servicios/seguro",
+                destination: "/servicos/seguro?lang=es",
+                permanent: true,
+            },
+
+            // Rotas para "Ferramentas"
+            {
+                source: "/en/tools",
+                destination: "/ferramentas?lang=en",
+                permanent: true,
+            },
+            {
+                source: "/es/herramientas",
+                destination: "/ferramentas?lang=es",
+                permanent: true,
+            },
+
+            // Rotas para "Portos"
+            {
+                source: "/en/ports",
+                destination: "/portos?lang=en",
+                permanent: true,
+            },
+            {
+                source: "/es/puertos",
+                destination: "/portos?lang=es",
+                permanent: true,
+            },
+
+            // Rotas para "Galeria"
+            {
+                source: "/en/gallery",
+                destination: "/galeria?lang=en",
+                permanent: true,
+            },
+            {
+                source: "/es/galeria",
+                destination: "/galeria?lang=es",
+                permanent: true,
+            },
+            {
+                source: "/en/gallery/photos",
+                destination: "/galeria/fotos?lang=en",
+                permanent: true,
+            },
+            {
+                source: "/es/galeria/fotos",
+                destination: "/galeria/fotos?lang=es",
+                permanent: true,
+            },
+            {
+                source: "/en/gallery/videos",
+                destination: "/galeria/videos?lang=en",
+                permanent: true,
+            },
+            {
+                source: "/es/galeria/videos",
+                destination: "/galeria/videos?lang=es",
+                permanent: true,
+            },
+            {
+                source: "/en/gallery/trivia",
+                destination: "/galeria/curiosidades?lang=en",
+                permanent: true,
+            },
+            {
+                source: "/es/galeria/curiosidades",
+                destination: "/galeria/curiosidades?lang=es",
+                permanent: true,
+            },
+
+            // Rotas para "Contato"
+            {
+                source: "/en/contact",
+                destination: "/contato?lang=en",
+                permanent: true,
+            },
+            {
+                source: "/es/contacto",
+                destination: "/contato?lang=es",
+                permanent: true,
+            },
+        ];
     },
 };
-
-module.exports = nextConfig;

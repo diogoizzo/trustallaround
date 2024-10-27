@@ -114,7 +114,7 @@ export default function DropdownMenu() {
                             {({ active }) => (
                                 <NextLink
                                     href={{
-                                        pathname: "/galeira",
+                                        pathname: "/galeria",
                                         query: query,
                                     }}
                                     as={t("nav.paths.galeria")}
