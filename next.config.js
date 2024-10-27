@@ -49,20 +49,28 @@ const nextConfig = {
                 page: "/servicos/maritimo",
                 query: { lang: "en" },
             },
+            "/en/services/china": {
+                page: "/servicos/china",
+                query: { lang: "en" },
+            },
+            "/en/services/insurance": {
+                page: "/servicos/seguro",
+                query: { lang: "en" },
+            },
             "/en/tools": { page: "/ferramentas", query: { lang: "en" } },
             "/en/ports": { page: "/portos", query: { lang: "en" } },
             "/en/contact": { page: "/contato", query: { lang: "en" } },
-            "/en/gallery": { page: "/gallery", query: { lang: "en" } },
+            "/en/gallery": { page: "/galeria", query: { lang: "en" } },
             "/en/gallery/photos": {
-                page: "/gallery/photos",
+                page: "/galeria/fotos",
                 query: { lang: "en" },
             },
             "/en/gallery/videos": {
-                page: "/gallery/videos",
+                page: "/galeria/videos",
                 query: { lang: "en" },
             },
             "/en/gallery/trivia": {
-                page: "/gallery/trivia",
+                page: "/galeria/curiosidades",
                 query: { lang: "en" },
             },
             "/es": { page: "/", query: { lang: "es" } },
@@ -78,6 +86,14 @@ const nextConfig = {
             },
             "/es/servicios/maritimo": {
                 page: "/servicos/maritimo",
+                query: { lang: "es" },
+            },
+            "/es/servicios/china": {
+                page: "/servicos/china",
+                query: { lang: "es" },
+            },
+            "/es/servicios/seguro": {
+                page: "/servicos/seguro",
                 query: { lang: "es" },
             },
             "/es/herramientas": { page: "/ferramentas", query: { lang: "es" } },
