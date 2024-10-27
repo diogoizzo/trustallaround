@@ -30,9 +30,9 @@ export default function Incoterms({ setOption, btnVoltar }) {
                     </span>
                 </button>
             </div>
-            <Link href={"/images/incotermsTable.svg"}>
+            <Link href={"/images/incoTable.jpg"}>
                 <Image
-                    src={"/images/incoTable.svg"}
+                    src={"/images/incoTable.jpg"}
                     alt={"tabela com os tipos de incoterms"}
                     width={1557}
                     height={771}

@@ -14,7 +14,7 @@ export default function Servicos() {
                 }
             >
                 <div>
-                    <div className={"flex flex-col lg:items-end"}>
+                    <div className={"flex flex-col lg:items-start"}>
                         <NavServicos />
                     </div>
                     <div
