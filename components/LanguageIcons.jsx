@@ -120,7 +120,7 @@ export default function LanguageIcons() {
     }
 
     useEffect(() => {
-        changURL();
+        changURL(query);
     }, [query]);
 
     return (
