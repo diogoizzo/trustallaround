@@ -1,13 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
+    // images: {
+    //     loader: "akamai", // Define um loader alternativo
+    //     path: "", // Define o caminho para imagens como vazio para uso local
+    //     unoptimized: true, // Desativa a otimização automática das imagens
+    // },
     exportPathMap: async function (
         defaultPathMap,
         { dev, dir, outDir, distDir, buildId }
     ) {
         return {
+            // Portuguese pages
             "/": { page: "/", query: { lang: "pt" } },
-            "/sobre": { page: "/", query: { lang: "pt" } },
+            "/sobre": { page: "/sobre", query: { lang: "pt" } },
             "/servicos": { page: "/servicos", query: { lang: "pt" } },
             "/servicos/aereo": {
                 page: "/servicos/aereo",
@@ -19,6 +25,14 @@ const nextConfig = {
             },
             "/servicos/rodoviario": {
                 page: "/servicos/rodoviario",
+                query: { lang: "pt" },
+            },
+            "/servicos/china": {
+                page: "/servicos/china",
+                query: { lang: "pt" },
+            },
+            "/servicos/seguro": {
+                page: "/servicos/seguro",
                 query: { lang: "pt" },
             },
             "/ferramentas": { page: "/ferramentas", query: { lang: "pt" } },
@@ -34,6 +48,8 @@ const nextConfig = {
                 page: "/galeria/curiosidades",
                 query: { lang: "pt" },
             },
+
+            // English pages
             "/en": { page: "/", query: { lang: "en" } },
             "/en/about": { page: "/sobre", query: { lang: "en" } },
             "/en/services": { page: "/servicos", query: { lang: "en" } },
@@ -41,12 +57,12 @@ const nextConfig = {
                 page: "/servicos/aereo",
                 query: { lang: "en" },
             },
-            "/en/services/road": {
-                page: "/servicos/rodoviario",
-                query: { lang: "en" },
-            },
             "/en/services/maritime": {
                 page: "/servicos/maritimo",
+                query: { lang: "en" },
+            },
+            "/en/services/road": {
+                page: "/servicos/rodoviario",
                 query: { lang: "en" },
             },
             "/en/services/china": {
@@ -73,19 +89,21 @@ const nextConfig = {
                 page: "/galeria/curiosidades",
                 query: { lang: "en" },
             },
+
+            // Spanish pages
             "/es": { page: "/", query: { lang: "es" } },
-            "/es/nosostros": { page: "/sobre", query: { lang: "es" } },
+            "/es/nosotros": { page: "/sobre", query: { lang: "es" } },
             "/es/servicios": { page: "/servicos", query: { lang: "es" } },
             "/es/servicios/aereo": {
                 page: "/servicos/aereo",
                 query: { lang: "es" },
             },
-            "/es/servicios/carretero": {
-                page: "/servicos/rodoviario",
-                query: { lang: "es" },
-            },
             "/es/servicios/maritimo": {
                 page: "/servicos/maritimo",
+                query: { lang: "es" },
+            },
+            "/es/servicios/carretero": {
+                page: "/servicos/rodoviario",
                 query: { lang: "es" },
             },
             "/es/servicios/china": {
@@ -109,7 +127,7 @@ const nextConfig = {
                 query: { lang: "es" },
             },
             "/es/galeria/curiosidades": {
-                page: "/galeria/videos",
+                page: "/galeria/curiosidades",
                 query: { lang: "es" },
             },
         };
