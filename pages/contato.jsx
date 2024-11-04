@@ -10,6 +10,11 @@ export default function Contato() {
     const [query] = useLanguageQuery();
     const quadro = useRef(null);
     const confirmation = useRef(null);
+    const alert = useRef(null);
+    const nameInput = useRef(null);
+    const emailInput = useRef(null);
+    const subjectInput = useRef(null);
+    const messageInput = useRef(null);
     const [form, setForm] = useState({
         nome: "",
         email: "",
@@ -19,10 +24,32 @@ export default function Contato() {
 
     function handleSubmit(e) {
         e.preventDefault();
+        confirmation.current.style.display = "none";
+        alert.current.style.display = "none";
         if (screen.width < 800) {
             quadro.current.style.height = "720px";
         } else {
             quadro.current.style.height = "660px";
+        }
+        if (form.nome == "") {
+            nameInput.current.focus();
+            alert.current.style.display = "block";
+            return;
+        }
+        if (form.email == "") {
+            emailInput.current.focus();
+            alert.current.style.display = "block";
+            return;
+        }
+        if (form.assunto == "") {
+            subjectInput.current.focus();
+            alert.current.style.display = "block";
+            return;
+        }
+        if (form.corpo == "") {
+            messageInput.current.focus();
+            alert.current.style.display = "block";
+            return;
         }
         confirmation.current.style.display = "block";
         setForm({
@@ -64,11 +91,6 @@ export default function Contato() {
                         ref={quadro}
                         className="relative h-[670px] lg:h-fit w-full lg:min-h-[623px] lg:min-w-[677px] border-2 border-brand-gray/20 rounded-md shadow-lg "
                     >
-                        {/* <Image
-                            src={"/images/quadro-branco-contato.png"}
-                            alt={"moldura do formulário de contato"}
-                            layout={"fill"}
-                        /> */}
                         <div className="absolute -top-[1px] -left-[1px] rounded-tl-md w-0 h-0 border-t-[70px] border-t-brand-orange border-r-[70px] border-r-transparent"></div>
 
                         <form
@@ -79,6 +101,7 @@ export default function Contato() {
                         >
                             <input
                                 type="text"
+                                ref={nameInput}
                                 id={"nome"}
                                 placeholder={t("contato.form.nome") + "*"}
                                 name="nome"
@@ -92,6 +115,7 @@ export default function Contato() {
                                 }}
                             />
                             <input
+                                ref={emailInput}
                                 type="email"
                                 id={"email"}
                                 placeholder={t("contato.form.email") + "*"}
@@ -107,6 +131,7 @@ export default function Contato() {
                             />
                             <input
                                 type="text"
+                                ref={subjectInput}
                                 id={"assunto"}
                                 placeholder={t("contato.form.assunto") + "*"}
                                 name="assunto"
@@ -123,6 +148,7 @@ export default function Contato() {
                                 }}
                             />
                             <textarea
+                                ref={messageInput}
                                 name="corpo"
                                 id="corpo"
                                 cols="30"
@@ -175,6 +201,14 @@ export default function Contato() {
                                     }
                                 >
                                     {t("contato.form.feedBack")}
+                                </p>
+                                <p
+                                    ref={alert}
+                                    className={
+                                        "font-semibold text-center text-brand-orange hidden"
+                                    }
+                                >
+                                    {t("contato.form.alert")}
                                 </p>
                             </div>
                         </form>

@@ -277,7 +277,8 @@
             "ajuda": "Como podemos ajudar você?",
             "btnEnviar": "Enviar",
             "atendimento": "Atendimento de segunda a sexta das 08:30 às 18:00.",
-            "feedBack": "Formulário enviado com sucesso!"
+            "feedBack": "Formulário enviado com sucesso!",
+            "alert": "Por favor, preencher todos os campos."
         },
         "info": "Gestão em Assessoria Logística Internacional",
         "end": "R. Umuarama, 391 - Vila Prudente, São Paulo - SP, 03129-010, Brasil."
