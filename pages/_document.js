@@ -12,7 +12,7 @@ export default function Document() {
                     id="hs-script-loader"
                     async
                     defer
-                    src="//js.hs-scripts.com/22416551.js"
+                    src="//js.hs-scripts.com/47956029.js"
                 ></script>
             </body>
         </Html>
