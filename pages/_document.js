@@ -3,10 +3,7 @@ import { Head, Html, Main, NextScript } from "next/document";
 export default function Document() {
     return (
         <Html>
-            <Head></Head>
-            <body>
-                <Main />
-                <NextScript />
+            <Head>
                 <script
                     type="text/javascript"
                     id="hs-script-loader"
@@ -14,6 +11,10 @@ export default function Document() {
                     defer
                     src="https://js.hs-scripts.com/47956029.js"
                 ></script>
+            </Head>
+            <body>
+                <Main />
+                <NextScript />
             </body>
         </Html>
     );
