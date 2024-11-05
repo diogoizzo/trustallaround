@@ -24,7 +24,7 @@ export default function Contato() {
 
     function handleSubmit(e) {
         //e.preventDefault();
-        console.log("Teste");
+        console.log("Teste2");
         confirmation.current.style.display = "none";
         alert.current.style.display = "none";
         if (screen.width < 800) {
