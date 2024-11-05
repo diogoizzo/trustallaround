@@ -23,7 +23,8 @@ export default function Contato() {
     });
 
     function handleSubmit(e) {
-        e.preventDefault();
+        //e.preventDefault();
+        console.log("Teste");
         confirmation.current.style.display = "none";
         alert.current.style.display = "none";
         if (screen.width < 800) {
@@ -32,21 +33,25 @@ export default function Contato() {
             quadro.current.style.height = "660px";
         }
         if (form.nome == "") {
+            e.preventDefault();
             nameInput.current.focus();
             alert.current.style.display = "block";
             return;
         }
         if (form.email == "") {
+            e.preventDefault();
             emailInput.current.focus();
             alert.current.style.display = "block";
             return;
         }
         if (form.assunto == "") {
+            e.preventDefault();
             subjectInput.current.focus();
             alert.current.style.display = "block";
             return;
         }
         if (form.corpo == "") {
+            e.preventDefault();
             messageInput.current.focus();
             alert.current.style.display = "block";
             return;
