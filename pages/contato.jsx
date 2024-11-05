@@ -5,6 +5,10 @@ import NextLink from "../components/NextLink";
 import Email from "../components/Email";
 import { useRef, useState } from "react";
 
+function wait(tempo) {
+    return new Promise((resolve) => setTimeout(resolve, tempo));
+}
+
 export default function Contato() {
     const { t } = useTranslation();
     const [query] = useLanguageQuery();
@@ -22,7 +26,7 @@ export default function Contato() {
         corpo: "",
     });
 
-    function handleSubmit(e) {
+    async function handleSubmit(e) {
         //e.preventDefault();
         console.log("Teste2");
         confirmation.current.style.display = "none";
@@ -57,6 +61,7 @@ export default function Contato() {
             return;
         }
         confirmation.current.style.display = "block";
+        await wait(1500);
         setForm({
             nome: "",
             email: "",
