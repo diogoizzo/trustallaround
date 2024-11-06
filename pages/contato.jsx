@@ -246,7 +246,7 @@ export default function Contato() {
                         <AdressItem
                             src={"/icons/telefone.svg"}
                             alt={"Telefones"}
-                            text={"+55 (11) 2021-3894 / +55 (11) 3796-1845"}
+                            text={"+55 (11) 2021-3894 / +55 (11) 96597-8823"}
                         />
                         <AdressItem
                             src={"/icons/site.svg"}
