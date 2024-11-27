@@ -22,6 +22,7 @@
         "react-dom": "18.1.0",
         "react-gtm-module": "^2.0.11",
         "react-player": "^2.16.0",
+        "sharp": "^0.33.5",
         "swiper": "^8.1.6"
     },
     "devDependencies": {

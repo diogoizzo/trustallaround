@@ -28,7 +28,11 @@ export default function Nav({ className }) {
                     </Link>
                     <div
                         className={`${
-                            router.pathname === "/sobre" ? "block" : "hidden"
+                            router.pathname.includes(
+                                "sobre" || "about" || "nosotros"
+                            )
+                                ? "block"
+                                : "hidden"
                         } h-1 bg-brand-orange w-full mt-1 rounded-3xl`}
                     ></div>
                 </li>
