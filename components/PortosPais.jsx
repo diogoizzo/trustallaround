@@ -14,7 +14,7 @@ export default function PortosPais({ bandeira, pais, portos }) {
                         layout={"fixed"}
                     />
                 </div>
-                <div className="ml-3">
+                <div className="md:ml-3">
                     <h4
                         className={
                             "text-lg md:text-xl md:text-left font-semibold text-brand-blue mb-1"

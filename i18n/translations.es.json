@@ -1,7 +1,7 @@
 {
     "nav": {
         "home": "Página de inicio",
-        "sobre": "acerca de nosotros",
+        "sobre": "acerca de nosostros",
         "servicos": "Servicios",
         "portos": "Puertos",
         "ferramentas": "Herramientas",
@@ -9,7 +9,7 @@
         "contato": "Contacto",
         "paths": {
             "home": "/es",
-            "sobre": "/es/nosotros",
+            "sobre": "/es/nosostros",
             "servicos": "/es/servicios",
             "aereo": "/es/servicios/aereo",
             "maritimo": "/es/servicios/maritimo",

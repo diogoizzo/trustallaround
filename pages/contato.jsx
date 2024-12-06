@@ -99,7 +99,7 @@ export default function Contato() {
 
                         <form
                             className={
-                                "absolute flex space-y-6 flex-col top-0 left-1/2 transform -translate-x-1/2 mt-16 w-[90%]"
+                                "relative flex space-y-6 flex-col top-0 left-1/2 transform -translate-x-1/2 mt-16 w-[90%]"
                             }
                             onSubmit={handleSubmit}
                         >

@@ -10,6 +10,7 @@ export default function TriviaDisplay({ title, text, imgSrc, imgAlt }) {
                     layout="responsive"
                     width={4520}
                     height={2388}
+                    priority
                 />
             </div>
             <div className="flex-1 lg:pl-6 flex flex-col">

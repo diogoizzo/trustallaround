@@ -1,4 +1,7 @@
 module.exports = {
+    compress: true,
+    optimizeFonts: true,
+    swcMinify: true,
     async redirects() {
         return [
             // Rotas para a página inicial
